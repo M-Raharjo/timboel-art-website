@@ -8,8 +8,6 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/products/</loc>
-  </url><url>
     <loc>http://localhost:1313/collections/</loc>
   </url><url>
     <loc>http://localhost:1313/collections/horse-collection/</loc>
@@ -17,6 +15,8 @@
     <loc>http://localhost:1313/categories/human-shape/</loc>
   </url><url>
     <loc>http://localhost:1313/collections/human-statue-collection/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>
