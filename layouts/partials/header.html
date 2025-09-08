@@ -8,22 +8,18 @@
    </a>
        <nav class="site-nav">
            <ul>
-               <li><a href="/about/">Products</a></li>
-               <li><a href="/collection/">Collection</a></li>
-               <li><a href="/services/">About</a></li>
-               <li><a href="/articles/">Blog</a></li>
-               <li><a href="/services/">Contact</a></li>
+                {{ range .Site.Sections }}
+               <li><a href="{{ .RelPermalink }}">{{.Title}}</a></li>
+               {{end}}
            </ul>
        </nav>
        <details class="mobile-nav">
             <summary>Menu</summary>
-                <ul>
-                    <li><a href="/about/">Products</a></li>
-                    <li><a href="/collection/">Collection</a></li>
-                    <li><a href="/services/">About</a></li>
-                    <li><a href="/articles/">Blog</a></li>
-                    <li><a href="/services/">Contact</a></li>
-                </ul>
+           <ul>
+                {{ range .Site.Sections }}
+               <li><a href="{{ .RelPermalink }}">{{.Title}}</a></li>
+               {{end}}
+           </ul>
        </details>
         <div class="utilities">
            <a href="/search" class="icon-button" aria-label="Search">Search</a>

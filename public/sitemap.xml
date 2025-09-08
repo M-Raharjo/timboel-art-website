@@ -4,26 +4,30 @@
   <url>
     <loc>http://localhost:1313/articles/</loc>
   </url><url>
-    <loc>http://localhost:1313/collection/human-statue-collection/attitude-devant/</loc>
+    <loc>http://localhost:1313/collections/human-statue-collection/attitude-devant/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/collection/</loc>
+    <loc>http://localhost:1313/products/</loc>
   </url><url>
-    <loc>http://localhost:1313/collection/horse-collection/</loc>
+    <loc>http://localhost:1313/collections/</loc>
+  </url><url>
+    <loc>http://localhost:1313/collections/horse-collection/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/human-shape/</loc>
   </url><url>
-    <loc>http://localhost:1313/collection/human-statue-collection/</loc>
+    <loc>http://localhost:1313/collections/human-statue-collection/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/sculpture/</loc>
   </url><url>
-    <loc>http://localhost:1313/collection/human-statue-collection/serenity-stance-copy/</loc>
+    <loc>http://localhost:1313/collections/human-statue-collection/serenity-stance-copy/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/collection/human-statue-collection/warrior-pose/</loc>
+    <loc>http://localhost:1313/collections/human-statue-collection/warrior-pose/</loc>
   </url>
 </urlset>
