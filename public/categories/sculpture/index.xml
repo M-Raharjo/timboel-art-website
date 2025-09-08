@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sculpture on Timboel</title>
+    <link>http://localhost:1313/categories/sculpture/</link>
+    <description>Recent content in Sculpture on Timboel</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/categories/sculpture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attitude Devant Sculpture</title>
+      <link>http://localhost:1313/collection/human-statue-collection/attitude-devant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/collection/human-statue-collection/attitude-devant/</guid>
+      <description>&lt;p&gt;Sexy, seductive, and captivating — three words that describe this sculpture. It exposes the allure and beauty of the human form, celebrating its elegance and sensuality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Serenity Stance</title>
+      <link>http://localhost:1313/collection/human-statue-collection/serenity-stance-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/collection/human-statue-collection/serenity-stance-copy/</guid>
+      <description>&lt;p&gt;A graceful figure in quiet contemplation. The Serenity Stance captures a moment of stillness and balance, ideal for spaces seeking peace and harmony.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Warrior Poise</title>
+      <link>http://localhost:1313/collection/human-statue-collection/warrior-pose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/collection/human-statue-collection/warrior-pose/</guid>
+      <description>&lt;p&gt;A bold, dynamic pose that radiates strength and determination. The Warrior Poise honors the resilience of the human spirit in its purest form.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
