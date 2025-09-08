@@ -1,6 +1,5 @@
 ---
 title: "Attitude Devant Sculpture"
-featured_image: "https://placehold.co/200x300?text=Attitude deviant"
 material: "Aluminium"
 size: "30 x 24 x 49"
 finishing: "Black Silver TP"
