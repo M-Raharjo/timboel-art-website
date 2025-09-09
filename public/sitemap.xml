@@ -2,23 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/products/</loc>
+  </url><url>
+    <loc>http://localhost:1313/collections/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
     <loc>http://localhost:1313/articles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/articles/bring-the-breeze-home/</loc>
   </url><url>
     <loc>http://localhost:1313/collections/human-statue-collection/attitude-devant/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/collections/</loc>
   </url><url>
     <loc>http://localhost:1313/collections/horse-collection/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/human-shape/</loc>
   </url><url>
     <loc>http://localhost:1313/collections/human-statue-collection/</loc>
-  </url><url>
-    <loc>http://localhost:1313/products/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/sculpture/</loc>
   </url><url>
