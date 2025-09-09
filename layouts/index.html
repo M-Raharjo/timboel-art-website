@@ -86,22 +86,40 @@
     <h1>Articles</h1>
     <p>Insights, Stories, and Inspiration behind the art</p>
   </div>
-  <div class="article-list">
-    <div class="article-date"><h1>12 Jan</h1> <p>2025</p></div>
-    <div class="article-img"><img src="https://placehold.co/250x250?text=article_featured" alt=""></div> 
-    <div class="articles-summary"><h3>Bring the breeze home: Coastal and Tropical outdoor statues</h3> <p>Aluminum statues have become a popular choice among artists and art collectors alike. In addition to being lightweight and durable, aluminum also offers a unique beauty that can enhance any space. However, to preserve both the appearance and longevity of aluminum sculptures</p></div>
-  </div>
-  <div class="article-list">
-    <div class="article-date"><h1>12 Jan</h1> <p>2025</p></div>
-    <div class="article-img"><img src="https://placehold.co/250x250?text=article_featured" alt=""></div> 
-    <div class="articles-summary"><h3>Bring the breeze home: Coastal and Tropical outdoor statues</h3> <p>Aluminum statues have become a popular choice among artists and art collectors alike. In addition to being lightweight and durable, aluminum also offers a unique beauty that can enhance any space. However, to preserve both the appearance and longevity of aluminum sculptures</p></div>
-  </div>
-  <div class="article-list">
-    <div class="article-date"><h1>12 Jan</h1> <p>2025</p></div>
-    <div class="article-img"><img src="https://placehold.co/250x250?text=article_featured" alt=""></div> 
-    <div class="articles-summary"><h3>Bring the breeze home: Coastal and Tropical outdoor statues</h3> <p>Aluminum statues have become a popular choice among artists and art collectors alike. In addition to being lightweight and durable, aluminum also offers a unique beauty that can enhance any space. However, to preserve both the appearance and longevity of aluminum sculptures</p></div>
-  </div>
+  {{/* Grab the articles section */}}
+  {{ $articles := site.GetPage "section" "articles" }}
+  {{ if $articles }}
+    {{ range sort $articles.RegularPages "Date" "desc" }}
+      <div class="article-list">
+        <div class="article-date">
+          {{ $d := .Date }}
+          <h1>{{ $d.Format "02 Jan" }}</h1> <p>{{ $d.Format "2006" }}</p>
+        </div>
 
+        <div class="article-img">
+          {{/* Pick a cover image with fallbacks */}}
+          {{ $cover := "" }}
+          {{ with .Params.featured_image }}{{ $cover = . }}{{ end }}
+          {{ if not $cover }}{{ with .Resources.GetMatch "cover*" }}{{ $cover = .RelPermalink }}{{ end }}{{ end }}
+          {{ if not $cover }}{{ with (first 1 (.Resources.ByType "image")) }}{{ $cover = (index . 0).RelPermalink }}{{ end }}{{ end }}
+          {{ if not $cover }}{{ $cover = printf "https://placehold.co/250x250?text=%s" (urlquery .Title) }}{{ end }}
+
+          <a href="{{ .RelPermalink }}">
+            <img src="{{ $cover }}" alt="{{ .Title }}" loading="lazy">
+          </a>
+        </div>
+
+        <div class="articles-summary">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{/* Prefer custom summary, else auto .Summary (already HTML) */}}
+          {{ with .Params.summary }}<p>{{ . }}</p>{{ else }}{{ .Summary }}{{ end }}
+        </div>
+      </div>
+    {{ end }}
+  {{ else }}
+    <p>No articles found.</p>
+  {{ end }}
 </section>
+
 {{ end }}
 
