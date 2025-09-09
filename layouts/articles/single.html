@@ -1,0 +1,78 @@
+{{/* layouts/articles/single.html */}}
+{{ define "main" }}
+<article class="post">
+  {{/* Cover / featured image with fallbacks */}}
+  {{ $cover := .Params.featured_image }}
+  {{ if not $cover }}
+    {{ with (first 1 (.Resources.ByType "image")) }}
+      {{ $cover = (index . 0).RelPermalink }}
+    {{ end }}
+  {{ end }}
+  {{ if not $cover }}
+    {{ $cover = printf "https://placehold.co/1200x630?text=%s" (urlquery .Title) }}
+  {{ end }}
+
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <p class="post-meta">
+      {{ $d := .Date }}
+      <time datetime="{{ $d.Format "2006-01-02" }}">{{ $d.Format "Jan 2, 2006" }}</time>
+      · {{ .ReadingTime }} min read
+      {{ with .Params.author }} · by {{ . }}{{ end }}
+    </p>
+    {{ with $cover }}
+      <figure class="post-cover">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+      </figure>
+    {{ end }}
+    {{ with .Params.summary }}
+      <p class="post-summary">{{ . }}</p>
+    {{ else }}
+      {{ with .Summary }}<p class="post-summary">{{ . }}</p>{{ end }}
+    {{ end }}
+  </header>
+
+  {{ with .TableOfContents }}
+    <nav class="post-toc">
+      <h2>Contents</h2>
+      {{ . }}
+    </nav>
+  {{ end }}
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <footer class="post-footer">
+    {{ with .Params.categories }}
+      <div class="post-cats">
+        <strong>Categories:</strong>
+        <ul>
+          {{ range . }}
+            <li><a href="{{ "categories" | relURL }}{{ . | urlize }}/">{{ . }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+    {{ with .Params.tags }}
+      <div class="post-tags">
+        <strong>Tags:</strong>
+        <ul>
+          {{ range . }}
+            <li><a href="{{ "tags" | relURL }}{{ . | urlize }}/">{{ . }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+
+    <nav class="post-nav">
+      {{ with .PrevInSection }}
+        <a class="prev" href="{{ .RelPermalink }}">← {{ .Title }}</a>
+      {{ end }}
+      {{ with .NextInSection }}
+        <a class="next" href="{{ .RelPermalink }}">{{ .Title }} →</a>
+      {{ end }}
+    </nav>
+  </footer>
+</article>
+{{ end }}
