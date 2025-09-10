@@ -24,9 +24,9 @@ h1,h2,.company-name, .every-space {
     font-family: 'Gallery Modern', sans-serif;
 }
 
-* {
+/* * {
 border: 1px solid black;
-}
+} */
 
 body {
   background-color: #FBF9F5; /* light gray example */

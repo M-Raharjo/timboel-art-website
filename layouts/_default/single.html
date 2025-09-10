@@ -1,113 +1,31 @@
 {{ define "main" }}
 
   <!-- {{/* Intro bento: text card + featured image */}} -->
-  <section class="bento-grid">
-    <div class="bento-item item-xwide text-card">
-      <h1>{{ .Title }}</h1>
-
-      <!-- {{/* Use .Summary if present, otherwise a trimmed version of .Content */}} -->
-      <p>{{ with .Summary }}{{ . }}{{ else }}{{ .Plain | truncate 220 }}{{ end }}</p>
-
-      <ul>
-        {{ with .Params.material }}<li><strong>Material:</strong> {{ . }}</li>{{ end }}
-        {{ with .Params.size }}<li><strong>Size:</strong> {{ . }}</li>{{ end }}
-        {{ with .Params.finishing }}<li><strong>Finishing:</strong> {{ . }}</li>{{ end }}
-        {{ with .Params.categories }}<li><strong>Categories:</strong> {{ delimit . ", " }}</li>{{ end }}
-        {{ with .Params.item_id }}<li><strong>Item ID:</strong> {{ . }}</li>{{ end }}
-      </ul>
-    </div>
-
+<div class="article container">
+<section class="bento-grid" style="flex: 3 1 0;">
     <div class="bento-item item-large">
       <!-- {{/* Prefer page resource "cover.*", else fall back to featured_image param */}} -->
-      {{ $cover := .Resources.GetMatch "cover.*" }}
-      {{ if $cover }}
-        <img src="{{ $cover.RelPermalink }}" alt="{{ .Title }}">
-      {{ else if .Params.featured_image }}
         <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
-      {{ end }}
     </div>
-  </section>
-
-  <!-- {{/* Product Gallery section heading */}} -->
-  <section class="gallery">
-    <div class="item-gallery container">
-      <h1>Product Gallery</h1>
-      <p>A Visual showcase of our Signature Art</p>
+    {{with .Params.gallery}}
+    {{ range . }}
+     <div class="bento-item">
+      <!-- {{/* Prefer page resource "cover.*", else fall back to featured_image param */}} -->
+        <img src="{{ . }}" loading="lazy">
     </div>
-    <!-- {{/* Gallery grid: choose one of these data sources…
-          1) Page resources under /gallery/* (recommended)
-          2) Front matter list: params.gallery = ["/img1.jpg", "/img2.jpg", ...]
-    */}} -->
-    <section class="bento-grid">
-      {{ $gallery := .Resources.Match "gallery/*" }}
-      {{ if or $gallery .Params.gallery }}
-        <!-- {{/* From resources */}} -->
-        {{ range $img := $gallery }}
-          <div class="bento-item">
-            <img src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">
-          </div>
-        {{ end }}
+    {{end}}
+    {{end}}
 
-        <!-- {{/* From params.gallery slice */}} -->
-        {{ range $src := .Params.gallery }}
-          <div class="bento-item">
-            <img src="{{ $src }}" alt="{{ $.Title }}">
-          </div>
-        {{ end }}
-      {{ else }}
-        <!-- {{/* Fallback: show cover again if nothing else is provided */}} -->
-        {{ with $cover }}
-          <div class="bento-item item-large">
-            <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
-          </div>
-        {{ end }}
-      {{ end }}
-    </section>
-  </section>
+    
+</section>
+<section style="flex: 2 1 0;">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+</section>
 
-  {{/* CTA bento (optional) */}}
-  <section class="bento-grid">
-    <div class="bento-item item-xwide text-card">
-      <h1>Let This Piece Elevate Your Space.</h1>
-      <p>
-        Love what you see? Make it yours today and let timeless design transform your space.<br>
-        Contact us for further information and pricing.
-      </p>
-      <a href="/contact/" class="red-button">Contact Us</a>
-    </div>
-    {{ with $cover }}
-      <div class="bento-item">
-        <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
-      </div>
-    {{ end }}
-  </section>
+</div>
 
-  {{/* Related Items */}}
-  <section>
-    <h1 style="padding: 0 2rem;">Related Items</h1>
-    <section class="bento-grid bento-description">
-      <!-- {{/* Strategy:
-            - Prefer items in the same section
-            - Exclude current page
-            - If categories exist, try to match them
-            - Limit to 5
-      */}} -->
-      {{ $siblings := .CurrentSection.RegularPages }}
-      {{ $cats := .Params.categories }}
-      {{ $related := cond (gt (len $cats) 0)
-          (where $siblings "Params.categories" "intersect" $cats)
-          $siblings
-      }}
-      {{ range first 5 (where $related "RelPermalink" "ne" .RelPermalink) }}
-        <a class="bento-item" href="{{ .RelPermalink }}">
-          <img src="https://placehold.co/300x200?text=testmebaby" alt="{{ .Title }}">
-          <div>
-            <h3>{{ .Title }}</h3>
-            <p>{{ with .Summary }}{{ . }}{{ else }}{{ .Plain | truncate 100 }}{{ end }}</p>
-          </div>
-        </a>
-      {{ end }}
-    </section>
-  </section>
+
+
 
 {{ end }}
