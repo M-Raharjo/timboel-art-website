@@ -48,8 +48,7 @@
     <section class="bento-grid">
       {{ range $gallery }}
       {{ $u := trim . " \t\r\n\"'" }}
-      {{ $u = replaceRE `[\r\n"]` "" $u }}
-      {{ $u = replace $u " " "" }}
+      {{ $u = replace $u " " "%20" }}
           <figure class="bento-item">
             <img
               src="{{ $u | safeURL }}"
