@@ -23,15 +23,24 @@
     <loc>http://localhost:1313/articles/proper-care/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/products/mm-brthsdf6/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/collections/human-statue-collection/attitude-devant/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/rb-brthsdf5/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/collections/horse-collection/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/human-shape/</loc>
   </url><url>
     <loc>http://localhost:1313/collections/human-statue-collection/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/asd-brthsdf4/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/categories/sculpture/</loc>
   </url><url>

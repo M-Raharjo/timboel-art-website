@@ -1,106 +1,107 @@
 {{ define "main" }}
 
-  <!-- {{/* Intro bento: text card + featured image */}} -->
+  {{/* Prefer a bundled cover.* if present; else use params.featured_image */}}
+  {{ $cover := .Resources.GetMatch "cover.*" }}
+
   <section class="bento-grid">
     <div class="bento-item item-xwide text-card">
       <h1>{{ .Title }}</h1>
 
-      <!-- {{/* Use .Summary if present, otherwise a trimmed version of .Content */}} -->
-      <p>{{ with .Summary }}{{ . }}{{ else }}{{ .Plain | truncate 220 }}{{ end }}</p>
+      {{/* Use .Summary if set; else a trimmed plain version */}}
+      <p>{{ with .Params.description }}{{ . }}{{ end }}</p>
 
       <ul>
         {{ with .Params.material }}<li><strong>Material:</strong> {{ . }}</li>{{ end }}
         {{ with .Params.size }}<li><strong>Size:</strong> {{ . }}</li>{{ end }}
         {{ with .Params.finishing }}<li><strong>Finishing:</strong> {{ . }}</li>{{ end }}
-        {{ with .Params.categories }}<li><strong>Categories:</strong> {{ delimit . ", " }}</li>{{ end }}
+        {{ with .Params.collection }}<li><strong>Collection:</strong> {{ delimit . ", " }}</li>{{ end }}
+        {{ with .Params.tag }}<li><strong>Tags:</strong> {{ delimit . ", " }}</li>{{ end }}
         {{ with .Params.item_id }}<li><strong>Item ID:</strong> {{ . }}</li>{{ end }}
       </ul>
     </div>
 
-    <div class="bento-item item-large">
-      <!-- {{/* Prefer page resource "cover.*", else fall back to featured_image param */}} -->
-      {{ $cover := .Resources.GetMatch "cover.*" }}
+    <div class="bento-item item-wide">
       {{ if $cover }}
         <img src="{{ $cover.RelPermalink }}" alt="{{ .Title }}">
       {{ else if .Params.featured_image }}
-        <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
+        <img src="{{ .Params.featured_image | safeURL }}" alt="{{ .Title }}">
       {{ end }}
     </div>
   </section>
 
-  <!-- {{/* Product Gallery section heading */}} -->
+  {{/* Main body (adapter sets description as markdown in .Content) */}}
+  {{ if .Content }}
+    <section class="container" style="padding: 1rem 2rem;">
+      {{ .Content }}
+    </section>
+  {{ end }}
+
+  {{/* Product Gallery (params.gallery only) */}}
+{{ $raw := index .Params.gallery 0}}
+{{ $clean := replaceRE `[\r\n"]` "" $raw }}
+{{ $gallery := split $clean "," }}
   <section class="gallery">
     <div class="item-gallery container">
       <h1>Product Gallery</h1>
-      <p>A Visual showcase of our Signature Art</p>
+      <p>A visual showcase</p>
     </div>
-    <!-- {{/* Gallery grid: choose one of these data sources…
-          1) Page resources under /gallery/* (recommended)
-          2) Front matter list: params.gallery = ["/img1.jpg", "/img2.jpg", ...]
-    */}} -->
     <section class="bento-grid">
-      {{ $gallery := .Resources.Match "gallery/*" }}
-      {{ if or $gallery .Params.gallery }}
-        <!-- {{/* From resources */}} -->
-        {{ range $img := $gallery }}
-          <div class="bento-item">
-            <img src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">
-          </div>
-        {{ end }}
-
-        <!-- {{/* From params.gallery slice */}} -->
-        {{ range $src := .Params.gallery }}
-          <div class="bento-item">
-            <img src="{{ $src }}" alt="{{ $.Title }}">
-          </div>
-        {{ end }}
-      {{ else }}
-        <!-- {{/* Fallback: show cover again if nothing else is provided */}} -->
-        {{ with $cover }}
-          <div class="bento-item item-large">
-            <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
-          </div>
-        {{ end }}
+      {{ range $gallery }}
+      {{ $u := trim . " \t\r\n\"'" }}
+      {{ $u = replaceRE `[\r\n"]` "" $u }}
+      {{ $u = replace $u " " "" }}
+          <figure class="bento-item">
+            <img
+              src="{{ $u | safeURL }}"
+              alt="{{ $.Title }}"
+              loading="lazy"
+              decoding="async"
+            >
+          </figure>
       {{ end }}
     </section>
   </section>
 
-  {{/* CTA bento (optional) */}}
+
+  {{/* CTA bento */}}
   <section class="bento-grid">
     <div class="bento-item item-xwide text-card">
       <h1>Let This Piece Elevate Your Space.</h1>
-      <p>
-        Love what you see? Make it yours today and let timeless design transform your space.<br>
-        Contact us for further information and pricing.
-      </p>
+      <p>Love what you see? Contact us for pricing and customization.</p>
       <a href="/contact/" class="red-button">Contact Us</a>
     </div>
-    {{ with $cover }}
+  
+    {{ if $cover }}
       <div class="bento-item">
-        <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+        <img src="{{ $cover.RelPermalink }}" alt="{{ $.Title }}">
+      </div>
+    {{ else if .Params.featured_image }}
+      <div class="bento-item">
+        <img src="{{ .Params.featured_image | safeURL }}" alt="{{ $.Title }}">
       </div>
     {{ end }}
   </section>
 
-  {{/* Related Items */}}
+  {{/* Related Items (match by tags first, then collection, else any siblings) */}}
   <section>
     <h1 style="padding: 0 2rem;">Related Items</h1>
+    {{ $siblings := .CurrentSection.RegularPages }}
+    {{ $byTag := where $siblings "Params.tag" "intersect" .Params.tag }}
+    {{ $byCollection := where $siblings "Params.collection" "intersect" .Params.collection }}
+    {{ $related := cond (gt (len $byTag) 0) $byTag (cond (gt (len $byCollection) 0) $byCollection $siblings) }}
+    {{ $related = where $related "RelPermalink" "ne" .RelPermalink }}
+
     <section class="bento-grid bento-description">
-      <!-- {{/* Strategy:
-            - Prefer items in the same section
-            - Exclude current page
-            - If categories exist, try to match them
-            - Limit to 5
-      */}} -->
-      {{ $siblings := .CurrentSection.RegularPages }}
-      {{ $cats := .Params.categories }}
-      {{ $related := cond (gt (len $cats) 0)
-          (where $siblings "Params.categories" "intersect" $cats)
-          $siblings
-      }}
-      {{ range first 5 (where $related "RelPermalink" "ne" .RelPermalink) }}
+      {{ range first 5 $related }}
         <a class="bento-item" href="{{ .RelPermalink }}">
-          <img src="https://placehold.co/300x200?text=testmebaby" alt="{{ .Title }}">
+          {{ $rc := .Resources.GetMatch "cover.*" }}
+          {{ if $rc }}
+            <img src="{{ $rc.RelPermalink }}" alt="{{ .Title }}">
+          {{ else if .Params.featured_image }}
+            <img src="{{ .Params.featured_image | safeURL }}" alt="{{ .Title }}">
+          {{ else }}
+            <img src="https://placehold.co/300x200?text={{ urlquery .Title }}" alt="{{ .Title }}">
+          {{ end }}
           <div>
             <h3>{{ .Title }}</h3>
             <p>{{ with .Summary }}{{ . }}{{ else }}{{ .Plain | truncate 100 }}{{ end }}</p>
