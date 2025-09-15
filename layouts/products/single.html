@@ -37,21 +37,16 @@
   {{ end }}
 
   {{/* Product Gallery (params.gallery only) */}}
-{{ $raw := index .Params.gallery 0}}
-{{ $clean := replaceRE `[\r\n"]` "" $raw }}
-{{ $gallery := split $clean "," }}
   <section class="gallery">
     <div class="item-gallery container">
       <h1>Product Gallery</h1>
       <p>A visual showcase</p>
     </div>
     <section class="bento-grid">
-      {{ range $gallery }}
-      {{ $u := trim . " \t\r\n\"'" }}
-      {{ $u = replace $u " " "%20" }}
+      {{ range .Params.gallery }}
           <figure class="bento-item">
             <img
-              src="{{ $u | safeURL }}"
+              src="{{ . | safeURL }}"
               alt="{{ $.Title }}"
               loading="lazy"
               decoding="async"

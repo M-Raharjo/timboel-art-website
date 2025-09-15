@@ -1,15 +1,15 @@
 {{/* setup variables to get the csv*/}}
 
-{{ $url := "https://docs.google.com/spreadsheets/d/e/2PACX-1vRJyX0ywELAPAIkpCVYW7f7NN6C79U218HxOsDC46AVCbeotH_dhZtJxbE3Ae7b9E7YFTeJCzJQEuQ9/pub?gid=640230847&single=true&output=csv" }}
+{{ $url := "https://docs.google.com/spreadsheets/d/1Z-1hlSNx9o3dvADLEeAjaGnaR-dvBfUOXVC_8_RIqpw/export?format=csv&id=1Z-1hlSNx9o3dvADLEeAjaGnaR-dvBfUOXVC_8_RIqpw&gid=640230847" }}
 {{ $rows := slice }}
 {{/* opts is the options for the transform unmarshall */}}
-{{ $opts := dict "format" "csv" "targetType" "map" "delimiter" "," "lazyQuotes" true }}
+{{ $opts := dict "format" "csv" "delimiter" "," "lazyQuotes" true "targetType" "map" }}
 
 {{/* get the remote resources */}}
 
 {{with try (resources.GetRemote $url) }}
     {{with .Err }}
-        {{ errorf "unable to get remote resource %s" $url . }}
+        {{ errorf "unable to get remote resource %s: %v" $url . }}
     {{else with .Value }}
         {{ $rows = transform.Unmarshal $opts .}}
     {{ else }}
@@ -17,10 +17,8 @@
     {{ end }}
 {{ end }}
 
-{{/* Loop through all the rows but skipping the header */}}
 
-
-
+{{/*Look through the csv*/}}
 {{ range $rows }}
     {{ $draftRaw := printf "%v" .draft }}
     {{ $draft := in (slice "true" "1" "yes" "y") (lower (trim $draftRaw " ")) }}
@@ -50,6 +48,9 @@
     {{ range (split (or .gallery "") "|") }}
         {{ $v := trim . " " }}{{ if $v }}{{ $gallery = $gallery | append $v }}{{ end }}
     {{ end }}
+    {{ warnf "%T" $gallery}}
+    {{ warnf "%v" $gallery}}
+
 
 {{/* Build the Parameters for the template */}}
 {{ $params := dict 
