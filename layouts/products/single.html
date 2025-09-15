@@ -29,13 +29,6 @@
     </div>
   </section>
 
-  {{/* Main body (adapter sets description as markdown in .Content) */}}
-  {{ if .Content }}
-    <section class="container" style="padding: 1rem 2rem;">
-      {{ .Content }}
-    </section>
-  {{ end }}
-
   {{/* Product Gallery (params.gallery only) */}}
   <section class="gallery">
     <div class="item-gallery container">

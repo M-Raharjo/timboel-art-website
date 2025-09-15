@@ -26,6 +26,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/collections/</loc>
+  </url><url>
     <loc>http://localhost:1313/products/rb-brthsdf5/</loc>
     <priority>0</priority>
   </url><url>

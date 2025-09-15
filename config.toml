@@ -9,3 +9,7 @@ theme = ''
   [security.http]
     methods = ['GET']
     urls = ['https://docs.google.com/']
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  collection = 'collections'

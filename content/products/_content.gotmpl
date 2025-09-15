@@ -36,6 +36,8 @@
     {{ range (split (or .collection "") "|") }}
         {{ $v := trim . " " }}{{ if $v }}{{ $collection = $collection | append $v }}{{ end }}
     {{ end }}
+    {{ warnf "%T" $collection }}
+    {{ warnf "%v" $collection }}
 
     
     {{ $tag := slice }}
@@ -77,6 +79,8 @@
     "type"          "products"
     "params"        $params
     "content"       $content
+    "collection"    $collection
+    "tag"           $tag
     }}
 
 {{ $.AddPage $page }}
