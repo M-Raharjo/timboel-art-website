@@ -48,9 +48,6 @@
     {{ range (split (or .gallery "") "|") }}
         {{ $v := trim . " " }}{{ if $v }}{{ $gallery = $gallery | append $v }}{{ end }}
     {{ end }}
-    {{ warnf "%T" $gallery}}
-    {{ warnf "%v" $gallery}}
-
 
 {{/* Build the Parameters for the template */}}
 {{ $params := dict 
