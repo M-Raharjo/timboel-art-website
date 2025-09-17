@@ -8,17 +8,21 @@
    </a>
        <nav class="site-nav">
            <ul>
+                <li><a href="/collections/">Collections</a></li>
                 {{ range .Site.Sections }}
                <li><a href="{{ .RelPermalink }}">{{.Title}}</a></li>
                {{end}}
+               
            </ul>
        </nav>
        <details class="mobile-nav">
             <summary>Menu</summary>
            <ul>
+                <li><a href="/collections/">Collections</a></li>
                 {{ range .Site.Sections }}
                <li><a href="{{ .RelPermalink }}">{{.Title}}</a></li>
                {{end}}
+               
            </ul>
        </details>
         <div class="utilities">

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wood on Timboel</title>
+    <link>http://localhost:1313/collections/wood/</link>
+    <description>Recent content in Wood on Timboel</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/collections/wood/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Dwellers</title>
+      <link>http://localhost:1313/products/rb-brthsdf5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/rb-brthsdf5/</guid>
+      <description>&lt;p&gt;the description of this statue is well written by a decent author&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>high Dwellers</title>
+      <link>http://localhost:1313/products/rb-brthsd3j/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/rb-brthsd3j/</guid>
+      <description>&lt;p&gt;the description of this statue is well written by a decent author&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Magificent Pegasus</title>
+      <link>http://localhost:1313/products/asd-brthsdf4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/asd-brthsdf4/</guid>
+      <description>&lt;p&gt;this is a basic description of the statue&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

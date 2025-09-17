@@ -32,19 +32,20 @@
     {{ $description := .description }}
     {{ $featured_image := trim (replace (printf "%v" .featured_image) `"` ``) " " }}
 
-    {{ $collection := slice }}
+    {{ $collections := slice }}
     {{ range (split (or .collection "") "|") }}
-        {{ $v := trim . " " }}{{ if $v }}{{ $collection = $collection | append $v }}{{ end }}
+        {{ $v := trim . " " }}{{ if $v }}{{ $collections = $collections | append $v }}{{ end }}
     {{ end }}
-    {{ warnf "%T" $collection }}
-    {{ warnf "%v" $collection }}
-
+    {{ warnf "%T" $collections }}
+    {{ warnf "%v" $collections }}
+    {{ warnf "collection type=%T val=%#v" $collections $collections }}
+    {{/* Apparently the taxonomiy variables should be in the plural form */}}
     
     {{ $tag := slice }}
     {{ range (split (or .tag "") "|") }}
         {{ $v := trim . " " }}{{ if $v }}{{ $tag = $tag | append $v }}{{ end }}
     {{ end }}
-
+    {{ warnf "Tag type=%T val=%#v" $tag $tag }}
 
     {{ $gallery := slice }}
     {{ range (split (or .gallery "") "|") }}
@@ -61,7 +62,7 @@
     "finishing"         $finishing
     "description"       $description
     "featured_image"    $featured_image
-    "collection"        $collection
+    "collections"       $collections
     "tag"               $tag
     "gallery"           $gallery
     }}
@@ -79,7 +80,7 @@
     "type"          "products"
     "params"        $params
     "content"       $content
-    "collection"    $collection
+    "collections"    $collections
     "tag"           $tag
     }}
 

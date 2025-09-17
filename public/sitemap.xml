@@ -21,6 +21,8 @@
     <loc>http://localhost:1313/articles/proper-care/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/collections/action/</loc>
+  </url><url>
     <loc>http://localhost:1313/products/mm-brthsdf6/</loc>
     <priority>0</priority>
   </url><url>
@@ -34,9 +36,17 @@
     <loc>http://localhost:1313/products/rb-brthsd3j/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/collections/human/</loc>
+  </url><url>
     <loc>http://localhost:1313/products/asd-brthsdf4/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/collections/outdoor/</loc>
+  </url><url>
+    <loc>http://localhost:1313/collections/stone/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/collections/wood/</loc>
   </url>
 </urlset>

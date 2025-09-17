@@ -1,5 +1,14 @@
 {{ define "main" }}
 
+
+{{ range $taxName, $terms := site.Taxonomies }}
+  {{ warnf "taxonomy=%s terms=%d" $taxName (len $terms) }}
+  {{ range $term, $pages := $terms }}
+    {{ warnf "  term=%q pages=%d" $term (len $pages.Pages) }}
+  {{ end }}
+{{ end }}
+
+
   <!-- {{/* Intro bento: text card + featured image */}} -->
 <div class="article container">
 <section class="bento-grid" style="flex: 3 1 0;">
