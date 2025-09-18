@@ -43,6 +43,8 @@
   </url><url>
     <loc>http://localhost:1313/collections/outdoor/</loc>
   </url><url>
+    <loc>http://localhost:1313/search/</loc>
+  </url><url>
     <loc>http://localhost:1313/collections/stone/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>

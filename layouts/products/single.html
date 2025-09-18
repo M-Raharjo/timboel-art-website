@@ -3,7 +3,7 @@
   {{/* Prefer a bundled cover.* if present; else use params.featured_image */}}
   {{ $cover := .Resources.GetMatch "cover.*" }}
 
-  <section class="bento-grid">
+  <section data-pagefind-body class="bento-grid">
     <div class="bento-item item-xwide text-card">
       <h1>{{ .Title }}</h1>
 
