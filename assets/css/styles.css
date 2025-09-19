@@ -158,7 +158,7 @@ a {
   text-decoration: underline;
 }
 
-a:hover {
+li > a:hover {
   text-decoration: underline;
 }
 
