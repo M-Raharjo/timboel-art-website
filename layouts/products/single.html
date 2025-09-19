@@ -14,8 +14,19 @@
         {{ with .Params.material }}<li><strong>Material:</strong> {{ . }}</li>{{ end }}
         {{ with .Params.size }}<li><strong>Size:</strong> {{ . }}</li>{{ end }}
         {{ with .Params.finishing }}<li><strong>Finishing:</strong> {{ . }}</li>{{ end }}
-        {{ with .Params.collection }}<li><strong>Collection:</strong> {{ delimit . ", " }}</li>{{ end }}
-        {{ with .Params.tag }}<li><strong>Tags:</strong> {{ delimit . ", " }}</li>{{ end }}
+
+        {{ with .Params.collections }}<li><strong>Collections:</strong> 
+          {{ range $i, $c := . }} 
+          {{- if $i }}, {{ end -}}
+          <a href="{{ "collections/" | relURL }}{{ $c | urlize }}">{{ $c }}</a>
+          {{ end }}</li>{{ end }}
+
+        {{ with .Params.tags }} <li><strong>Tags:</strong> 
+          {{ range $i, $t := . }}
+          {{- if $i }}, {{ end -}}
+          <a href="{{ "tags/" | relURL }}{{ $t | urlize }}">{{ $t }}</a>
+          {{ end }}</li>{{ end }}
+
         {{ with .Params.item_id }}<li><strong>Item ID:</strong> {{ . }}</li>{{ end }}
       </ul>
     </div>

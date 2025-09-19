@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>This on Timboel</title>
+    <link>http://localhost:1313/tags/this/</link>
+    <description>Recent content in This on Timboel</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/this/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asking for &#34;Forgiveness&#34;</title>
+      <link>http://localhost:1313/products/mm-brthsdf6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/mm-brthsdf6/</guid>
+      <description>&lt;p&gt;the author of this statue description certainly did not use any GPT to generate the description&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Magificent Pegasus</title>
+      <link>http://localhost:1313/products/asd-brthsdf4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/asd-brthsdf4/</guid>
+      <description>&lt;p&gt;this is a basic description of the statue&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

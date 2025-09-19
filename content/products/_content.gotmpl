@@ -41,11 +41,11 @@
     {{ warnf "collection type=%T val=%#v" $collections $collections }}
     {{/* Apparently the taxonomiy variables should be in the plural form */}}
     
-    {{ $tag := slice }}
+    {{ $tags := slice }}
     {{ range (split (or .tag "") "|") }}
-        {{ $v := trim . " " }}{{ if $v }}{{ $tag = $tag | append $v }}{{ end }}
+        {{ $v := trim . " " }}{{ if $v }}{{ $tags = $tags | append $v }}{{ end }}
     {{ end }}
-    {{ warnf "Tag type=%T val=%#v" $tag $tag }}
+    {{ warnf "tag type=%T val=%#v" $tags $tags }}
 
     {{ $gallery := slice }}
     {{ range (split (or .gallery "") "|") }}
@@ -63,7 +63,7 @@
     "description"       $description
     "featured_image"    $featured_image
     "collections"       $collections
-    "tag"               $tag
+    "tags"               $tags
     "gallery"           $gallery
     }}
 
@@ -80,8 +80,8 @@
     "type"          "products"
     "params"        $params
     "content"       $content
-    "collections"    $collections
-    "tag"           $tag
+    "collections"   $collections
+    "tags"           $tags
     }}
 
 {{ $.AddPage $page }}

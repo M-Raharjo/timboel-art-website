@@ -158,6 +158,10 @@ a {
   text-decoration: underline;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 
 .red-button {
     background-color: #E62129; 

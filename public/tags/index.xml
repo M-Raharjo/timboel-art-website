@@ -7,5 +7,54 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A</title>
+      <link>http://localhost:1313/tags/a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/a/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Is</title>
+      <link>http://localhost:1313/tags/is/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/is/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Randomly</title>
+      <link>http://localhost:1313/tags/randomly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/randomly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag</title>
+      <link>http://localhost:1313/tags/tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tes</title>
+      <link>http://localhost:1313/tags/tes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The</title>
+      <link>http://localhost:1313/tags/the/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/the/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>This</title>
+      <link>http://localhost:1313/tags/this/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/this/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
