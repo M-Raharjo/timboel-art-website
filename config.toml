@@ -1,7 +1,6 @@
 baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'Timboel'
-theme = ''
 [caches]
   [caches.getcsv]
     maxAge = 0
