@@ -5,7 +5,7 @@
 
   {{ if .Sections }}
     {{/* We are on /collections/ → show sub-collections */}}
-    <section data-pagefind-body class="bento-grid bento-description">
+    <section class="bento-grid bento-description">
       {{ range sort .Sections "Weight" "Title" }}
         {{/* try param "featured_image", else first image resource, else placeholder */}}
         {{ $thumb := .Params.featured_image }}
@@ -31,7 +31,7 @@
 
   {{ else if .RegularPages }}
     {{/* We are on /collections/<collection>/ → show items */}}
-    <section data-pagefind-body class="bento-grid bento-description">
+    <section class="bento-grid bento-description">
       {{ range sort .RegularPages "Weight" "Title" }}
         {{/* item thumb: param or first image resource or placeholder */}}
         {{ $thumb := .Params.featured_image }}

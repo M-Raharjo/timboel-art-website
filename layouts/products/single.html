@@ -10,6 +10,17 @@
       {{/* Use .Summary if set; else a trimmed plain version */}}
       <p>{{ with .Params.description }}{{ . }}{{ end }}</p>
 
+
+{{ with .Params.tags }}
+  <pre>
+    tag raw: {{ printf "%#v" . }}
+    type: {{ printf "%T" . }}
+  </pre>
+{{ else }}
+  <pre>No tag found</pre>
+{{ end }}
+
+
       <ul>
         {{ with .Params.material }}<li><strong>Material:</strong> {{ . }}</li>{{ end }}
         {{ with .Params.size }}<li><strong>Size:</strong> {{ . }}</li>{{ end }}

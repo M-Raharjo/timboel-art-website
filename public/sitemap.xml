@@ -21,12 +21,25 @@
     <loc>http://localhost:1313/articles/proper-care/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/2023/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/8s-checked/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/a/</loc>
   </url><url>
     <loc>http://localhost:1313/collections/action/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/ao-a3c7bb48-bst/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/animal/</loc>
+  </url><url>
     <loc>http://localhost:1313/products/mm-brthsdf6/</loc>
     <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/bird/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/burung/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
@@ -40,18 +53,35 @@
   </url><url>
     <loc>http://localhost:1313/collections/human/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/ibt-2024/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ifex/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/indoor/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/is/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/katalog-2023/</loc>
   </url><url>
     <loc>http://localhost:1313/products/asd-brthsdf4/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/nmh-c410bb94-bk/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/collections/outdoor/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/outdoor/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/owl/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/randomly/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>
     <loc>http://localhost:1313/collections/stone/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/table-top/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/tag/</loc>
   </url><url>
@@ -62,6 +92,8 @@
     <loc>http://localhost:1313/tags/the/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/this/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/thumbnail-checked/</loc>
   </url><url>
     <loc>http://localhost:1313/collections/wood/</loc>
   </url>
