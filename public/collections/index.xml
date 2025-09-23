@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collections on Timboel</title>
-    <link>http://localhost:1313/collections/</link>
+    <link>http://localhost:1313/timboel-art-website/collections/</link>
     <description>Recent content in Collections on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/collections/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/timboel-art-website/collections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Action</title>
-      <link>http://localhost:1313/collections/action/</link>
+      <link>http://localhost:1313/timboel-art-website/collections/action/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/collections/action/</guid>
+      <guid>http://localhost:1313/timboel-art-website/collections/action/</guid>
       <description></description>
     </item>
     <item>
       <title>Human</title>
-      <link>http://localhost:1313/collections/human/</link>
+      <link>http://localhost:1313/timboel-art-website/collections/human/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/collections/human/</guid>
+      <guid>http://localhost:1313/timboel-art-website/collections/human/</guid>
       <description></description>
     </item>
     <item>
       <title>Outdoor</title>
-      <link>http://localhost:1313/collections/outdoor/</link>
+      <link>http://localhost:1313/timboel-art-website/collections/outdoor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/collections/outdoor/</guid>
+      <guid>http://localhost:1313/timboel-art-website/collections/outdoor/</guid>
       <description></description>
     </item>
     <item>
       <title>Stone</title>
-      <link>http://localhost:1313/collections/stone/</link>
+      <link>http://localhost:1313/timboel-art-website/collections/stone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/collections/stone/</guid>
+      <guid>http://localhost:1313/timboel-art-website/collections/stone/</guid>
       <description></description>
     </item>
     <item>
       <title>Wood</title>
-      <link>http://localhost:1313/collections/wood/</link>
+      <link>http://localhost:1313/timboel-art-website/collections/wood/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/collections/wood/</guid>
+      <guid>http://localhost:1313/timboel-art-website/collections/wood/</guid>
       <description></description>
     </item>
   </channel>

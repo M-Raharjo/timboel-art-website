@@ -2,149 +2,149 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Timboel</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/timboel-art-website/tags/</link>
     <description>Recent content in Tags on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/timboel-art-website/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023</title>
-      <link>http://localhost:1313/tags/2023/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/2023/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/2023/</guid>
       <description></description>
     </item>
     <item>
       <title>8S Checked</title>
-      <link>http://localhost:1313/tags/8s-checked/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/8s-checked/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/8s-checked/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/8s-checked/</guid>
       <description></description>
     </item>
     <item>
       <title>A</title>
-      <link>http://localhost:1313/tags/a/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/a/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/a/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/a/</guid>
       <description></description>
     </item>
     <item>
       <title>Animal</title>
-      <link>http://localhost:1313/tags/animal/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/animal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/animal/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/animal/</guid>
       <description></description>
     </item>
     <item>
       <title>Bird</title>
-      <link>http://localhost:1313/tags/bird/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/bird/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bird/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/bird/</guid>
       <description></description>
     </item>
     <item>
       <title>Burung</title>
-      <link>http://localhost:1313/tags/burung/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/burung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/burung/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/burung/</guid>
       <description></description>
     </item>
     <item>
       <title>IBT 2024</title>
-      <link>http://localhost:1313/tags/ibt-2024/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/ibt-2024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ibt-2024/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/ibt-2024/</guid>
       <description></description>
     </item>
     <item>
       <title>IFEX</title>
-      <link>http://localhost:1313/tags/ifex/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/ifex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ifex/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/ifex/</guid>
       <description></description>
     </item>
     <item>
       <title>Indoor</title>
-      <link>http://localhost:1313/tags/indoor/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/indoor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/indoor/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/indoor/</guid>
       <description></description>
     </item>
     <item>
       <title>Is</title>
-      <link>http://localhost:1313/tags/is/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/is/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/is/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/is/</guid>
       <description></description>
     </item>
     <item>
       <title>Katalog 2023</title>
-      <link>http://localhost:1313/tags/katalog-2023/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/katalog-2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/katalog-2023/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/katalog-2023/</guid>
       <description></description>
     </item>
     <item>
       <title>Outdoor</title>
-      <link>http://localhost:1313/tags/outdoor/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/outdoor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/outdoor/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/outdoor/</guid>
       <description></description>
     </item>
     <item>
       <title>Owl</title>
-      <link>http://localhost:1313/tags/owl/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/owl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/owl/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/owl/</guid>
       <description></description>
     </item>
     <item>
       <title>Randomly</title>
-      <link>http://localhost:1313/tags/randomly/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/randomly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/randomly/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/randomly/</guid>
       <description></description>
     </item>
     <item>
       <title>Table Top</title>
-      <link>http://localhost:1313/tags/table-top/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/table-top/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/table-top/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/table-top/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag</title>
-      <link>http://localhost:1313/tags/tag/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/tag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tag/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/tag/</guid>
       <description></description>
     </item>
     <item>
       <title>Tes</title>
-      <link>http://localhost:1313/tags/tes/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/tes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tes/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/tes/</guid>
       <description></description>
     </item>
     <item>
       <title>The</title>
-      <link>http://localhost:1313/tags/the/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/the/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/the/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/the/</guid>
       <description></description>
     </item>
     <item>
       <title>This</title>
-      <link>http://localhost:1313/tags/this/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/this/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/this/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/this/</guid>
       <description></description>
     </item>
     <item>
       <title>Thumbnail Checked</title>
-      <link>http://localhost:1313/tags/thumbnail-checked/</link>
+      <link>http://localhost:1313/timboel-art-website/tags/thumbnail-checked/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/thumbnail-checked/</guid>
+      <guid>http://localhost:1313/timboel-art-website/tags/thumbnail-checked/</guid>
       <description></description>
     </item>
   </channel>
