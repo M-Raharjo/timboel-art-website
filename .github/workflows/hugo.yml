@@ -33,18 +33,47 @@ jobs:
     env:
       HUGO_VERSION: 0.148.2
     steps:
+
       - name: Install Hugo extended
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Install rclone
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+          rclone version
+
+      - name: Pull Rclone Config from secret
+        run: |
+          printf '%s' '${{ secrets.RCLONE_DRIVETOS3_CONFIG }}' > rclone.conf
+
+      - name: Test rclone remotes
+        env:
+          RCLONE_CONFIG: rclone.conf
+        run: |
+          rclone listremotes
+          rclone lsd timboel-foto-drive: || true
+          rclone lsd timboel-foto-idcloudhost: || true
+
+      - name: Sync Google Drive → idcloudhost S3
+        env:
+          RCLONE_CONFIG: rclone.conf
+        run: |
+          rclone sync timboel-foto-drive:public_folder timboel-foto-idcloudhost:image-timboel/product-img \
+          --s3-acl public-read \
+          --header-upload "Cache-Control: public, max-age=31536000, immutable" \
+          --fast-list -P
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
