@@ -156,7 +156,7 @@ a {
   text-decoration: none;
 }
 
-.site-nav a:hover {
+.site-nav,.tags a:hover {
   text-decoration: underline;
 }
 
