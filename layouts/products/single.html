@@ -32,12 +32,6 @@
           <a href="{{ "collections/" | relURL }}{{ $c | urlize }}">{{ $c }}</a>
           {{ end }}</li>{{ end }}
 
-        {{ with .Params.tags }} <li><strong>Tags:</strong> 
-          {{ range $i, $t := . }}
-          {{- if $i }}, {{ end -}}
-          <a href="{{ "tags/" | relURL }}{{ $t | urlize }}">{{ $t }}</a>
-          {{ end }}</li>{{ end }}
-
         {{ with .Params.item_id }}<li><strong>Item ID:</strong> {{ . }}</li>{{ end }}
       </ul>
     </div>
@@ -71,6 +65,13 @@
     </section>
   </section>
 
+<section class="tags">
+  <p>        {{ with .Params.tags }} <strong>Tags:</strong> 
+          {{ range $i, $t := . }}
+          {{- if $i }}, {{ end -}}
+          <a href="{{ "tags/" | relURL }}{{ $t | urlize }}">{{ $t }}</a>
+          {{ end }}{{ end }}</p>
+</section>
 
   {{/* CTA bento */}}
   <section class="bento-grid">
@@ -79,16 +80,7 @@
       <p>Love what you see? Contact us for pricing and customization.</p>
       <a href="/contact/" class="red-button">Contact Us</a>
     </div>
-  
-    {{ if $cover }}
-      <div class="bento-item">
-        <img src="{{ $cover.RelPermalink }}" alt="{{ $.Title }}">
-      </div>
-    {{ else if .Params.featured_image }}
-      <div class="bento-item">
-        <img src="{{ .Params.featured_image | safeURL }}" alt="{{ $.Title }}">
-      </div>
-    {{ end }}
+
   </section>
 
   {{/* Related Items (match by tags first, then collection, else any siblings) */}}

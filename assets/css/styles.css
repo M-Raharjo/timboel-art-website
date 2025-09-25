@@ -181,7 +181,10 @@ li > a:hover {
   gap: 1rem;
 }
 
-
+.tags {
+  gap: 1rem;
+  padding: 2rem;
+}
 
 /* Base Bento Grid */
 
