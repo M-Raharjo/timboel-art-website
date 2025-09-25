@@ -53,7 +53,7 @@
     </div>
     <section class="bento-grid">
       {{ range .Params.gallery }}
-          <figure class="bento-item">
+          <figure class="bento-item item-large">
             <img
               src="{{ . | safeURL }}"
               alt="{{ $.Title }}"
@@ -65,7 +65,7 @@
     </section>
   </section>
 
-<section class="tags">
+<section data-pagefind-body class="tags">
   <p>        {{ with .Params.tags }} <strong>Tags:</strong> 
           {{ range $i, $t := . }}
           {{- if $i }}, {{ end -}}

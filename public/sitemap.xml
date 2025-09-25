@@ -23,11 +23,15 @@
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/2023/</loc>
   </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/2024/</loc>
+  </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/8s-checked/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/a/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/collections/action/</loc>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/alumunium/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/products/ao-a3c7bb48-bst/</loc>
     <priority>0</priority>
@@ -37,9 +41,18 @@
     <loc>http://localhost:1313/timboel-art-website/products/mm-brthsdf6/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/balet/</loc>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/ballerina/</loc>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/products/abw-24ad63b8-bst/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/bird/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/burung/</loc>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/catalogue/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/categories/</loc>
   </url><url>
@@ -48,10 +61,16 @@
     <loc>http://localhost:1313/timboel-art-website/products/rb-brthsdf5/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/dynamic-collection/</loc>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/gymnastic/</loc>
+  </url><url>
     <loc>http://localhost:1313/timboel-art-website/products/rb-brthsd3j/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/collections/human/</loc>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/human/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/ibt-2024/</loc>
   </url><url>
@@ -61,7 +80,11 @@
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/is/</loc>
   </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/katalog/</loc>
+  </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/katalog-2023/</loc>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/katalog-2024/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/products/asd-brthsdf4/</loc>
     <priority>0</priority>
@@ -74,6 +97,8 @@
     <loc>http://localhost:1313/timboel-art-website/tags/outdoor/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/owl/</loc>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/photo-complete/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/randomly/</loc>
   </url><url>
@@ -97,6 +122,8 @@
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/products/vbl-8c5c6e7d-wwg/</loc>
     <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/tags/women/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/collections/wood/</loc>
   </url>

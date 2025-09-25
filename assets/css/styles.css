@@ -215,6 +215,8 @@ li > a:hover {
   display: block;
   border-radius: inherit;
   object-fit: cover;
+  mix-blend-mode:multiply; 
+  background:transparent;
 }
 
 .bento-item.text-card {
