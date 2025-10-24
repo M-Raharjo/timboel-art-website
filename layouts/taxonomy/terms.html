@@ -2,14 +2,13 @@
 <main class="collections">
   <h1 style="text-align: center; padding: 0 2rem;">{{ .Title }}</h1>
   {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
-
+taxonomy/term
   <section class="bento-grid bento-description">
     {{/* Iterate terms: .Data.Terms works on a terms page */}}
     {{ range .Data.Terms.Alphabetical }}
       {{ $p := .Page }} {{/* the term’s page (if it exists) */}}
-
       {{/* Thumb: param → first image resource → placeholder */}}
-      {{ $thumb := $p.Params.featured_image }}
+      {{ $thumb := $p.Params.featured_image}}
       {{ if not $thumb }}
         {{ with $p }}
           {{ with (first 1 (.Resources.ByType "image")) }}
@@ -18,7 +17,7 @@
         {{ end }}
       {{ end }}
       {{ if not $thumb }}
-        {{ $thumb = "https://placehold.co/200x200?text=Featured" }}
+        {{ $thumb = printf "https://placehold.co/200x200?text=%s" (urlquery $p.LinkTitle) }}
       {{ end }}
 
       <a href="{{ $p.RelPermalink }}">

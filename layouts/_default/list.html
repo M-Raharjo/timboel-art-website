@@ -2,9 +2,8 @@
 <main class="collections">
   <h1 style="text-align: center; padding: 0 2rem;">{{ .Title }}</h1>
   {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
-
-  {{ if .Sections }}
-    {{/* We are on /collections/ → show sub-collections */}}
+default/list
+  {{ if .Sections }}-
     <section class="bento-grid bento-description">
       {{ range sort .Sections "Weight" "Title" }}
         {{/* try param "featured_image", else first image resource, else placeholder */}}
@@ -15,7 +14,7 @@
           {{ end }}
         {{ end }}
         {{ if not $thumb }}
-          {{ $thumb = "https://placehold.co/200x200?text=Featured" }}
+          {{ $thumb = printf "https://placehold.co/200x200?text=%s" (urlquery .LinkTitle) }}
         {{ end }}
         <a href="{{.RelPermalink}}">
         <div class="bento-item">
@@ -41,7 +40,7 @@
           {{ end }}
         {{ end }}
         {{ if not $thumb }}
-          {{ $thumb = printf "https://placehold.co/200x200?text=%s" (urlquery .Params.title) }}
+          {{ $thumb = printf "https://placehold.co/200x200?text=%s" (urlquery .Params.internal_name) }}
         {{ end }}
 
         <a href="{{.RelPermalink}}">
