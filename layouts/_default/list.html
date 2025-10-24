@@ -2,7 +2,6 @@
 <main class="collections">
   <h1 style="text-align: center; padding: 0 2rem;">{{ .Title }}</h1>
   {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
-default/list
   {{ if .Sections }}-
     <section class="bento-grid bento-description">
       {{ range sort .Sections "Weight" "Title" }}
