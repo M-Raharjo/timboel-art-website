@@ -15,6 +15,27 @@
       <description></description>
     </item>
     <item>
+      <title>Animal</title>
+      <link>http://localhost:1313/timboel-art-website/collections/animal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/collections/animal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dog</title>
+      <link>http://localhost:1313/timboel-art-website/collections/dog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/collections/dog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Horse</title>
+      <link>http://localhost:1313/timboel-art-website/collections/horse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/collections/horse/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Human</title>
       <link>http://localhost:1313/timboel-art-website/collections/human/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -26,13 +47,6 @@
       <link>http://localhost:1313/timboel-art-website/collections/outdoor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/timboel-art-website/collections/outdoor/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Stone</title>
-      <link>http://localhost:1313/timboel-art-website/collections/stone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/timboel-art-website/collections/stone/</guid>
       <description></description>
     </item>
     <item>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Walking on Timboel</title>
+    <link>http://localhost:1313/timboel-art-website/tags/walking/</link>
+    <description>Recent content in Walking on Timboel</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/timboel-art-website/tags/walking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alumunium Walking Horse Jaitan</title>
+      <link>http://localhost:1313/timboel-art-website/products/awh-0ff278c7-bk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/products/awh-0ff278c7-bk/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

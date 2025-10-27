@@ -7,16 +7,16 @@
   <div class="hero-layout">
     <div class="col1">
       <div class="col1-item">
-        <img src="https://placehold.co/600x600?text=Featured" alt="hello">
+        <a href="{{ .Params.hero1 }}"><img src="{{ .Params.hero1 }}" alt="hello"></a>
       </div>
     </div>
 
     <div class="col2">
-      <div class="col2-top"><img src="https://placehold.co/600x600?text=Featured" alt="hello"></div>
-      <div class="col2-bottom"><img src="https://placehold.co/600x600?text=Featured" alt="hello"></div>
+      <div class="col2-top"> <a href="{{ .Params.hero2 }}"><img src="{{ .Params.hero2 }}" alt="hello"></a></div>
+      <div  class="col2-bottom"><a href="{{ .Params.hero3 }}"><img  style="object-fit: contain;" src="{{ .Params.hero3 }}" alt="hello"></a></div>
     </div>
     <div class="col3">
-      <div class="col3-item"><img src="https://placehold.co/600x600?text=Featured" alt="hello"></div>
+      <div class="col3-item"><a href="{{ .Params.hero4 }}"><img src="{{ .Params.hero4 }}" alt="hello"></a></div>
     </div>
   </div>
 </section>
