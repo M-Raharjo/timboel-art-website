@@ -1,0 +1,43 @@
+name: Sync images Drive → S3
+
+on:
+  workflow_dispatch:
+  schedule:
+    # run every night at 02:00 UTC (adjust as needed)
+    - cron: "0 * * * *"
+
+jobs:
+  sync-rclone:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout (needed if you keep rclone.conf template or scripts in repo)
+        uses: actions/checkout@v4
+
+      - name: Install rclone
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+          rclone version
+
+      - name: Pull Rclone Config from secret
+        run: |
+          printf '%s' '${{ secrets.RCLONE_DRIVETOS3_CONFIG }}' > rclone.conf
+
+      - name: Test rclone remotes
+        env:
+          RCLONE_CONFIG: rclone.conf
+        run: |
+          rclone listremotes
+          rclone lsd timboel-foto-drive: || true
+          rclone lsd timboel-foto-idcloudhost: || true
+
+      - name: Sync Google Drive → idcloudhost S3
+        env:
+          RCLONE_CONFIG: rclone.conf
+        run: |
+          rclone sync \
+            timboel-foto-drive:public_folder \
+            timboel-foto-idcloudhost:image-timboel/product-img \
+            --s3-acl public-read \
+            --header-upload "Cache-Control: public, max-age=31536000, immutable" \
+            --fast-list -P
