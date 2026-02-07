@@ -94,7 +94,7 @@ jobs:
           API_SECRET: ${{ secrets.ERP_API_SECRET }}
           OUT_FILE: "products.json"
         run: |
-          ./item-json-creator.sh
+          ./scripts/item-json-creator.sh
 
       - name: Build with Hugo
         env:
