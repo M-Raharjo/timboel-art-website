@@ -53,37 +53,53 @@ jobs:
           curl -fsSL https://rclone.org/install.sh | sudo bash
           rclone version
 
-      - name: Pull Rclone Config from secret
-        run: |
-          printf '%s' '${{ secrets.RCLONE_DRIVETOS3_CONFIG }}' > rclone.conf
+      # - name: Pull Rclone Config from secret
+      #   run: |
+      #     printf '%s' '${{ secrets.RCLONE_DRIVETOS3_CONFIG }}' > rclone.conf
 
-      - name: Test rclone remotes
-        env:
-          RCLONE_CONFIG: rclone.conf
-        run: |
-          rclone listremotes
-          rclone lsd timboel-foto-drive: || true
-          rclone lsd timboel-foto-idcloudhost: || true
+      # - name: Test rclone remotes
+      #   env:
+      #     RCLONE_CONFIG: rclone.conf
+      #   run: |
+      #     rclone listremotes
+      #     rclone lsd timboel-foto-drive: || true
+      #     rclone lsd timboel-foto-idcloudhost: || true
 
-      - name: Sync Google Drive → idcloudhost S3
-        env:
-          RCLONE_CONFIG: rclone.conf
-        run: |
-          rclone sync timboel-foto-drive:public_folder timboel-foto-idcloudhost:image-timboel/product-img \
-          --s3-acl public-read \
-          --header-upload "Cache-Control: public, max-age=31536000, immutable" \
-          --fast-list -P
-          
+      # - name: Sync Google Drive → idcloudhost S3
+      #   env:
+      #     RCLONE_CONFIG: rclone.conf
+      #   run: |
+      #     rclone sync timboel-foto-drive:public_folder timboel-foto-idcloudhost:image-timboel/product-img \
+      #     --s3-acl public-read \
+      #     --header-upload "Cache-Control: public, max-age=31536000, immutable" \
+      #     --fast-list -P
+
+      # - name: Generate items JSON from ERPNext
+      #   env:
+      #     ERP_URL: "https://kirun.pttimboel.com"
+      #     API_KEY: ${{ secrets.ERP_API_KEY }}
+      #     API_SECRET: ${{ secrets.ERP_API_SECRET }}
+      #     OUT_FILE: assets/data/products.json
+      #   run: |
+      #     chmod +x scripts/item-json-creator.sh
+      #     ./scripts/item-json-creator.sh
+      #     test -s assets/data/products.json
+
       - name: Generate items JSON from ERPNext
         env:
-          ERP_URL: ${{ secrets.ERP_URL }}
+          ERP_URL: "https://kirun.pttimboel.com"
           API_KEY: ${{ secrets.ERP_API_KEY }}
           API_SECRET: ${{ secrets.ERP_API_SECRET }}
           OUT_FILE: assets/data/products.json
         run: |
+          set -x
+          env | grep ERP
+          env | grep API
           chmod +x scripts/item-json-creator.sh
           ./scripts/item-json-creator.sh
-          test -s assets/data/products.json
+          ls -la assets/data || true
+          wc -c assets/data/products.json || true
+
 
       - name: Build with Hugo
         env:
