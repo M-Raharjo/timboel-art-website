@@ -3,7 +3,7 @@ name: Sync images Drive → S3
 on:
   workflow_dispatch:
   schedule:
-    # run every night at 02:00 UTC (adjust as needed)
+    # run every hour
     - cron: "0 * * * *"
 
 jobs:
