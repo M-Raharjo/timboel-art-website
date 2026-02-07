@@ -48,10 +48,11 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install rclone
-        run: |
-          curl -fsSL https://rclone.org/install.sh | sudo bash
-          rclone version
+
+      # - name: Install rclone
+      #   run: |
+      #     curl -fsSL https://rclone.org/install.sh | sudo bash
+      #     rclone version
 
       # - name: Pull Rclone Config from secret
       #   run: |
@@ -84,6 +85,20 @@ jobs:
       #     chmod +x scripts/item-json-creator.sh
       #     ./scripts/item-json-creator.sh
       #     test -s assets/data/products.json
+      
+      - name: Network debug (ERP reachability)
+        run: |
+          set -euo pipefail
+          echo "=== DNS (A/AAAA) ==="
+          getent ahosts kirun.pttimboel.com || true
+
+          echo "=== IPv4 connect test ==="
+          curl -4 -I -sS --fail --connect-timeout 5 --max-time 15 https://kirun.pttimboel.com/ || true
+
+          echo "=== IPv6 connect test ==="
+          curl -6 -I -sS --fail --connect-timeout 5 --max-time 15 https://kirun.pttimboel.com/ || true
+
+
 
       - name: Generate items JSON from ERPNext
         env:
@@ -99,7 +114,6 @@ jobs:
           ./scripts/item-json-creator.sh
           ls -la assets/data || true
           wc -c assets/data/products.json || true
-
 
       - name: Build with Hugo
         env:
