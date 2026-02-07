@@ -85,19 +85,6 @@ jobs:
       #     chmod +x scripts/item-json-creator.sh
       #     ./scripts/item-json-creator.sh
       #     test -s assets/data/products.json
-      
-      - name: Network debug (ERP reachability)
-        run: |
-          set -euo pipefail
-          echo "=== DNS (A/AAAA) ==="
-          getent ahosts kirun.pttimboel.com || true
-
-          echo "=== IPv4 connect test ==="
-          curl -4 -I -sS --fail --connect-timeout 5 --max-time 15 https://kirun.pttimboel.com/ || true
-
-          echo "=== IPv6 connect test ==="
-          curl -6 -I -sS --fail --connect-timeout 5 --max-time 15 https://kirun.pttimboel.com/ || true
-
 
 
       - name: Generate items JSON from ERPNext
@@ -105,15 +92,9 @@ jobs:
           ERP_URL: "https://kirun.pttimboel.com"
           API_KEY: ${{ secrets.ERP_API_KEY }}
           API_SECRET: ${{ secrets.ERP_API_SECRET }}
-          OUT_FILE: assets/data/products.json
+          OUT_FILE: "products.json"
         run: |
-          set -x
-          env | grep ERP
-          env | grep API
-          chmod +x scripts/item-json-creator.sh
-          ./scripts/item-json-creator.sh
-          ls -la assets/data || true
-          wc -c assets/data/products.json || true
+          ./item-json-creator.sh
 
       - name: Build with Hugo
         env:
