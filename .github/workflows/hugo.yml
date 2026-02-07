@@ -80,7 +80,7 @@ jobs:
           set -x
           pwd
           ls -la
-          ./scripts/item-json-creator.sh
+          mkdir new_folder
           echo "after script:"
           ls -la
 
