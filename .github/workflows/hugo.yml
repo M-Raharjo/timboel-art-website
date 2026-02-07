@@ -73,6 +73,17 @@ jobs:
           --s3-acl public-read \
           --header-upload "Cache-Control: public, max-age=31536000, immutable" \
           --fast-list -P
+          
+      - name: Generate items JSON from ERPNext
+        env:
+          ERP_URL: ${{ secrets.ERP_URL }}
+          API_KEY: ${{ secrets.ERP_API_KEY }}
+          API_SECRET: ${{ secrets.ERP_API_SECRET }}
+          OUT_FILE: assets/data/products.json
+        run: |
+          chmod +x scripts/item-json-creator.sh
+          ./scripts/item-json-creator.sh
+          test -s assets/data/products.json
 
       - name: Build with Hugo
         env:
