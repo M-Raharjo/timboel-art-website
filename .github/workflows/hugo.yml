@@ -75,21 +75,12 @@ jobs:
       #     --header-upload "Cache-Control: public, max-age=31536000, immutable" \
       #     --fast-list -P
 
-      - name: test run
-        run: |
-          set -x
-          pwd
-          ls -la
-          mkdir new_folder
-          echo "after script:"
-          ls -la
-
       - name: Generate items JSON from ERPNext
         env:
           ERP_URL: "https://kirun.pttimboel.com"
           API_KEY: ${{ secrets.ERP_API_KEY }}
           API_SECRET: ${{ secrets.ERP_API_SECRET }}
-          OUT_FILE: "products.json"
+          OUT_FILE: "assets/data/products.json"
         run: |
           ./scripts/item-json-creator.sh
 
