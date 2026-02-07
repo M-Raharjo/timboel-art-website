@@ -1,7 +1,6 @@
 name: Sync images Drive → S3
 # this script is here to ensure that other application can use the s3, it lives in github cause im too lazy to setup a local cronjob. github makes sure it always works.
 on:
-  workflow_dispatch:
   schedule:
     # run every hour
     - cron: "0 * * * *"
