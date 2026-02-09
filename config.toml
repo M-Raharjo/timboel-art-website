@@ -7,7 +7,9 @@ title = 'Timboel'
 [security]
   [security.http]
     methods = ['GET']
-    urls = ['https://docs.google.com/']
+    urls = ['https://docs.google.com/',
+    'https://kirun.pttimboel.com/'
+    ]
 [taxonomies]
   category = 'categories'
   tag = 'tags'
