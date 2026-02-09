@@ -30,32 +30,28 @@
   {{ $publish_item := or .publish_item 0 }}
   {{ $draft := eq (printf "%v" $publish_item) "0" }}
 
-  {{ $description := or .website_description "" }}
-
   {{ $collections := or .collection_list (slice) }}
   {{ $tags := or .tags (slice) }}
   {{ $gallery := or .images (slice) }}
+  {{ $description := or .website_description "" }}
 
   {{ $featured_image := "" }}
   {{ if gt (len $gallery) 0 }}{{ $featured_image = index $gallery 0 }}{{ end }}
 
-  {{ $params := dict
-      "item_code"           $item_code
-      "slug"                $slug
-      "internal_name"       $internal_name
-      "external_name"       $external_name
-      "panjang"             $panjang
-      "lebar"               $lebar
-      "tinggi"              $tinggi
-      "berat"               $berat
-      "cbm"                 $cbm
-      "publish_item"        $publish_item
-      "website_description" $description
-      "collections"         $collections
-      "tags"                $tags
-      "gallery"             $gallery
-      "featured_image"      $featured_image
-  }}
+{{ $params := dict
+  "item_id"        $item_code
+  "description"    $description
+  "collections"    $collections
+  "tags"           $tags
+  "gallery"        $gallery
+  "featured_image" (cond (gt (len $gallery) 0) (index $gallery 0) "")
+  "panjang"        $panjang
+  "lebar"          $lebar
+  "tinggi"         $tinggi
+  "berat"          $berat
+  "cbm"            $cbm
+}}
+
 
   {{ $content := dict "mediaType" "text/markdown" "value" $description }}
 

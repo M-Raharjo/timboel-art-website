@@ -79,11 +79,11 @@
   {{/* Related Items (match by tags first, then collection, else any siblings) */}}
   <section>
     <h1 style="padding: 0 2rem;">Related Items</h1>
-    {{ $siblings := .CurrentSection.RegularPages }}
-    {{ $byTag := where $siblings "Params.tag" "intersect" .Params.tag }}
-    {{ $byCollection := where $siblings "Params.collection" "intersect" .Params.collection }}
-    {{ $related := cond (gt (len $byTag) 0) $byTag (cond (gt (len $byCollection) 0) $byCollection $siblings) }}
-    {{ $related = where $related "RelPermalink" "ne" .RelPermalink }}
+  {{ $siblings := .CurrentSection.RegularPages }}
+  {{ $byTag := where $siblings "Params.tags" "intersect" .Params.tags }}
+  {{ $byCollection := where $siblings "Params.collections" "intersect" .Params.collections }}
+  {{ $related := cond (gt (len $byTag) 0) $byTag (cond (gt (len $byCollection) 0) $byCollection $siblings) }}
+  {{ $related = where $related "RelPermalink" "ne" .RelPermalink }}
 
     <section class="bento-grid bento-description">
       {{ range first 5 $related }}
