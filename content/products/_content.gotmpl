@@ -1,20 +1,17 @@
-{{/* JSON adapter (local file, no GetRemote) */}}
+{{/* JSON adapter (remote ERPNext file via GetRemote) */}}
 
-{{/* Put the generated JSON somewhere Hugo can read:
-   - assets/data/products.json   (recommended)
-   - OR data/products.json
-*/}}
-
+{{ $url := "https://kirun.pttimboel.com/files/website-products.json" }}
 {{ $items := slice }}
 
-{{/* Option A (recommended): assets/ + resources.Get */}}
-{{ $res := resources.Get "data/products.json" }}
-{{ if not $res }}{{ errorf "missing assets file: assets/data/products.json" }}{{ end }}
-{{ $items = transform.Unmarshal (dict "format" "json") $res }}
-
-{{/* Option B: data/ + site.Data (uncomment to use instead)
-{{ $items = site.Data.products }}
-*/}}
+{{ with try (resources.GetRemote $url) }}
+  {{ with .Err }}
+    {{ errorf "unable to get remote resource %s: %v" $url . }}
+  {{ else with .Value }}
+    {{ $items = transform.Unmarshal (dict "format" "json") . }}
+  {{ else }}
+    {{ errorf "unable to get remote resource %s" $url }}
+  {{ end }}
+{{ end }}
 
 {{ range $items }}
   {{ $item_code := .item_code }}
