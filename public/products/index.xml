@@ -2,10 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Products on Timboel</title>
-    <link>https://m-raharjo.github.io/timboel-art-website/products/</link>
+    <link>http://localhost:1313/timboel-art-website/products/</link>
     <description>Recent content in Products on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://m-raharjo.github.io/timboel-art-website/products/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/timboel-art-website/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Figur Swim - XT - Silver Poles</title>
+      <link>http://localhost:1313/timboel-art-website/products/figur-swim-xt-silver-poles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/products/figur-swim-xt-silver-poles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Figure Swim - J - Silver ST</title>
+      <link>http://localhost:1313/timboel-art-website/products/figure-swim-j-silver-st/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/products/figure-swim-j-silver-st/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swim Silver Poles</title>
+      <link>http://localhost:1313/timboel-art-website/products/figure-swim-j-silver-poles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/products/figure-swim-j-silver-poles/</guid>
+      <description>&lt;p&gt;this is the silver pooles of this image&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wall Deco Suwek/Kimpul - T - Copper</title>
+      <link>http://localhost:1313/timboel-art-website/products/wall-deco-suwek-kimpul-t-copper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/products/wall-deco-suwek-kimpul-t-copper/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -2,32 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Timboel</title>
-    <link>https://m-raharjo.github.io/timboel-art-website/</link>
+    <link>http://localhost:1313/timboel-art-website/</link>
     <description>Recent content in Home on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://m-raharjo.github.io/timboel-art-website/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/timboel-art-website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bring the Breeze</title>
-      <link>https://m-raharjo.github.io/timboel-art-website/articles/bring-the-breeze-home/</link>
+      <link>http://localhost:1313/timboel-art-website/articles/bring-the-breeze-home/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://m-raharjo.github.io/timboel-art-website/articles/bring-the-breeze-home/</guid>
+      <guid>http://localhost:1313/timboel-art-website/articles/bring-the-breeze-home/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim odio ac risus feugiat porttitor. Duis dignissim posuere elit non dictum. Curabitur quam est, sodales vel tincidunt id, interdum quis risus.&#xA;Nunc eget massa vel risus venenatis luctus. Fusce placerat velit erat, vitae consequat ex vulputate vel. Nulla pretium a sapien eget tincidunt. Proin quam urna, sagittis ut dolor vel, facilisis commodo massa. Sed pellentesque risus eu augue tristique suscipit. Cras nec purus a odio efficitur finibus sit amet non elit. Aenean scelerisque eleifend ornare. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam fermentum id nisl non porta. Donec nec enim lacinia, iaculis libero at, lobortis mauris.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The role of Sclupture</title>
-      <link>https://m-raharjo.github.io/timboel-art-website/articles/the-role-of-scluptures/</link>
+      <link>http://localhost:1313/timboel-art-website/articles/the-role-of-scluptures/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://m-raharjo.github.io/timboel-art-website/articles/the-role-of-scluptures/</guid>
+      <guid>http://localhost:1313/timboel-art-website/articles/the-role-of-scluptures/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim odio ac risus feugiat porttitor. Duis dignissim posuere elit non dictum. Curabitur quam est, sodales vel tincidunt id, interdum quis risus.&#xA;Nunc eget massa vel risus venenatis luctus. Fusce placerat velit erat, vitae consequat ex vulputate vel. Nulla pretium a sapien eget tincidunt. Proin quam urna, sagittis ut dolor vel, facilisis commodo massa.&lt;/p&gt;&#xA;&lt;p&gt;Sed&#xA;pellentesque risus eu augue tristique suscipit. Cras nec purus a odio efficitur finibus sit amet non elit. Aenean scelerisque eleifend ornare. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam fermentum id nisl non porta. Donec nec enim lacinia, iaculis libero at, lobortis mauris.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Proper Care</title>
-      <link>https://m-raharjo.github.io/timboel-art-website/articles/proper-care/</link>
+      <link>http://localhost:1313/timboel-art-website/articles/proper-care/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://m-raharjo.github.io/timboel-art-website/articles/proper-care/</guid>
+      <guid>http://localhost:1313/timboel-art-website/articles/proper-care/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim odio ac risus feugiat porttitor. Duis dignissim posuere elit non dictum. Curabitur quam est, sodales vel tincidunt id, interdum quis risus.&#xA;Nunc eget massa vel risus venenatis luctus. Fusce placerat velit erat, vitae consequat ex vulputate vel. Nulla pretium a sapien eget tincidunt. Proin quam urna, sagittis ut dolor vel, facilisis commodo massa. Sed pellentesque risus eu augue tristique suscipit. Cras nec purus a odio efficitur finibus sit amet non elit. Aenean scelerisque eleifend ornare. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam fermentum id nisl non porta. Donec nec enim lacinia, iaculis libero at, lobortis mauris.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Figur Swim - XT - Silver Poles</title>
+      <link>http://localhost:1313/timboel-art-website/products/figur-swim-xt-silver-poles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/products/figur-swim-xt-silver-poles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Figure Swim - J - Silver ST</title>
+      <link>http://localhost:1313/timboel-art-website/products/figure-swim-j-silver-st/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/products/figure-swim-j-silver-st/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swim Silver Poles</title>
+      <link>http://localhost:1313/timboel-art-website/products/figure-swim-j-silver-poles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/products/figure-swim-j-silver-poles/</guid>
+      <description>&lt;p&gt;this is the silver pooles of this image&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wall Deco Suwek/Kimpul - T - Copper</title>
+      <link>http://localhost:1313/timboel-art-website/products/wall-deco-suwek-kimpul-t-copper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/timboel-art-website/products/wall-deco-suwek-kimpul-t-copper/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
