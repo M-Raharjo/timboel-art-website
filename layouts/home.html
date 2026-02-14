@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<main>
+  {{ with .Content }}
+    {{ . }}
+  {{ end }}
+
+  <section>
+    {{ range first 6 (where .Site.RegularPages "Section" "products") }}
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+    {{ end }}
+  </section>
+
+</main>
+
+{{ end }}
