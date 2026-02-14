@@ -2,57 +2,55 @@
 <main class="collections">
   <h1 style="text-align: center; padding: 0 2rem;">{{ .Title }}</h1>
   {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
-<!-- default/list -->
-  {{ if .Sections }}-
-    <section class="bento-grid bento-description">
-      {{ range sort .Sections "Weight" "Title" }}
-        {{/* try param "featured_image", else first image resource, else placeholder */}}
-        {{ $thumb := .Params.featured_image }}
-        {{ if not $thumb }}
-          {{ with (first 1 (.Resources.ByType "image")) }}
-            {{ $thumb = (index . 0).RelPermalink }}
+
+  {{ if .Sections }}
+    <section>
+      <div class="grid">
+        {{ range sort .Sections "Weight" "Title" }}
+          {{ $thumb := .Params.featured_image }}
+          {{ if not $thumb }}
+            {{ with (first 1 (.Resources.ByType "image")) }}
+              {{ $thumb = (index . 0).RelPermalink }}
+            {{ end }}
           {{ end }}
+          {{ if not $thumb }}
+            {{ $thumb = printf "https://placehold.co/600x600?text=%s" (urlquery .LinkTitle) }}
+          {{ end }}
+
+          <div>
+            <a href="{{ .RelPermalink }}">
+              <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy">
+              <div><h3>{{ .LinkTitle }}</h3></div>
+              {{ with .Params.description }}<div>{{ . }}</div>{{ end }}
+            </a>
+          </div>
         {{ end }}
-        {{ if not $thumb }}
-          {{ $thumb = printf "https://placehold.co/200x200?text=%s" (urlquery .LinkTitle) }}
-        {{ end }}
-        <a href="{{.RelPermalink}}">
-        <div class="bento-item">
-          <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy">
-            <div>
-              <h3>{{ .LinkTitle }}</h3>
-              {{ with .Params.description }}<p>{{ . }}</p>{{end}}
-            </div>
-        </div>
-        </a>
-      {{ end }}
+      </div>
     </section>
 
   {{ else if .RegularPages }}
-    {{/* We are on /collections/<collection>/ → show items */}}
-    <section class="bento-grid bento-description">
-      {{ range sort .RegularPages "Weight" "Title" }}
-        {{/* item thumb: param or first image resource or placeholder */}}
-        {{ $thumb := .Params.featured_image }}
-        {{ if not $thumb }}
-          {{ with (first 1 (.Resources.ByType "image")) }}
-            {{ $thumb = (index . 0).RelPermalink }}
+    <section>
+      <div class="grid">
+        {{ range sort .RegularPages "Weight" "Title" }}
+          {{ $thumb := .Params.featured_image }}
+          {{ if not $thumb }}
+            {{ with (first 1 (.Resources.ByType "image")) }}
+              {{ $thumb = (index . 0).RelPermalink }}
+            {{ end }}
           {{ end }}
-        {{ end }}
-        {{ if not $thumb }}
-          {{ $thumb = printf "https://placehold.co/200x200?text=%s" (urlquery .Params.internal_name) }}
-        {{ end }}
+          {{ if not $thumb }}
+            {{ $thumb = printf "https://placehold.co/600x600?text=%s" (urlquery (or .Params.internal_name .LinkTitle)) }}
+          {{ end }}
 
-        <a href="{{.RelPermalink}}">
-        <div class="bento-item">
-          <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy">
-            <div>
-              <h3>{{ .LinkTitle }}</h3>
-              {{ .Summary }}
-            </div>
-        </div>
-        </a>
-      {{ end }}
+          <div>
+            <a href="{{ .RelPermalink }}">
+              <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy">
+              <div><h3>{{ .LinkTitle }}</h3></div>
+              <div>{{ .Summary }}</div>
+            </a>
+          </div>
+        {{ end }}
+      </div>
     </section>
 
   {{ else }}

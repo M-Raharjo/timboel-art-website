@@ -1,16 +1,95 @@
+{{/* layouts/home.html */}}
 {{ define "main" }}
-
 <main>
-  {{ with .Content }}
-    {{ . }}
-  {{ end }}
 
+  {{/* HOOK: 3–4 featured products (uses bundle cover.* if present) */}}
+{{ $feat := first 3 (where site.RegularPages "Section" "products") }}
+
+<section aria-label="Featured">
+  <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; align-items:stretch;">
+
+    {{ range $i, $p := $feat }}
+      {{ $img := or $p.Params.featured_image $p.Params.main_image }}
+
+      {{ $span := "" }}
+      {{ if eq $i 0 }}
+        {{ $span = "grid-column:1 / span 2; grid-row:1 / span 2;" }}
+      {{ else if eq $i 1 }}
+        {{ $span = "grid-column:3; grid-row:1;" }}
+      {{ else if eq $i 2 }}
+        {{ $span = "grid-column:3; grid-row:2;" }}
+      {{ else }}
+        {{ $span = "grid-column:1 / span 3; grid-row:3;" }}
+      {{ end }}
+
+      <a href="{{ $p.RelPermalink }}" style="{{ $span }} display:block; overflow:hidden; border-radius:1rem;">
+        {{ if $img }}
+          <img
+            src="{{ $img }}"
+            alt="{{ $p.Title }}"
+            style="width:100%; height:100%; object-fit:cover; display:block;"
+            loading="lazy"
+          >
+        {{ else }}
+          <div style="padding:1rem; background:rgba(0,0,0,.04); height:100%; display:flex; align-items:center; justify-content:center; text-align:center;">
+            {{ $p.Title }}
+          </div>
+        {{ end }}
+      </a>
+
+    {{ end }}
+
+  </div>
+
+    <h1 style="text-align:center;">A Masterpiece for <br><span style="color: #CA141C;">Every Space</span></h1>
+<p style="text-align:center;">
+  Every space deserve a touch of exceptional beauty <br> We bring custom-crafted art that creates a unique atmosphere and elegance to every space.
+</p>
+
+  </section>
+  <hr>
+  {{/* BEST SELLERS (placeholder: you can later filter by a param/weight/tag) */}}
+<section>
+  <h2>Best sellers</h2>
+  <div class="grid">
+    {{ range first 4 (where site.RegularPages "Section" "products") }}
+      <div>
+        <a href="{{ .RelPermalink }}">
+          {{ with .Params.featured_image }}
+            <img src="{{ . }}" alt="{{ $.Title }}">
+          {{ end }}
+          <div>{{ .Title }}</div>
+        </a>
+      </div>
+    {{ end }}
+
+  </div>
+<hr>
+</section>
+
+  {{/* NEW ITEMS */}}
   <section>
-    {{ range first 6 (where .Site.RegularPages "Section" "products") }}
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+    <h2>New items</h2>
+  <div class="grid">
+    {{ range first 4 (where site.RegularPages "Section" "products") }}
+      <div>
+        <a href="{{ .RelPermalink }}">
+          {{ with .Params.featured_image }}
+            <img src="{{ . }}" alt="{{ $.Title }}">
+          {{ end }}
+          <div>{{ .Title }}</div>
+        </a>
+      </div>
+    {{ end }}
+  </div>
+    <hr>
+  {{/* ARTICLES */}}
+  <section>
+    <h2>Articles</h2>
+    {{ range first 3 ((where site.RegularPages "Section" "articles").ByDate.Reverse) }}
+      <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
     {{ end }}
   </section>
 
 </main>
-
 {{ end }}
