@@ -1,33 +1,16 @@
 <header class="site-header">
-  <div class="container">
-    <a href="{{ "" | relURL }}" class="logo">
-      <div class="logo-img-wrapper">
-        <img src="{{ "images/timboel-logo.svg" | relURL }}" alt="logo-timboel">
-      </div>
-      <span class="company-name">TIMBOEL</span>
-    </a>
+  <a href="{{ "" | relURL }}" class="logo" aria-label="Timboel Home">
+    <img src="{{ "images/timboel-logo.svg" | relURL }}" alt="">
+    <span class="company-name">TIMBOEL</span>
+  </a>
 
-    <nav class="site-nav">
-      <ul>
-        <li><a href="{{ "collections/" | relURL }}">Collections</a></li>
-        <li><a href="{{ "products/"   | relURL }}">Products</a></li>
-        <li><a href="{{ "projects/"   | relURL }}">Projects</a></li>
-        <li><a href="{{ "articles/"   | relURL }}">Articles</a></li>
-      </ul>
-    </nav>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="{{ "collections/" | relURL }}">Collections</a>
+    <a href="{{ "products/"   | relURL }}">Products</a>
+    <a href="{{ "projects/"   | relURL }}">Projects</a>
+    <a href="{{ "articles/"   | relURL }}">Articles</a>
+    <a href="{{ "search/" | relURL }}" class="search-link">Search</a>
+  </nav>
 
-    <details class="mobile-nav">
-      <summary>Menu</summary>
-      <ul>
-        <li><a href="{{ "collections/" | relURL }}">Collections</a></li>
-        <li><a href="{{ "products/"   | relURL }}">Products</a></li>
-        <li><a href="{{ "projects/"   | relURL }}">Projects</a></li>
-        <li><a href="{{ "articles/"   | relURL }}">Articles</a></li>
-      </ul>
-    </details>
-
-    <div class="utilities">
-      <a href="{{ "search/" | relURL }}" class="icon-button" aria-label="Search">Search</a>
-    </div>
-  </div>
+  
 </header>
