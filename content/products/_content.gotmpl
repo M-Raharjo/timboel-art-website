@@ -1,73 +1,77 @@
-{{/* JSON adapter (remote ERPNext file via GetRemote) the json is created by erpnext by the server script called Website Product Json*/}}
+{{/* layouts/_default/content-adapter.gotmpl */}}
 
 {{ $url := "https://kirun.pttimboel.com/files/website-products.json" }}
-{{ $items := slice }}
-
-{{ with try (resources.GetRemote $url) }}
-  {{ with .Err }}
-    {{ errorf "unable to get remote resource %s: %v" $url . }}
-  {{ else with .Value }}
-    {{ $items = transform.Unmarshal (dict "format" "json") . }}
-  {{ else }}
-    {{ errorf "unable to get remote resource %s" $url }}
-  {{ end }}
-{{ end }}
+{{ $res := resources.GetRemote $url }}
+{{ $items := transform.Unmarshal $res }}
 
 {{ range $items }}
-  {{ $item_code := .item_code }}
-  {{ if not $item_code }}{{ continue }}{{ end }}
 
-  {{ $internal_name := or .item_name "" }}
-  {{ $external_name := or .external_name "" }}
+  {{/* Draft logic */}}
+  {{ $isPublished := eq (int .publish_item) 1 }}
+  {{ $isDraft := not $isPublished }}
+
+  {{/* Name resolution */}}
+  {{ $name := .external_name }}
+  {{ if not $name }}{{ $name = .item_name }}{{ end }}
+
+  {{/* Slug resolution */}}
   {{ $slug := or .slug "" }}
+  {{ if eq $slug "" }}{{ $slug = .item_code | urlize }}{{ end }}
 
-  {{ $panjang := or .panjang 0 }}
-  {{ $lebar   := or .lebar 0 }}
-  {{ $tinggi  := or .tinggi 0 }}
-  {{ $berat   := or .berat 0 }}
-  {{ $cbm     := or .cbm 0 }}
+  {{/* Main image detection */}}
+  {{ $main := "" }}
+  {{ range .images }}
+    {{ if and (reflect.IsMap .) (eq (lower (index . "role")) "main") }}
+      {{ $main = index . "url" }}
+    {{ end }}
+  {{ end }}
 
-  {{ $publish_item := or .publish_item 0 }}
-  {{ $draft := eq (printf "%v" $publish_item) "0" }}
-
-  {{ $collections := or .collection_list (slice) }}
-  {{ $tags := or .tags (slice) }}
-  {{ $gallery := or .images (slice) }}
-  {{ $description := or .website_description "" }}
-
-  {{ $featured_image := "" }}
-  {{ if gt (len $gallery) 0 }}{{ $featured_image = index $gallery 0 }}{{ end }}
+  {{/* Flatten images into URL slice */}}
+  {{ $image_urls := slice }}
+  {{ range .images }}
+    {{ if reflect.IsMap . }}
+      {{ $u := or (index . "url") "" }}
+      {{ if ne $u "" }}
+        {{ $image_urls = $image_urls | append $u }}
+      {{ end }}
+    {{ else }}
+      {{ $u := printf "%v" . }}
+      {{ if ne $u "" }}
+        {{ $image_urls = $image_urls | append $u }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
 
 {{ $params := dict
-  "item_id"        $item_code
-  "description"    $description
-  "collections"    $collections
-  "tags"           $tags
-  "gallery"        $gallery
-  "featured_image" (cond (gt (len $gallery) 0) (index $gallery 0) "")
-  "panjang"        $panjang
-  "lebar"          $lebar
-  "tinggi"         $tinggi
-  "berat"          $berat
-  "cbm"            $cbm
+  "item_id"       .item_code
+  "name"          $name
+  "images"        $image_urls
+  "images_count"  (len .images)
+  "images_raw"    (jsonify .images)
+  "main_image"    $main
+  "weight"        .berat
+  "cbm"           .cbm
+  "collections"   .collection_list
+  "panjang"       .panjang
+  "lebar"         .lebar
+  "tinggi"        .tinggi
+  "description"   .website_description
 }}
 
 
-  {{ $content := dict "mediaType" "text/markdown" "value" $description }}
-
-  {{ $path := (cond (ne $slug "") $slug $item_code) }}
-
-  {{ $page := dict
-      "path"        $path
-      "title"       (cond (ne $external_name "") $external_name $internal_name)
-      "draft"       $draft
-      "kind"        "page"
-      "type"        "products"
-      "params"      $params
-      "content"     $content
-      "collections" $collections
-      "tags"        $tags
+  {{ $content := dict
+    "mediaType" "text/markdown"
+    "value"     .website_description
   }}
 
-  {{ $.AddPage $page }}
+  {{ $.AddPage (dict
+    "path"    (printf "products/%s/index.md" $slug)
+    "title"   $name
+    "draft"   $isDraft
+    "kind"    "page"
+    "type"    "products"
+    "params"  $params
+    "content" $content
+  ) }}
+
 {{ end }}

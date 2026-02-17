@@ -25,20 +25,23 @@
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/collections/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/products/figur-swim-xt-silver-poles/</loc>
+    <loc>http://localhost:1313/timboel-art-website/products/products/figur-swim-xt-silver-poles/index.md/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/products/figure-swim-j-silver-st/</loc>
+    <loc>http://localhost:1313/timboel-art-website/products/products/figure-swim-j-black-silver-tp/index.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/products/figure-swim-j-silver-poles/</loc>
+    <loc>http://localhost:1313/timboel-art-website/products/products/figure-swim-sj-silver-poles/index.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/products/wall-deco-suwek-kimpul-t-copper/</loc>
+    <loc>http://localhost:1313/timboel-art-website/products/products/wall-deco-suwek-kimpul-t-copper/index.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/products/products/figure-swim-j-silver-st/index.md/</loc>
     <priority>0</priority>
   </url>
 </urlset>
