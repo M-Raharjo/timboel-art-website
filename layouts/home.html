@@ -86,9 +86,11 @@
   {{/* ARTICLES */}}
   <section>
     <h2>Articles</h2>
+    <div class="grid">
     {{ range first 3 ((where site.RegularPages "Section" "articles").ByDate.Reverse) }}
       <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
     {{ end }}
+    </div>
   </section>
 
 </main>

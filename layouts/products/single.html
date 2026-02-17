@@ -1,41 +1,44 @@
 {{ define "main" }}
 
-<main style="max-width:1000px; margin:0 auto; padding:1rem;">
+<main>
 
   {{ $hero := or .Params.featured_image .Params.main_image }}
   {{ $gallery := .Params.images }}
 
-  {{ if $hero }}
-    <div style="overflow:hidden; border-radius:1rem; margin-bottom:1rem;">
-      <h1 style="margin:0 0 0.5rem 0;">{{ .Title }}</h1>
-      <div style="margin-bottom:1rem;">{{ .Content }}</div>
-      <img
-        src="{{ $hero }}"
-        alt="{{ .Title }}"
-        style="width:100%; height:auto; display:block;"
-      >
-    </div>
-  {{ end }}
-    <hr>
-    <div style="display:grid; gap:0.5rem;">
-      <div><strong>Dimensions:</strong> {{ .Params.panjang }} cm × {{ .Params.lebar }} cm × {{ .Params.tinggi }} cm</div>
-      <div><strong>Weight:</strong> {{ .Params.weight }} Kg</div>
-      <div><strong>CBM:</strong> {{ .Params.cbm }}</div>
-    </div>
-    <hr>
+  <section>
+
+    <h1>{{ .Title }}</h1>
+    <div>{{ .Content }}</div>
+
+    {{ if $hero }}
+      <a href="{{ $hero }}">
+      <img src="{{ $hero }}" alt="{{ .Title }}">
+      </a>
+    {{ end }}
+
+  </section>
+
+  <hr>
+
+  <section>
+    <div><strong>Dimensions:</strong> {{ .Params.panjang }} cm × {{ .Params.lebar }} cm × {{ .Params.tinggi }} cm</div>
+    <div><strong>Weight:</strong> {{ .Params.weight }} Kg</div>
+    <div><strong>CBM:</strong> {{ .Params.cbm }}</div>
+  </section>
+
+  <hr>
+
   {{ if $gallery }}
-    <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:0.75rem; margin-bottom:1.5rem;">
+  <h2>Product Gallery</h2>
+    <section class="grid">
       {{ range $gallery }}
-        <div style="overflow:hidden; border-radius:0.75rem;">
-          <img
-            src="{{ . }}"
-            alt="{{ $.Title }}"
-            style="width:100%; height:auto; display:block;"
-            loading="lazy"
-          >
+        <div>
+            <a href="{{ . }}">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+            </a>
         </div>
       {{ end }}
-    </div>
+    </section>
   {{ end }}
 
 </main>

@@ -46,6 +46,10 @@ li > a:hover {
   text-decoration: underline;
 }
 
+img {
+  mix-blend-mode: multiply;   /* removes white backgrounds visually */
+}
+
 /* =========================
    MINIMAL READING LAYOUT
 ========================= */
