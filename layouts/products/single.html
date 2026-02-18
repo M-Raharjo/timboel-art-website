@@ -4,6 +4,7 @@
 
   {{ $hero := or .Params.featured_image .Params.main_image }}
   {{ $detail := .Params.detail }}
+  {{ $gallery := .Params.gallery}}
 
   <section>
 
@@ -19,16 +20,14 @@
   </section>
 
   <hr>
-
   <section>
     <div><strong>Dimensions:</strong> {{ .Params.panjang }} cm × {{ .Params.lebar }} cm × {{ .Params.tinggi }} cm</div>
     <div><strong>Weight:</strong> {{ .Params.weight }} Kg</div>
     <div><strong>CBM:</strong> {{ .Params.cbm }}</div>
   </section>
 
-  <hr>
-
   {{ if $detail }}
+  <hr>
   <h2>Closer Look</h2>
     <section class="grid">
       {{ range $detail }}
@@ -41,6 +40,19 @@
     </section>
   {{ end }}
 
+  {{ if $gallery }}
+  <hr>
+  <h2>Closer Look</h2>
+    <section class="grid">
+      {{ range $gallery }}
+        <div>
+            <a href="{{ . }}">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+            </a>
+        </div>
+      {{ end }}
+    </section>
+  {{ end }}
 
 </main>
 
