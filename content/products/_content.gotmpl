@@ -15,8 +15,7 @@
   {{ if not $name }}{{ $name = .item_name }}{{ end }}
 
   {{/* Slug resolution */}}
-  {{ $slug := or .slug "" }}
-  {{ if eq $slug "" }}{{ $slug = .item_code | urlize }}{{ end }}
+  {{ $slug := cond (ne .external_name "") (.external_name | urlize) (.item_code | urlize) }}
 
   {{/* Main image detection */}}
   {{ $main := "" }}
