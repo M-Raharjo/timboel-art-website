@@ -3,7 +3,7 @@
 <main>
 
   {{ $hero := or .Params.featured_image .Params.main_image }}
-  {{ $gallery := .Params.images }}
+  {{ $detail := .Params.detail }}
 
   <section>
 
@@ -28,10 +28,10 @@
 
   <hr>
 
-  {{ if $gallery }}
-  <h2>Product Gallery</h2>
+  {{ if $detail }}
+  <h2>Closer Look</h2>
     <section class="grid">
-      {{ range $gallery }}
+      {{ range $detail }}
         <div>
             <a href="{{ . }}">
           <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
@@ -40,6 +40,7 @@
       {{ end }}
     </section>
   {{ end }}
+
 
 </main>
 

@@ -26,6 +26,21 @@
     {{ end }}
   {{ end }}
 
+  {{/*Detail image detection*/}}
+  {{ $detail := slice }}
+  {{ range .images }}
+  {{ if reflect.IsMap . }}
+    {{ $role := lower (printf "%v" (or (index . "role") "gallery")) }}
+    {{ if eq $role "detail" }}
+      {{ $u := or (index . "url") "" }}
+      {{ if ne $u "" }}
+        {{ $detail = $detail | append $u }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+
   {{/* Flatten images into URL slice */}}
   {{ $image_urls := slice }}
   {{ range .images }}
@@ -56,6 +71,7 @@
   "lebar"         .lebar
   "tinggi"        .tinggi
   "description"   .website_description
+  "detail"        $detail
 }}
 
 
