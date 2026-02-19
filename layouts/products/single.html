@@ -10,12 +10,28 @@
 
 <pre>
 {{ jsonify (dict "indent" "  ") .Params }}
+<p>Taxonomy tags terms count: {{ len .Site.Taxonomies.tags }}</p>
+{{ range $term, $pages := .Site.Taxonomies.tags }}
+  <div>{{ $term }} ({{ len $pages }})</div>
+{{ end }}
+
 </pre>
 
 
 
     <h1>{{ .Title }}</h1>
     <div>{{ .Content }}</div>
+    <div>{{ with .Params.tags }}
+  <p><strong>Tags:</strong>
+  {{ range $i, $t := . }}
+    {{- if $i }}, {{ end -}}
+    <a href="{{ (printf "tags/%s/" ($t | urlize)) | relURL }}">
+      {{ $t }}
+    </a>
+  {{ end }}
+  </p>
+{{ end }}
+</div>
 
     {{ if $hero }}
       <a href="{{ $hero }}">
