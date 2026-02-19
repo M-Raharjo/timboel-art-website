@@ -1,35 +1,42 @@
 {{ define "main" }}
 <main class="collections">
-  <h1 style="text-align: center; padding: 0 2rem;">{{ .Title }}</h1>
+  <h1>{{ .Title }}</h1>
   {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
-taxonomy/term
-  <section class="bento-grid bento-description">
-    {{/* Iterate terms: .Data.Terms works on a terms page */}}
-    {{ range .Data.Terms.Alphabetical }}
-      {{ $p := .Page }} {{/* the term’s page (if it exists) */}}
-      {{/* Thumb: param → first image resource → placeholder */}}
-      {{ $thumb := $p.Params.featured_image}}
-      {{ if not $thumb }}
-        {{ with $p }}
-          {{ with (first 1 (.Resources.ByType "image")) }}
-            {{ $thumb = (index . 0).RelPermalink }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-      {{ if not $thumb }}
-        {{ $thumb = printf "https://placehold.co/200x200?text=%s" (urlquery $p.LinkTitle) }}
-      {{ end }}
+<!-- taxonomy/term -->
+<section class="grid">
+  {{ range .Data.Terms.Alphabetical }}
+    {{ $p := .Page }}
+    {{ $cover := "" }}
 
-      <a href="{{ $p.RelPermalink }}">
-        <div class="bento-item">
-          <img src="{{ $thumb }}" alt="{{ $p.LinkTitle }}" loading="lazy">
-          <div>
-            <h3>{{ $p.LinkTitle }}</h3>
-            {{ with $p.Params.description }}<p>{{ . }}</p>{{ end }}
-          </div>
-        </div>
-      </a>
+    {{/* A: Manual override from term bundle */}}
+    {{ with $p.Params.featured_image }}
+      {{ $cover = . }}
     {{ end }}
-  </section>
+
+    {{/* C: Fallback to first product in this collection */}}
+    {{ if not $cover }}
+      {{ $term := $p.Title }}
+      {{ $pages := where site.RegularPages "Params.collections" "intersect" (slice $term) }}
+      {{ $sorted := sort $pages "Weight" "Title" }}
+      {{ with index $sorted 0 }}
+        {{ $cover = or .Params.main_image .Params.featured_image }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Final fallback */}}
+    {{ if not $cover }}
+      {{ $cover = printf "https://placehold.co/500x500?text=%s" (urlquery $p.LinkTitle) }}
+    {{ end }}
+
+    <a href="{{ $p.RelPermalink }}">
+      <div>
+        <img src="{{ $cover }}" alt="{{ $p.LinkTitle }}" loading="lazy">
+        <h3>{{ $p.LinkTitle }}</h3>
+        <p>{{ $p.Summary }}</p>
+      </div>
+    </a>
+  {{ end }}
+</section>
+
 </main>
 {{ end }}

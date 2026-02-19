@@ -9,18 +9,6 @@
 {{ end }}
 
 
-<div>
-<h1>{{ .Title }}</h1>
-
-<h2>Params (Key → Value)</h2>
-
-{{ range $k, $v := .Params }}
-  <h3>{{ $k }}</h3>
-  <pre>{{ jsonify $v }}</pre>
-{{ end }}
-
-
-</div>
 
   <!-- {{/* Intro bento: text card + featured image */}} -->
 <div class="article container">

@@ -1,35 +1,33 @@
 {{ define "main" }}
-<main class="collections">
-  <h1 style="text-align: center; padding: 0 2rem;">{{ .Title }}</h1>
-  {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
-taxonomy/collection
+<main>
+
+  <h1 style="text-align:center; padding:0 2rem;">{{ .Title }}</h1>
+  {{ with .Content }}
+    <div class="content">{{ . }}</div>
+  {{ end }}
+
   {{ if .Pages }}
-    <section class="bento-grid bento-description">
-      {{ range sort .Pages "Weight" "Title" }}
-        {{/* Thumb: param → first image resource → placeholder with title */}}
-        {{ $thumb := .Params.featured_image }}
-        {{ if not $thumb }}
-          {{ with (first 1 (.Resources.ByType "image")) }}
-            {{ $thumb = (index . 0).RelPermalink }}
-          {{ end }}
-        {{ end }}
-        {{ if not $thumb }}
-          {{ $thumb = printf "https://placehold.co/200x200?text=%s" (urlquery .LinkTitle) }}
+    <hr>
+    taxonomy
+    <section class="grid">
+      {{ range sort .Pages "Title" }}
+
+        {{/* Main image: params.main_image or params.featured_image */}}
+        {{ $img := or .Params.main_image .Params.featured_image }}
+
+        {{ if $img }}
+          <div>
+            <a href="{{ .RelPermalink }}">
+              <img src="{{ $img }}" alt="{{ .LinkTitle }}" loading="lazy">
+            </a>
+          </div>
         {{ end }}
 
-        <a href="{{ .RelPermalink }}">
-          <div class="bento-item">
-            <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy">
-            <div>
-              <h3>{{ .LinkTitle }}</h3>
-              {{ .Summary }}
-            </div>
-          </div>
-        </a>
       {{ end }}
     </section>
   {{ else }}
-    <p>No content fodund.</p>
+    <p>No content found.</p>
   {{ end }}
+
 </main>
 {{ end }}
