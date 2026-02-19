@@ -24,7 +24,7 @@
               <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy">
             {{ end }}
             <div><h3>{{ .LinkTitle }}</h3></div>
-            {{ with .Params.description }}<div>{{ . }}</div>{{ end }}
+            <div>{{ .Summary }}</div>
           </a>
         </div>
       {{ end }}
@@ -46,7 +46,7 @@
               <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy">
             {{ end }}
             <div><h3>{{ .LinkTitle }}</h3></div>
-            {{ with .Summary }}<div>{{ . }}</div>{{ end }}
+            <p>{{ .Summary }}</p>
           </a>
         </div>
       {{ end }}

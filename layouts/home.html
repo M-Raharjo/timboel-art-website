@@ -55,10 +55,8 @@
     {{ range first 4 (where site.RegularPages "Section" "products") }}
       <div>
         <a href="{{ .RelPermalink }}">
-          {{ with .Params.featured_image }}
-            <img src="{{ . }}" alt="{{ $.Title }}">
-          {{ end }}
-          <div>{{ .Title }}</div>
+            <img src="{{ .Params.main_image }}" alt="{{ .LinkTitle }}">
+          <h3>{{ .Title }}</h3>
         </a>
       </div>
     {{ end }}
@@ -74,10 +72,8 @@
     {{ range first 4 (where site.RegularPages "Section" "products") }}
       <div>
         <a href="{{ .RelPermalink }}">
-          {{ with .Params.featured_image }}
-            <img src="{{ . }}" alt="{{ $.Title }}">
-          {{ end }}
-          <div>{{ .Title }}</div>
+            <img src="{{ .Params.main_image }}" alt="{{ .LinkTitle }}">
+          <h3>{{ .Title }}</h3>
         </a>
       </div>
     {{ end }}
