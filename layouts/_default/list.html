@@ -31,7 +31,6 @@
     </section>
 
   {{ else if .RegularPages }}
-
     <section class="grid">
       {{ range sort .RegularPages "Weight" "Title" }}
         {{ $thumb := or .Params.featured_image .Params.main_image }}
