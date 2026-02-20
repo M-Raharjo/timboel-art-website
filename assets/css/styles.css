@@ -120,7 +120,8 @@ hr {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: clamp(.4rem, 1vw, 2rem);
+  white-space: nowrap;
+  gap: 1rem;
 }
 
 
