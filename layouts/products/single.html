@@ -19,7 +19,7 @@
 
 
 
-    <h1>{{ .Title }}</h1>
+    <h1 data-pagefind-body>{{ .Title }}</h1>
     <div>{{ .Content }}</div>
 
     {{ if $hero }}
@@ -31,7 +31,7 @@
   </section>
 
   <hr>
-  <section>
+  <section data-pagefind-body>
     <div><strong>Item ID:</strong> {{ .Params.item_id }}</div>
     <div><strong>Dimensions:</strong> {{ .Params.panjang }} cm × {{ .Params.lebar }} cm × {{ .Params.tinggi }} cm</div>
     <div><strong>Weight:</strong> {{ .Params.weight }} Kg</div>
