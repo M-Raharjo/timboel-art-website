@@ -83,13 +83,17 @@
   <section>
     <h2>Articles</h2>
     <div class="grid">
-      {{ $articles := where site.Pages "Section" "articles" }}
-      {{ $articles = where $articles "Kind" "section" }}
-      {{ $articles = $articles.ByDate.Reverse }}
+      {{ $articles := where site.RegularPages "Section" "articles" }}
 
       {{ range first 3 $articles }}
-        <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+      <div>
+        <a href="{{ .RelPermalink }}">
+        <img src="{{ .Params.main_image }}" alt="{{ .LinkTitle }}">
+        <h3>{{ .Title }}</h3></a>
+        <p>{{ .Summary }}</p>
+      </div>
       {{ end }}
+      
     </div>
   </section>
 

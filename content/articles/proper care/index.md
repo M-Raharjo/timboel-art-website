@@ -1,7 +1,7 @@
 ---
 title: Proper Care
 date: 2025-01-10
-featured_image: "https://placehold.co/300x300?text=Proper Care"
+main_image: "https://placehold.co/300x300?text=Proper Care"
 gallery:
   - "https://placehold.co/300x300?text=gallery 1"
   - "https://placehold.co/400x400?text=gallery 2"

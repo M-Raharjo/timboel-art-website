@@ -17,16 +17,15 @@
 
 </pre>
 
-
-
-    <h1>{{ .Title }}</h1>
-    <div>{{ .Content }}</div>
-
     {{ if $hero }}
       <a href="{{ $hero }}">
       <img src="{{ $hero }}" alt="{{ .Title }}">
       </a>
     {{ end }}
+
+    <h1>{{ .Title }}</h1>
+    <div>single defaults {{ .Content }}</div>
+
 
   </section>
 </main>

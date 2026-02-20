@@ -5,6 +5,7 @@
     <loc>http://localhost:1313/timboel-art-website/products/</loc>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/projects/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/articles/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
@@ -13,6 +14,9 @@
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/</loc>
+    <lastmod>2025-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/timboel-art-website/projects/sample-project/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/timboel-art-website/articles/the-role-of-scluptures/</loc>

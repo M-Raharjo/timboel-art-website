@@ -1,7 +1,7 @@
 ---
 title: Bring the Breeze
 date: 2025-06-23
-featured_image: "https://placehold.co/300x300?text=bring the breeze"
+main_image: "https://placehold.co/300x300?text=bring the breeze"
 gallery:
   - "https://placehold.co/300x300?text=gallery 1"
   - "https://placehold.co/400x400?text=gallery 2"
