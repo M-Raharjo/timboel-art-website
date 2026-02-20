@@ -84,7 +84,8 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
-            -- ignoreCache \
+            --ignoreCache \
+            --cleanDestinationDir \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
