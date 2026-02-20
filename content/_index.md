@@ -8,4 +8,4 @@ hero4: "https://is3.cloudhost.id/image-timboel/product-img/LDC-8E1E6A5C-BST_sudu
 
 ---
 
-wait wait where is this connected?
+wait wait where is this connected? this is the main index of content
