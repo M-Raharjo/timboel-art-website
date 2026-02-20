@@ -1,41 +1,34 @@
 {{ define "main" }}
 
+<main>
 
-{{ range $taxName, $terms := site.Taxonomies }}
-  {{ warnf "taxonomy=%s terms=%d" $taxName (len $terms) }}
-  {{ range $term, $pages := $terms }}
-    {{ warnf "  term=%q pages=%d" $term (len $pages.Pages) }}
-  {{ end }}
-{{ end }}
+  {{ $hero := or .Params.featured_image .Params.main_image }}
+  {{ $detail := .Params.detail }}
+  {{ $gallery := .Params.gallery}}
+
+  <section>
+
+<pre>
+<!-- {{ jsonify (dict "indent" "  ") .Params }}
+<p>Taxonomy tags terms count: {{ len .Site.Taxonomies.tags }}</p>
+{{ range $term, $pages := .Site.Taxonomies.tags }}
+  <div>{{ $term }} ({{ len $pages }})</div>
+{{ end }} -->
+
+</pre>
 
 
 
-  <!-- {{/* Intro bento: text card + featured image */}} -->
-<div class="article container">
-<section class="bento-grid" style="flex: 3 1 0;">
-    <div class="bento-item item-large">
-      <!-- {{/* Prefer page resource "cover.*", else fall back to featured_image param */}} -->
-        <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
-    </div>
-    {{with .Params.gallery}}
-    {{ range . }}
-     <div class="bento-item">
-      <!-- {{/* Prefer page resource "cover.*", else fall back to featured_image param */}} -->
-        <img src="{{ . }}" loading="lazy">
-    </div>
-    {{end}}
-    {{end}}
-
-    
-</section>
-<section style="flex: 2 1 0;">
     <h1>{{ .Title }}</h1>
-    <p>{{ .Content }}</p>
-</section>
+    <div>{{ .Content }}</div>
 
-</div>
+    {{ if $hero }}
+      <a href="{{ $hero }}">
+      <img src="{{ $hero }}" alt="{{ .Title }}">
+      </a>
+    {{ end }}
 
-
-
+  </section>
+</main>
 
 {{ end }}

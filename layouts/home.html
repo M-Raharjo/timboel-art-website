@@ -83,9 +83,13 @@
   <section>
     <h2>Articles</h2>
     <div class="grid">
-    {{ range first 3 ((where site.RegularPages "Section" "articles").ByDate.Reverse) }}
-      <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-    {{ end }}
+      {{ $articles := where site.Pages "Section" "articles" }}
+      {{ $articles = where $articles "Kind" "section" }}
+      {{ $articles = $articles.ByDate.Reverse }}
+
+      {{ range first 3 $articles }}
+        <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+      {{ end }}
     </div>
   </section>
 

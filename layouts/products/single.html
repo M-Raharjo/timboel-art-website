@@ -9,11 +9,11 @@
   <section>
 
 <pre>
-{{ jsonify (dict "indent" "  ") .Params }}
+<!-- {{ jsonify (dict "indent" "  ") .Params }}
 <p>Taxonomy tags terms count: {{ len .Site.Taxonomies.tags }}</p>
 {{ range $term, $pages := .Site.Taxonomies.tags }}
   <div>{{ $term }} ({{ len $pages }})</div>
-{{ end }}
+{{ end }} -->
 
 </pre>
 
@@ -21,17 +21,6 @@
 
     <h1>{{ .Title }}</h1>
     <div>{{ .Content }}</div>
-    <div>{{ with .Params.tags }}
-  <p><strong>Tags:</strong>
-  {{ range $i, $t := . }}
-    {{- if $i }}, {{ end -}}
-    <a href="{{ (printf "tags/%s/" ($t | urlize)) | relURL }}">
-      {{ $t }}
-    </a>
-  {{ end }}
-  </p>
-{{ end }}
-</div>
 
     {{ if $hero }}
       <a href="{{ $hero }}">
@@ -47,6 +36,28 @@
     <div><strong>Dimensions:</strong> {{ .Params.panjang }} cm × {{ .Params.lebar }} cm × {{ .Params.tinggi }} cm</div>
     <div><strong>Weight:</strong> {{ .Params.weight }} Kg</div>
     <div><strong>CBM:</strong> {{ .Params.cbm }}</div>
+    <div>{{ with .Params.tags }}
+      <p><strong>Tags:</strong>
+      {{ range $i, $t := . }}
+        {{- if $i }}, {{ end -}}
+        <a href="{{ (printf "tags/%s/" ($t | urlize)) | relURL }}">
+          {{ $t }}
+        </a>
+      {{ end }}
+      </p>
+    {{ end }}
+    </div>
+    <div>{{ with .Params.collections }}
+      <p><strong>Collections:</strong>
+      {{ range $i, $t := . }}
+        {{- if $i }}, {{ end -}}
+        <a href="{{ (printf "collections/%s/" ($t | urlize)) | relURL }}">
+          {{ $t }}
+        </a>
+      {{ end }}
+      </p>
+    {{ end }}
+    </div>
   </section>
 
   {{ if $detail }}

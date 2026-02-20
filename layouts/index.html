@@ -1,169 +1,21 @@
 {{ define "main" }}
-<h1 class="main-title">A Masterpiece for <br><span class="every-space">Every Space</span></h1>
-<p style="text-align:center;">
-  Every space deserve a touch of exceptional beauty <br> We bring custom-crafted art that creates a unique atmosphere and elegance to every space.
-</p>
-<section class="hero-featured">
-  <div class="hero-layout">
-    <div class="col1">
-      <div class="col1-item">
-        <a href="{{ .Params.hero1 }}"><img src="{{ .Params.hero1 }}" alt="hello"></a>
-      </div>
-    </div>
 
-    <div class="col2">
-      <div class="col2-top"> <a href="{{ .Params.hero2 }}"><img src="{{ .Params.hero2 }}" alt="hello"></a></div>
-      <div  class="col2-bottom"><a href="{{ .Params.hero3 }}"><img  style="object-fit: contain;" src="{{ .Params.hero3 }}" alt="hello"></a></div>
-    </div>
-    <div class="col3">
-      <div class="col3-item"><a href="{{ .Params.hero4 }}"><img src="{{ .Params.hero4 }}" alt="hello"></a></div>
-    </div>
-  </div>
-</section>
+<main>
 
-<section class="home-gallery">
-<div class="container">
-  <div class="gallery-description">
-    <h1>Best Seller</h1> 
-    <p>This top-rated sclupture brings effortless style and character to any space. Loved for its detail and design. </p>
-  </div>
-  <div class="bento-grid bento-scroll">
-    <div class="bento-item item-wide overlay"><img src="https://placehold.co/600x600?text=Wide" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item overlay"><img src="https://placehold.co/600x600?text=Featured" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item overlay"><img src="https://placehold.co/600x600?text=Featured" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item item-tall overlay"><img src="https://placehold.co/600x600?text=Tall" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item overlay"><img src="https://placehold.co/600x600?text=Featured" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item overlay"><img src="https://placehold.co/600x600?text=Featured" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item overlay"><img src="https://placehold.co/600x600?text=Featured" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item text-card">  
-        <h1>View More!</h1>
-        <p>Short description goes here.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
+  <section>
 
-<section class="new-item">
-<div class="container" >
-  <div>
-    <h1>New Items</h1> 
-    <p>This top-rated sclupture brings effortless style and character to any space. Loved for its detail and design. </p>
-  </div>
-  <div class="bento-grid">
-    <div class="bento-item overlay"><img src="https://placehold.co/600x600?text=Featured" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item overlay"><img src="https://placehold.co/600x600?text=Featured" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item overlay"><img src="https://placehold.co/600x600?text=Featured" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item overlay"><img src="https://placehold.co/600x600?text=Featured" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item overlay"><img src="https://placehold.co/600x600?text=Featured" alt="">  
-      <div class="bento-overlay">
-        <h3 class="overlay-title">Title</h3>
-        <p class="overlay-desc">Short description goes here.</p>
-      </div>
-    </div>
-    <div class="bento-item text-card">  
-        <h1>View More!</h1>
-        <p>Short description goes here.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
+<pre>
+<!-- {{ jsonify (dict "indent" "  ") .Params }}
+<p>Taxonomy tags terms count: {{ len .Site.Taxonomies.tags }}</p>
+{{ range $term, $pages := .Site.Taxonomies.tags }}
+  <div>{{ $term }} ({{ len $pages }})</div>
+{{ end }} -->
 
-<section class="articles">
-  <div class="container">
-    <h1>Articles</h1>
-    <p>Insights, Stories, and Inspiration behind the art</p>
-  </div>
-  {{/* Grab the articles section */}}
-  {{ $articles := site.GetPage "section" "articles" }}
-  {{ if $articles }}
-    {{ range sort $articles.RegularPages "Date" "desc" }}
-      <div class="article-list">
-        <div class="article-date">
-          {{ $d := .Date }}
-          <h1>{{ $d.Format "02 Jan" }}</h1> <p>{{ $d.Format "2006" }}</p>
-        </div>
+</pre>
 
-        <div class="article-img">
-          {{/* Pick a cover image with fallbacks */}}
-          {{ $cover := "" }}
-          {{ with .Params.featured_image }}{{ $cover = . }}{{ end }}
-          {{ if not $cover }}{{ with .Resources.GetMatch "cover*" }}{{ $cover = .RelPermalink }}{{ end }}{{ end }}
-          {{ if not $cover }}{{ with (first 1 (.Resources.ByType "image")) }}{{ $cover = (index . 0).RelPermalink }}{{ end }}{{ end }}
-          {{ if not $cover }}{{ $cover = printf "https://placehold.co/250x250?text=%s" (urlquery .Title) }}{{ end }}
+    <h1>{{ .Title }}</h1>
+    <div>{{ .Content }}</div>
 
-          <a href="{{ .RelPermalink }}">
-            <img src="{{ $cover }}" alt="{{ .Title }}" loading="lazy">
-          </a>
-        </div>
-
-        <div class="articles-summary">
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          {{/* Prefer custom summary, else auto .Summary (already HTML) */}}
-          {{ with .Params.summary }}<p>{{ . }}</p>{{ else }}{{ .Summary }}{{ end }}
-        </div>
-      </div>
-    {{ end }}
-  {{ else }}
-    <p>No articles found.</p>
-  {{ end }}
-</section>
+</main>
 
 {{ end }}
-

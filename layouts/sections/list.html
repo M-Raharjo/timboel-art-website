@@ -1,37 +1,22 @@
 {{ define "main" }}
-<main class="collections">
-  <h1 style="text-align: center; padding: 0 2rem;">{{ .Title }}</h1>
-  section/list
-  {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
-  {{ if .RegularPages }}
-    {{/* We are on /collections/<collection>/ → show items */}}
-    <section class="bento-grid bento-description">
-      {{ range sort .RegularPages "Weight" "Title" }}
-        {{/* item thumb: param or first image resource or placeholder */}}
-        {{ $thumb := .Params.featured_image }}
-        {{ if not $thumb }}
-          {{ with (first 1 (.Resources.ByType "image")) }}
-            {{ $thumb = (index . 0).RelPermalink }}
-          {{ end }}
-        {{ end }}
-        {{ if not $thumb }}
-          {{ $thumb = printf "https://placehold.co/200x200?text=%s" (urlquery .Params.title) }}
-        {{ end }}
 
-        <a href="{{.RelPermalink}}">
-        <div class="bento-item">
-          <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy">
-            <div>
-              <h3>{{ .LinkTitle }}</h3>
-              <p>{{ .Summary }}</p>
-            </div>
-        </div>
-        </a>
-      {{ end }}
-    </section>
+<main>
 
-  {{ else }}
-    <p>No content found.</p>
-  {{ end }}
+  <section>
+
+<pre>
+<!-- {{ jsonify (dict "indent" "  ") .Params }}
+<p>Taxonomy tags terms count: {{ len .Site.Taxonomies.tags }}</p>
+{{ range $term, $pages := .Site.Taxonomies.tags }}
+  <div>{{ $term }} ({{ len $pages }})</div>
+{{ end }} -->
+
+</pre>
+
+    <h1>{{ .Title }}</h1>
+    <h2> this is the main index, fallback of all fallback</h2>
+    <div>{{ .Content }}</div>
+
 </main>
+
 {{ end }}
