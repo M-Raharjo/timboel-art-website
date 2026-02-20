@@ -5,10 +5,12 @@
 </head>
 <body class="{{ .Kind }} {{ .Type }}">
   {{ partial "header.html" . }}
-
-  <main id="content">
+  
+  <main  id="content">
     {{ partial "breadcrumbs.html" . }}
+    <section data-pagefind-body>
     {{ block "main" . }}{{ end }}
+    </section>
   </main>
 
   {{ partial "footer.html" . }}
