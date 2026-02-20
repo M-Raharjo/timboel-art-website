@@ -107,20 +107,20 @@ hr {
 }
 
 .logo img {
-  height: clamp(1rem, 5vw, 2rem);
+  height: clamp(2rem, calc(5rem - 4vw), 3rem);
   width: auto;
   display: block;
 }
 
 .company-name {
   color: #CA141C;
-  font-size: clamp(1rem, 5vw, 2rem);
+  font-size: clamp(2rem, calc(5rem - 4vw), 3rem);
 }
 
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: clamp(.4rem, 1vw, 2rem);
 }
 
 
