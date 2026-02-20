@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/timboel-art-website/products/</loc>
+    <loc>http://localhost:1313/products/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/articles/</loc>
+    <loc>http://localhost:1313/articles/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/articles/bring-the-breeze-home/</loc>
+    <loc>http://localhost:1313/articles/bring-the-breeze-home/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/projects/sample-project/</loc>
+    <loc>http://localhost:1313/projects/sample-project/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/articles/the-role-of-scluptures/</loc>
+    <loc>http://localhost:1313/articles/the-role-of-scluptures/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/articles/proper-care/</loc>
+    <loc>http://localhost:1313/articles/proper-care/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/collections/</loc>
+    <loc>http://localhost:1313/collections/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/products/fsb-8392a109-ss.md/</loc>
+    <loc>http://localhost:1313/products/fsb-8392a109-ss.md/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/collections/human/</loc>
+    <loc>http://localhost:1313/collections/human/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/products/nama-marketing.md/</loc>
+    <loc>http://localhost:1313/products/nama-marketing.md/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/collections/pool-side/</loc>
+    <loc>http://localhost:1313/collections/pool-side/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/tags/test-tags/</loc>
+    <loc>http://localhost:1313/tags/test-tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/tags/trial-tags/</loc>
+    <loc>http://localhost:1313/tags/trial-tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/timboel-art-website/products/wire-figur-swim.md/</loc>
+    <loc>http://localhost:1313/products/wire-figur-swim.md/</loc>
     <priority>0</priority>
   </url>
 </urlset>

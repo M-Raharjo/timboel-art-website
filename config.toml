@@ -1,4 +1,4 @@
-baseURL = 'https://m-raharjo.github.io/timboel-art-website/'
+baseURL = 'https://m-raharjo.github.io/'
 languageCode = 'en-us'
 title = 'Timboel'
 [caches]
