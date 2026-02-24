@@ -6,9 +6,13 @@
 
 {{ range $items }}
 
-  {{/* Draft logic */}}
+  {{/* Draft logic:
+    - publish_item must be 1
+    - AND item_image must be non-empty
+  */}}
   {{ $isPublished := eq (int .publish_item) 1 }}
-  {{ $isDraft := not $isPublished }}
+  {{ $hasItemImage := ne (strings.TrimSpace (or .item_image "")) "" }}
+  {{ $isDraft := not (and $isPublished $hasItemImage) }}
 
   {{/* Name resolution */}}
   {{ $name := .external_name }}
