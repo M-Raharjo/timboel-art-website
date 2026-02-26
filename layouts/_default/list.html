@@ -21,7 +21,7 @@
         <div>
           <a href="{{ .RelPermalink }}">
             {{ if $thumb }}
-              <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy">
+              <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy" onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';">
             {{ end }}
             <div><h3>{{ .LinkTitle }}</h3></div>
             <div>{{ .Summary }}</div>
@@ -31,26 +31,39 @@
     </section>
 
   {{ else if .RegularPages }}
-    <section class="grid">
-      {{ range sort .RegularPages "Weight" "Title" }}
-        {{ $thumb := or .Params.featured_image .Params.main_image }}
-        {{ if not $thumb }}
-          {{ with (first 1 (.Resources.ByType "image")) }}
-            {{ $thumb = (index . 0).RelPermalink }}
-          {{ end }}
-        {{ end }}
+{{ $p := .Paginate (sort .RegularPages "Weight" "Title") 16 }}
 
-        <div>
-          <a href="{{ .RelPermalink }}">
-            {{ if $thumb }}
-              <img src="{{ $thumb }}" alt="{{ .LinkTitle }}" loading="lazy">
-            {{ end }}
-            <div><h3>{{ .LinkTitle }}</h3></div>
-            <p>{{ .Summary }}</p>
-          </a>
-        </div>
+<section class="grid">
+  {{ range $p.Pages }}
+    {{ $thumb := or .Params.featured_image .Params.main_image .Params.thumbnail }}
+    {{ if not $thumb }}
+      {{ with (first 1 (.Resources.ByType "image")) }}
+        {{ $thumb = (index . 0).RelPermalink }}
       {{ end }}
-    </section>
+    {{ end }}
+
+    <div>
+      <a href="{{ .RelPermalink }}">
+        {{ if $thumb }}
+          <img
+            src="{{ $thumb }}"
+            alt="{{ .LinkTitle }}"
+            loading="lazy"
+            onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';"
+          >
+        {{ end }}
+        <div><h3>{{ .LinkTitle }}</h3></div>
+        <p>{{ .Summary }}</p>
+      </a>
+    </div>
+  {{ end }}
+</section>
+
+<nav class="site-nav" style="justify-content: center;">
+  {{ with $p.Prev }}<a href="{{ .URL }}">Prev</a>{{ end }}
+  <span>{{ $p.PageNumber }} / {{ $p.TotalPages }} </span>
+  {{ with $p.Next }}<a href="{{ .URL }}">Next</a>{{ end }}
+</nav>
 
   {{ else }}
 

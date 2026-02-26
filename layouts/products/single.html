@@ -24,7 +24,7 @@
 
     {{ if $hero }}
       <a href="{{ $hero }}">
-      <img src="{{ $hero }}" alt="{{ .Title }}">
+      <img src="{{ $hero }}" alt="{{ .Title }}" loading="lazy" onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';">
       </a>
     {{ end }}
 
