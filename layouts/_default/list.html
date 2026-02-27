@@ -31,7 +31,7 @@
     </section>
 
   {{ else if .RegularPages }}
-{{ $p := .Paginate (sort .RegularPages "Weight" "Title") 16 }}
+{{ $p := .Paginate (sort .RegularPages "Params.date_added" "Title") 16 }}
 
 <section class="grid">
   {{ range $p.Pages }}

@@ -68,7 +68,7 @@
 
   {{/* NEW ITEMS */}}
   <section>
-    <h2>New items</h2>
+    <a href="{{ "products/"   | relURL }}"><h2>New items</h2></a>
   <div class="grid">
     {{ range first 4 (sort (where site.RegularPages "Section" "products") "Params.date_added" "desc") }}
       <div>
