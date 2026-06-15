@@ -1,7 +1,8 @@
 {{/* layouts/_default/content-adapter.gotmpl */}}
 
 {{ $url := "https://kirun.pttimboel.com/files/website-products.json" }}
-{{ $res := resources.GetRemote $url }}
+{{ $res := resources.Get "data/website-products.json" }}
+{{/* $res := resources.GetRemote $url */}}
 {{ $items := transform.Unmarshal $res }}
 
 {{ range $items }}
@@ -19,7 +20,8 @@
   {{ if not $name }}{{ $name = .item_name }}{{ end }}
 
   {{/* Slug resolution */}}
-  {{ $slug := cond (ne .external_name "") (.external_name | urlize) (.item_code | urlize) }}
+  {{ $itemCode := strings.TrimSpace (printf "%v" (or .item_code "")) }}
+  {{ $slug := $itemCode | urlize }}
 
   {{/* Main image detection */}}
   {{ $main := "" }}

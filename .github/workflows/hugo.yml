@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
   
   schedule:
-    - cron: "0 * * * *"
+    - cron: "30 0 * * *"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -77,6 +77,16 @@ jobs:
       #     --s3-acl public-read \
       #     --header-upload "Cache-Control: public, max-age=31536000, immutable" \
       #     --fast-list -P
+
+      - name: Fetch Product Json
+        run: |
+          mkdir -p assets/data
+          curl --fail \
+          --retry 5 \
+          --retry-all-errors \
+          --max-time 120 \
+          -o assets/data/website-products.json \
+          "https://kirun.pttimboel.com/files/website-products.json"
 
       - name: Build with Hugo
         env:
