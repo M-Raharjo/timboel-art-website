@@ -12,6 +12,15 @@
   src: url("../fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
 }
 
+:root {
+  --color-text: #212529;
+  --color-bg: #FBF9F5;
+  --color-header: #EEE8DA;
+  --color-footer: #F7F4ED;
+  --color-brand: #CA141C;
+  --color-border: #ddd;
+}
+
 /* =========================
    GLOBAL RESET + BASE
 ========================= */
@@ -22,12 +31,12 @@
 
 * {
   font-family: 'Plus Jakarta', sans-serif;
-  color: #212529;
+  color: var(--color-text);
 }
 
 body {
   margin: 0;
-  background-color: #FBF9F5;
+  background-color: var(--color-bg);
 }
 
 /* Headings use display font */
@@ -46,6 +55,10 @@ li > a:hover {
   text-decoration: underline;
 }
 
+.site-nav a.button:hover {
+  text-decoration: none;
+}
+
 img {
   mix-blend-mode: multiply;   /* removes white backgrounds visually */
 }
@@ -53,15 +66,15 @@ img {
 .button {
   display: inline-block;
   padding: 0.75rem 1rem;
-  border: 1px solid #212529;
+  border: 1px solid var(--color-text);
   border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
 }
 
 .button:hover {
-  background: #212529;
-  color: #FBF9F5;
+  background: var(--color-text);
+  color: var(--color-bg);
   text-decoration: none;
 }
 
@@ -97,7 +110,7 @@ main img {
 
 hr {
   border: none;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--color-bg);
   margin: 2rem 0;
 }
 
@@ -105,7 +118,7 @@ hr {
    HEADER
 ========================= */
 .site-header {
-  background: #EEE8DA;
+  background: var(--color-header);
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -128,7 +141,7 @@ hr {
 }
 
 .company-name {
-  color: #CA141C;
+  color: var(--color-brand);
   font-size: clamp(2rem, calc(5rem - 4vw), 3rem);
 }
 
@@ -137,6 +150,7 @@ hr {
   flex-wrap: wrap;
   white-space: nowrap;
   gap: 1rem;
+  align-items: center;
 }
 
 
@@ -146,7 +160,7 @@ hr {
 
 footer .footer-left {
   width: 100%;
-  background-color: #EEE8DA;
+  background-color: var(--color-header);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -156,7 +170,7 @@ footer .footer-left {
 }
 
 footer .footer-right {
-  background-color: #F7F4ED;
+  background-color: var(--color-footer);
   padding: 1rem;
   display: flex;
   align-items: center;
