@@ -82,9 +82,9 @@ jobs:
         run: |
           mkdir -p assets/data
           curl --fail \
-          --retry 5 \
+          --retry 3 \
           --retry-all-errors \
-          --max-time 120 \
+          --max-time 60 \
           -o assets/data/website-products.json \
           "https://kirun.pttimboel.com/files/website-products.json"
 
