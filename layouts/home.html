@@ -2,8 +2,9 @@
 {{ define "main" }}
 <main>
 
-  {{/* HOOK: 3–4 featured products (uses bundle cover.* if present) */}}
-{{ $feat := first 3 (where site.RegularPages "Section" "products") }}
+{{/* HOOK: 3–4 featured products (uses bundle cover.* if present) */}}
+{{ $products := where site.RegularPages "Section" "products" }}
+{{ $feat := first 3 (shuffle $products) }}
 
 <section aria-label="Featured">
   <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; align-items:stretch;">
@@ -53,7 +54,7 @@
 <section>
   <h2>Best sellers</h2>
   <div class="grid">
-    {{ range first 4 (where site.RegularPages "Section" "products") }}
+    {{ range first 4 (shuffle $products) }}
       <div>
         <a href="{{ .RelPermalink }}">
             <img src="{{ .Params.main_image }}" alt="{{ .LinkTitle }}" loading="lazy" onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';">

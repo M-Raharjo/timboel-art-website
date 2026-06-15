@@ -2,303 +2,170 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hanging on Timboel</title>
-    <link>http://localhost:1313/collections/hanging/</link>
+    <link>https://timboelart.com/collections/hanging/</link>
     <description>Recent content in Hanging on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/collections/hanging/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://timboelart.com/collections/hanging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Body Flipped Encircled - XT - Black Silver TP - Rope</title>
-      <link>http://localhost:1313/products/bfe-424b4736-bst.md/</link>
+      <link>https://timboelart.com/products/bfe-424b4736-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/bfe-424b4736-bst.md/</guid>
+      <guid>https://timboelart.com/products/bfe-424b4736-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Circling Enigma - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/ce-4e96b83f-bst.md/</link>
+      <link>https://timboelart.com/products/ce-4e96b83f-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ce-4e96b83f-bst.md/</guid>
+      <guid>https://timboelart.com/products/ce-4e96b83f-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Climbing Figure - XJ - Black Silver TP - Rope</title>
-      <link>http://localhost:1313/products/cfw-333e8d8a-bst.md/</link>
+      <link>https://timboelart.com/products/cfw-333e8d8a-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/cfw-333e8d8a-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Daun Teratai - M - Black KL</title>
-      <link>http://localhost:1313/products/dts-4bc43467-bk.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/dts-4bc43467-bk.md/</guid>
+      <guid>https://timboelart.com/products/cfw-333e8d8a-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Dreamer Angel - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/dap-b6b68d33-bst.md/</link>
+      <link>https://timboelart.com/products/dap-b6b68d33-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/dap-b6b68d33-bst.md/</guid>
+      <guid>https://timboelart.com/products/dap-b6b68d33-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamic Equilibrium - XJ - Black Silver TP</title>
-      <link>http://localhost:1313/products/de-7ccce140-bst.md/</link>
+      <link>https://timboelart.com/products/de-7ccce140-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/de-7ccce140-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fierce Wolf - L - Black Silver TP</title>
-      <link>http://localhost:1313/products/fw-28c119c0-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/fw-28c119c0-bst.md/</guid>
+      <guid>https://timboelart.com/products/de-7ccce140-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Goat Head 2 - L - Black Silver TP</title>
-      <link>http://localhost:1313/products/agh-5ab7cdea-bst.md/</link>
+      <link>https://timboelart.com/products/agh-5ab7cdea-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/agh-5ab7cdea-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Goat Head 4 - L - Black Silver TP</title>
-      <link>http://localhost:1313/products/agh-49a08de9-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/agh-49a08de9-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Happy Climbing Man - XS - Black Silver TP - Rope</title>
-      <link>http://localhost:1313/products/hcm-65d37a2c-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/hcm-65d37a2c-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Happy Climbing Man - XS - Brilliant Gold Black - Rope</title>
-      <link>http://localhost:1313/products/hcm-5ca2ebaa-bgb.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/hcm-5ca2ebaa-bgb.md/</guid>
+      <guid>https://timboelart.com/products/agh-5ab7cdea-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Horned Colossus - J - Silver ST</title>
-      <link>http://localhost:1313/products/hc-25313540-ss.md/</link>
+      <link>https://timboelart.com/products/hc-25313540-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/hc-25313540-ss.md/</guid>
+      <guid>https://timboelart.com/products/hc-25313540-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>King Croc - XS - Black Silver TP</title>
-      <link>http://localhost:1313/products/wkc-7755ed0a-bst.md/</link>
+      <link>https://timboelart.com/products/wkc-7755ed0a-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/wkc-7755ed0a-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lotus Leaf - L - Black Silver TP - Set 3</title>
-      <link>http://localhost:1313/products/dts-0aeaf139-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/dts-0aeaf139-bst.md/</guid>
+      <guid>https://timboelart.com/products/wkc-7755ed0a-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Lowpoly Hang Climbing - J - Black Silver TP - Rope</title>
-      <link>http://localhost:1313/products/alp-e27f3d59-bst.md/</link>
+      <link>https://timboelart.com/products/alp-e27f3d59-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/alp-e27f3d59-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mom Duck And Kids - S - Black Silver TP</title>
-      <link>http://localhost:1313/products/mda-60fe0f58-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/mda-60fe0f58-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mushroom Bloom - S - Black Silver Trotol</title>
-      <link>http://localhost:1313/products/mbs-24b818aa-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/mbs-24b818aa-bst.md/</guid>
+      <guid>https://timboelart.com/products/alp-e27f3d59-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Pony Tailed Woman - XT - Black Silver TP - Hanging</title>
-      <link>http://localhost:1313/products/mpt-94b9704a-bst.md/</link>
+      <link>https://timboelart.com/products/mpt-94b9704a-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/mpt-94b9704a-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recline In Circle - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/ric-73d478fa-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ric-73d478fa-bst.md/</guid>
+      <guid>https://timboelart.com/products/mpt-94b9704a-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Recline In Circle - XT - Silver ST</title>
-      <link>http://localhost:1313/products/ric-be7fc358-ss.md/</link>
+      <link>https://timboelart.com/products/ric-be7fc358-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ric-be7fc358-ss.md/</guid>
+      <guid>https://timboelart.com/products/ric-be7fc358-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Regal Roar - J - Silver ST</title>
-      <link>http://localhost:1313/products/lmh-2abe9c09-ss.md/</link>
+      <link>https://timboelart.com/products/lmh-2abe9c09-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/lmh-2abe9c09-ss.md/</guid>
+      <guid>https://timboelart.com/products/lmh-2abe9c09-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Ricardo on Wall - L - Black Silver TP</title>
-      <link>http://localhost:1313/products/aro-ef7a9d7f-bst.md/</link>
+      <link>https://timboelart.com/products/aro-ef7a9d7f-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/aro-ef7a9d7f-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ricardo on Wall - L - Black Silver TP</title>
-      <link>http://localhost:1313/products/row-b436807c-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/row-b436807c-bst.md/</guid>
+      <guid>https://timboelart.com/products/aro-ef7a9d7f-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Ricardo on Wall - L - Gold Wash Black</title>
-      <link>http://localhost:1313/products/row-fa0b9966-ap.md/</link>
+      <link>https://timboelart.com/products/row-fa0b9966-ap.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/row-fa0b9966-ap.md/</guid>
+      <guid>https://timboelart.com/products/row-fa0b9966-ap.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Sculptural Rhytm - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/sr-0028bf47-bst.md/</link>
+      <link>https://timboelart.com/products/sr-0028bf47-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/sr-0028bf47-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Seagulls Bird - M - Black Silver TP</title>
-      <link>http://localhost:1313/products/sbs-5d2ebf42-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/sbs-5d2ebf42-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Seagulls Bird - M - Black Silver TP</title>
-      <link>http://localhost:1313/products/sbs-61d76e9b-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/sbs-61d76e9b-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Seagulls Bird - S - Black Silver TP</title>
-      <link>http://localhost:1313/products/sbs-d5c1acad-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/sbs-d5c1acad-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serene Stag - M - Silver ST</title>
-      <link>http://localhost:1313/products/ss-0b1748cd-ss.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ss-0b1748cd-ss.md/</guid>
+      <guid>https://timboelart.com/products/sr-0028bf47-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Spider Hanging Metal - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/ash-8ad21532-bst.md/</link>
+      <link>https://timboelart.com/products/ash-8ad21532-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ash-8ad21532-bst.md/</guid>
+      <guid>https://timboelart.com/products/ash-8ad21532-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Stallion Relief - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/sr-cd04ff14-bst.md/</link>
+      <link>https://timboelart.com/products/sr-cd04ff14-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/sr-cd04ff14-bst.md/</guid>
+      <guid>https://timboelart.com/products/sr-cd04ff14-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Swim Entry - XJ - Black Silver TP</title>
-      <link>http://localhost:1313/products/ase-511f5801-bst.md/</link>
+      <link>https://timboelart.com/products/ase-511f5801-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ase-511f5801-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Swim Swallow - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/ass-42acf482-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ass-42acf482-bst.md/</guid>
+      <guid>https://timboelart.com/products/ase-511f5801-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Swim Swallow Line - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/adw-ca6f3b85-bst.md/</link>
+      <link>https://timboelart.com/products/adw-ca6f3b85-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/adw-ca6f3b85-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Swimmer In Circle - XT - Silver ST</title>
-      <link>http://localhost:1313/products/sic-b93637f6-ss.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/sic-b93637f6-ss.md/</guid>
+      <guid>https://timboelart.com/products/adw-ca6f3b85-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Swimmer In Circle - XT - Silver ST - Rope</title>
-      <link>http://localhost:1313/products/ssi-183f32cc-ss.md/</link>
+      <link>https://timboelart.com/products/ssi-183f32cc-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ssi-183f32cc-ss.md/</guid>
+      <guid>https://timboelart.com/products/ssi-183f32cc-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Twirl Elegant Figure - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/tef-97fa2dc4-bst.md/</link>
+      <link>https://timboelart.com/products/tef-97fa2dc4-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/tef-97fa2dc4-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wave Rider - J - Black Silver Trotol</title>
-      <link>http://localhost:1313/products/wrl-711a0c45-ss.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/wrl-711a0c45-ss.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wave Rider - T - Black Silver Trotol</title>
-      <link>http://localhost:1313/products/wrs-532d51dc-ss.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/wrs-532d51dc-ss.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wave Rider - XT - Black Silver Trotol</title>
-      <link>http://localhost:1313/products/wrm-d9b21c9c-ss.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/wrm-d9b21c9c-ss.md/</guid>
+      <guid>https://timboelart.com/products/tef-97fa2dc4-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Wild Wisdom - L - Black Silver TP - Hanging - Rope</title>
-      <link>http://localhost:1313/products/wws-3c16ad5d-bst.md/</link>
+      <link>https://timboelart.com/products/wws-3c16ad5d-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/wws-3c16ad5d-bst.md/</guid>
+      <guid>https://timboelart.com/products/wws-3c16ad5d-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Wild Wisdom - T - Black Silver TP - Rope</title>
-      <link>http://localhost:1313/products/ww-c17b1821-bst.md/</link>
+      <link>https://timboelart.com/products/ww-c17b1821-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ww-c17b1821-bst.md/</guid>
+      <guid>https://timboelart.com/products/ww-c17b1821-bst.md/</guid>
       <description></description>
     </item>
   </channel>

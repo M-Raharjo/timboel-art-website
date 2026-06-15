@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beruang on Timboel</title>
-    <link>http://localhost:1313/tags/beruang/</link>
+    <link>https://timboelart.com/tags/beruang/</link>
     <description>Recent content in Beruang on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/beruang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://timboelart.com/tags/beruang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Standing Bear - J - Natural Silver</title>
-      <link>http://localhost:1313/products/wsb-4bbdcbf6-ns.md/</link>
+      <link>https://timboelart.com/products/wsb-4bbdcbf6-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/wsb-4bbdcbf6-ns.md/</guid>
+      <guid>https://timboelart.com/products/wsb-4bbdcbf6-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Standing Bear - XT - Natural Silver - Plate</title>
-      <link>http://localhost:1313/products/wss-4b9c0b03-ns.md/</link>
+      <link>https://timboelart.com/products/wss-4b9c0b03-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/wss-4b9c0b03-ns.md/</guid>
+      <guid>https://timboelart.com/products/wss-4b9c0b03-ns.md/</guid>
       <description></description>
     </item>
   </channel>

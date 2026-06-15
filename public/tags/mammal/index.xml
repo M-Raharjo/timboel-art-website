@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mammal on Timboel</title>
-    <link>http://localhost:1313/tags/mammal/</link>
+    <link>https://timboelart.com/tags/mammal/</link>
     <description>Recent content in Mammal on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/mammal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://timboelart.com/tags/mammal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>River Beast - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/rrb-db71dd49-bst.md/</link>
+      <link>https://timboelart.com/products/rrb-db71dd49-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/rrb-db71dd49-bst.md/</guid>
+      <guid>https://timboelart.com/products/rrb-db71dd49-bst.md/</guid>
       <description></description>
     </item>
   </channel>

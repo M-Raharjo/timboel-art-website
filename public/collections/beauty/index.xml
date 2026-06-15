@@ -2,58 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beauty on Timboel</title>
-    <link>http://localhost:1313/collections/beauty/</link>
+    <link>https://timboelart.com/collections/beauty/</link>
     <description>Recent content in Beauty on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/collections/beauty/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://timboelart.com/collections/beauty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dreamer Angel - J - Black Silver TP</title>
-      <link>http://localhost:1313/products/da-a7573b49-bst.md/</link>
+      <link>https://timboelart.com/products/da-a7573b49-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/da-a7573b49-bst.md/</guid>
+      <guid>https://timboelart.com/products/da-a7573b49-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Lunar Embrace - J - Black Silver TP</title>
-      <link>http://localhost:1313/products/les-c9dc60ca-bst.md/</link>
+      <link>https://timboelart.com/products/les-c9dc60ca-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/les-c9dc60ca-bst.md/</guid>
+      <guid>https://timboelart.com/products/les-c9dc60ca-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Lunar Embrace - XJ - Silver ST</title>
-      <link>http://localhost:1313/products/sle-bf29ab07-ss.md/</link>
+      <link>https://timboelart.com/products/sle-bf29ab07-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/sle-bf29ab07-ss.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recline In Circle - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/ric-73d478fa-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ric-73d478fa-bst.md/</guid>
+      <guid>https://timboelart.com/products/sle-bf29ab07-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Recline In Circle - XT - Silver ST</title>
-      <link>http://localhost:1313/products/ric-be7fc358-ss.md/</link>
+      <link>https://timboelart.com/products/ric-be7fc358-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ric-be7fc358-ss.md/</guid>
+      <guid>https://timboelart.com/products/ric-be7fc358-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Small Scale Steed - Black Silver TP</title>
-      <link>http://localhost:1313/products/sss-01973879-bst.md/</link>
+      <link>https://timboelart.com/products/sss-01973879-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/sss-01973879-bst.md/</guid>
+      <guid>https://timboelart.com/products/sss-01973879-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Woman Roots - SJ - Silver ST</title>
-      <link>http://localhost:1313/products/wr-55b6e719-s.md/</link>
+      <link>https://timboelart.com/products/wr-55b6e719-s.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/wr-55b6e719-s.md/</guid>
+      <guid>https://timboelart.com/products/wr-55b6e719-s.md/</guid>
       <description></description>
     </item>
   </channel>

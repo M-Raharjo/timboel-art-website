@@ -2,65 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swimming on Timboel</title>
-    <link>http://localhost:1313/collections/swimming/</link>
+    <link>https://timboelart.com/collections/swimming/</link>
     <description>Recent content in Swimming on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/collections/swimming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://timboelart.com/collections/swimming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Swim Entry - XJ - Black Silver TP</title>
-      <link>http://localhost:1313/products/ase-511f5801-bst.md/</link>
+      <link>https://timboelart.com/products/ase-511f5801-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ase-511f5801-bst.md/</guid>
+      <guid>https://timboelart.com/products/ase-511f5801-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Swim Swallow - XJ - Black Silver TP</title>
-      <link>http://localhost:1313/products/ass-81082aa3-ns.md/</link>
+      <link>https://timboelart.com/products/ass-81082aa3-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ass-81082aa3-ns.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Swim Swallow - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/ass-42acf482-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ass-42acf482-bst.md/</guid>
+      <guid>https://timboelart.com/products/ass-81082aa3-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Swim Swallow Line - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/adw-ca6f3b85-bst.md/</link>
+      <link>https://timboelart.com/products/adw-ca6f3b85-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/adw-ca6f3b85-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Swimmer In Circle - XT - Silver ST</title>
-      <link>http://localhost:1313/products/sic-b93637f6-ss.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/sic-b93637f6-ss.md/</guid>
+      <guid>https://timboelart.com/products/adw-ca6f3b85-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Swimmer In Circle - XT - Silver ST - Rope</title>
-      <link>http://localhost:1313/products/ssi-183f32cc-ss.md/</link>
+      <link>https://timboelart.com/products/ssi-183f32cc-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ssi-183f32cc-ss.md/</guid>
+      <guid>https://timboelart.com/products/ssi-183f32cc-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Swimming Hover - M - Silver ST</title>
-      <link>http://localhost:1313/products/ssh-baf64544-ss.md/</link>
+      <link>https://timboelart.com/products/ssh-baf64544-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ssh-baf64544-ss.md/</guid>
+      <guid>https://timboelart.com/products/ssh-baf64544-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Wire Figur Swim</title>
-      <link>http://localhost:1313/products/fsb-4733043c-ss.md/</link>
+      <link>https://timboelart.com/products/fsb-4733043c-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/fsb-4733043c-ss.md/</guid>
+      <guid>https://timboelart.com/products/fsb-4733043c-ss.md/</guid>
       <description>&lt;p&gt;Wire Figur swim&lt;/p&gt;</description>
     </item>
   </channel>
