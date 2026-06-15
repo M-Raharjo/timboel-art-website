@@ -60,6 +60,19 @@
     </div>
   </section>
 
+  <hr>
+{{ $phone := "6285952710277" }}
+{{ $productName := .Title }}
+{{ $productId := .Params.item_id }}
+
+{{ $message := printf "Hello Timboel, I am interested in %s (%s). Please send information about price, size, availability, finishing options, and shipping." $productName $productId }}
+
+{{ $waURL := printf "https://wa.me/%s?text=%s" $phone ($message | urlquery) }}
+
+<a href="{{ $waURL }}" class="button">
+  Discuss This Piece on WhatsApp
+</a>
+
   {{ if $detail }}
   <hr>
   <h2>Closer Look</h2>

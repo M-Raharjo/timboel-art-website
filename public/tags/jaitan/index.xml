@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaitan on Timboel</title>
+    <link>http://localhost:1313/tags/jaitan/</link>
+    <description>Recent content in Jaitan on Timboel</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/jaitan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gentong Frankens - T - White Korosi Wood TBL</title>
+      <link>http://localhost:1313/products/gf-f7a80c7b-wkw.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gf-f7a80c7b-wkw.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Running Horse - SJ - Black Silver TP</title>
+      <link>http://localhost:1313/products/arh-f260bbce-bst.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/arh-f260bbce-bst.md/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
