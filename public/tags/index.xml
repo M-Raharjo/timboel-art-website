@@ -134,13 +134,6 @@
       <description></description>
     </item>
     <item>
-      <title>Bebek</title>
-      <link>http://localhost:1313/tags/bebek/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bebek/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Beruang</title>
       <link>http://localhost:1313/tags/beruang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -180,20 +173,6 @@
       <link>http://localhost:1313/tags/buaya/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/buaya/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Burung</title>
-      <link>http://localhost:1313/tags/burung/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/burung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Camar</title>
-      <link>http://localhost:1313/tags/camar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/camar/</guid>
       <description></description>
     </item>
     <item>
@@ -428,13 +407,6 @@
       <description></description>
     </item>
     <item>
-      <title>Jamur</title>
-      <link>http://localhost:1313/tags/jamur/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jamur/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Jerapah</title>
       <link>http://localhost:1313/tags/jerapah/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -533,13 +505,6 @@
       <description></description>
     </item>
     <item>
-      <title>Lotus</title>
-      <link>http://localhost:1313/tags/lotus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/lotus/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Macan Kumbang</title>
       <link>http://localhost:1313/tags/macan-kumbang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -624,13 +589,6 @@
       <description></description>
     </item>
     <item>
-      <title>Pari</title>
-      <link>http://localhost:1313/tags/pari/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pari/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>PATUNG</title>
       <link>http://localhost:1313/tags/patung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -666,24 +624,10 @@
       <description></description>
     </item>
     <item>
-      <title>Powder Coating</title>
-      <link>http://localhost:1313/tags/powder-coating/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/powder-coating/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Pustek Putih</title>
       <link>http://localhost:1313/tags/pustek-putih/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/pustek-putih/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>REC</title>
-      <link>http://localhost:1313/tags/rec/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rec/</guid>
       <description></description>
     </item>
     <item>
@@ -712,20 +656,6 @@
       <link>http://localhost:1313/tags/rusa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/rusa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serigala</title>
-      <link>http://localhost:1313/tags/serigala/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/serigala/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sets</title>
-      <link>http://localhost:1313/tags/sets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/sets/</guid>
       <description></description>
     </item>
     <item>
@@ -792,13 +722,6 @@
       <description></description>
     </item>
     <item>
-      <title>Teratai</title>
-      <link>http://localhost:1313/tags/teratai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/teratai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Terracotta</title>
       <link>http://localhost:1313/tags/terracotta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -806,24 +729,10 @@
       <description></description>
     </item>
     <item>
-      <title>Thumbnail</title>
-      <link>http://localhost:1313/tags/thumbnail/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/thumbnail/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Thumbnail Checked</title>
       <link>http://localhost:1313/tags/thumbnail-checked/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/thumbnail-checked/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Trotol Motif</title>
-      <link>http://localhost:1313/tags/trotol-motif/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/trotol-motif/</guid>
       <description></description>
     </item>
     <item>

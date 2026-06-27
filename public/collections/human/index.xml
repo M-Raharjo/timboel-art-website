@@ -8,13 +8,6 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/collections/human/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Attitude Devant - J - Black Silver TP</title>
-      <link>http://localhost:1313/products/ads-9a50b732-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ads-9a50b732-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ballerina Sincere - J - Black Silver TP</title>
       <link>http://localhost:1313/products/bsp-ee5df85f-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -120,20 +113,6 @@
       <description></description>
     </item>
     <item>
-      <title>Happy Climbing Man - XS - Black Silver TP - Rope</title>
-      <link>http://localhost:1313/products/hcm-65d37a2c-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/hcm-65d37a2c-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Happy Climbing Man - XS - Brilliant Gold Black - Rope</title>
-      <link>http://localhost:1313/products/hcm-5ca2ebaa-bgb.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/hcm-5ca2ebaa-bgb.md/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Larasmaya - M - Black Silver TP</title>
       <link>http://localhost:1313/products/l-e0049018-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -152,13 +131,6 @@
       <link>http://localhost:1313/products/sle-bf29ab07-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/sle-bf29ab07-ss.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meditation Woman - T - Black Silver TP</title>
-      <link>http://localhost:1313/products/amw-d290d30b-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/amw-d290d30b-bst.md/</guid>
       <description></description>
     </item>
     <item>
@@ -204,13 +176,6 @@
       <description></description>
     </item>
     <item>
-      <title>Recline In Circle - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/ric-73d478fa-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ric-73d478fa-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Recline In Circle - XT - Silver ST</title>
       <link>http://localhost:1313/products/ric-be7fc358-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -229,13 +194,6 @@
       <link>http://localhost:1313/products/aro-ef7a9d7f-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/aro-ef7a9d7f-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ricardo on Wall - L - Black Silver TP</title>
-      <link>http://localhost:1313/products/row-b436807c-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/row-b436807c-bst.md/</guid>
       <description></description>
     </item>
     <item>
@@ -274,24 +232,10 @@
       <description></description>
     </item>
     <item>
-      <title>Stonden Line - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/asl-6af74b2f-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/asl-6af74b2f-bst.md/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Swim Swallow - XJ - Black Silver TP</title>
       <link>http://localhost:1313/products/ass-81082aa3-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/ass-81082aa3-ns.md/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Swim Swallow - XT - Black Silver TP</title>
-      <link>http://localhost:1313/products/ass-42acf482-bst.md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/ass-42acf482-bst.md/</guid>
       <description></description>
     </item>
     <item>
