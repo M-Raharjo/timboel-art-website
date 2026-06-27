@@ -2,72 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Katalog 2022 on Timboel</title>
-    <link>https://timboelart.com/tags/katalog-2022/</link>
+    <link>http://localhost:1313/tags/katalog-2022/</link>
     <description>Recent content in Katalog 2022 on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/tags/katalog-2022/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/katalog-2022/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Body Balance Line - T - Black Silver TP</title>
-      <link>https://timboelart.com/products/abb-24c3315f-bst.md/</link>
+      <link>http://localhost:1313/products/abb-24c3315f-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/abb-24c3315f-bst.md/</guid>
+      <guid>http://localhost:1313/products/abb-24c3315f-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Climbing Figure - XJ - Black Silver TP - Rope</title>
-      <link>https://timboelart.com/products/cfw-333e8d8a-bst.md/</link>
+      <link>http://localhost:1313/products/cfw-333e8d8a-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/cfw-333e8d8a-bst.md/</guid>
+      <guid>http://localhost:1313/products/cfw-333e8d8a-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Fell Your Self - M - Black Silver TP - Line</title>
-      <link>https://timboelart.com/products/afy-ed088cae-bst.md/</link>
+      <link>http://localhost:1313/products/afy-ed088cae-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/afy-ed088cae-bst.md/</guid>
+      <guid>http://localhost:1313/products/afy-ed088cae-bst.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meditation Woman - T - Black Silver TP</title>
+      <link>http://localhost:1313/products/amw-d290d30b-bst.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/amw-d290d30b-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>New Mustang - XT - Silver ST</title>
-      <link>https://timboelart.com/products/nmh-b8c753df-ss.md/</link>
+      <link>http://localhost:1313/products/nmh-b8c753df-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/nmh-b8c753df-ss.md/</guid>
+      <guid>http://localhost:1313/products/nmh-b8c753df-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Scorpion Line - XT - Black Silver TP</title>
-      <link>https://timboelart.com/products/ass-40ca7398-bst.md/</link>
+      <link>http://localhost:1313/products/ass-40ca7398-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ass-40ca7398-bst.md/</guid>
+      <guid>http://localhost:1313/products/ass-40ca7398-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Stainless Bull - J - Silver ST</title>
-      <link>https://timboelart.com/products/spb-7496140a-ss.md/</link>
+      <link>http://localhost:1313/products/spb-7496140a-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/spb-7496140a-ss.md/</guid>
+      <guid>http://localhost:1313/products/spb-7496140a-ss.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stonden Line - XT - Black Silver TP</title>
+      <link>http://localhost:1313/products/asl-6af74b2f-bst.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/asl-6af74b2f-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Turn Head Horse - XJ - Natural Silver</title>
-      <link>https://timboelart.com/products/wth-71841252-ns.md/</link>
+      <link>http://localhost:1313/products/wth-71841252-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/wth-71841252-ns.md/</guid>
+      <guid>http://localhost:1313/products/wth-71841252-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Up Down Line - J - Black Silver TP</title>
-      <link>https://timboelart.com/products/aud-8071090a-bst.md/</link>
+      <link>http://localhost:1313/products/aud-8071090a-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/aud-8071090a-bst.md/</guid>
+      <guid>http://localhost:1313/products/aud-8071090a-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Walking Horse - XJ - Natural Black Silver TP</title>
-      <link>https://timboelart.com/products/nwh-a7ff7c9e-nbs.md/</link>
+      <link>http://localhost:1313/products/nwh-a7ff7c9e-nbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/nwh-a7ff7c9e-nbs.md/</guid>
+      <guid>http://localhost:1313/products/nwh-a7ff7c9e-nbs.md/</guid>
       <description></description>
     </item>
   </channel>

@@ -12,7 +12,7 @@
     - AND item_image must be non-empty
   */}}
   {{ $isPublished := eq (int .publish_item) 1 }}
-  {{ $hasItemImage := ne (strings.TrimSpace (or .item_image "")) "" }}
+  {{ $hasItemImage := ne (trim (or .item_image "") " \n\r\t") "" }}
   {{ $isDraft := not (and $isPublished $hasItemImage) }}
 
   {{/* Name resolution */}}
@@ -20,7 +20,7 @@
   {{ if not $name }}{{ $name = .item_name }}{{ end }}
 
   {{/* Slug resolution */}}
-  {{ $itemCode := strings.TrimSpace (printf "%v" (or .item_code "")) }}
+  {{ $itemCode := trim (printf "%v" (or .item_code "")) " \n\r\t" }}
   {{ $slug := $itemCode | urlize }}
 
   {{/* Main image detection */}}

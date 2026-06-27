@@ -2,191 +2,191 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collections on Timboel</title>
-    <link>https://timboelart.com/collections/</link>
+    <link>http://localhost:1313/collections/</link>
     <description>Recent content in Collections on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/collections/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/collections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abstract</title>
-      <link>https://timboelart.com/collections/abstract/</link>
+      <link>http://localhost:1313/collections/abstract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/abstract/</guid>
+      <guid>http://localhost:1313/collections/abstract/</guid>
       <description></description>
     </item>
     <item>
       <title>Angel</title>
-      <link>https://timboelart.com/collections/angel/</link>
+      <link>http://localhost:1313/collections/angel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/angel/</guid>
+      <guid>http://localhost:1313/collections/angel/</guid>
       <description></description>
     </item>
     <item>
       <title>Animal</title>
-      <link>https://timboelart.com/collections/animal/</link>
+      <link>http://localhost:1313/collections/animal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/animal/</guid>
+      <guid>http://localhost:1313/collections/animal/</guid>
       <description></description>
     </item>
     <item>
       <title>Ballet</title>
-      <link>https://timboelart.com/collections/ballet/</link>
+      <link>http://localhost:1313/collections/ballet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/ballet/</guid>
+      <guid>http://localhost:1313/collections/ballet/</guid>
       <description></description>
     </item>
     <item>
       <title>Beauty</title>
-      <link>https://timboelart.com/collections/beauty/</link>
+      <link>http://localhost:1313/collections/beauty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/beauty/</guid>
+      <guid>http://localhost:1313/collections/beauty/</guid>
       <description></description>
     </item>
     <item>
       <title>Bird</title>
-      <link>https://timboelart.com/collections/bird/</link>
+      <link>http://localhost:1313/collections/bird/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/bird/</guid>
+      <guid>http://localhost:1313/collections/bird/</guid>
       <description></description>
     </item>
     <item>
       <title>Bull</title>
-      <link>https://timboelart.com/collections/bull/</link>
+      <link>http://localhost:1313/collections/bull/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/bull/</guid>
+      <guid>http://localhost:1313/collections/bull/</guid>
       <description></description>
     </item>
     <item>
       <title>Chess</title>
-      <link>https://timboelart.com/collections/chess/</link>
+      <link>http://localhost:1313/collections/chess/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/chess/</guid>
+      <guid>http://localhost:1313/collections/chess/</guid>
       <description></description>
     </item>
     <item>
       <title>Deer</title>
-      <link>https://timboelart.com/collections/deer/</link>
+      <link>http://localhost:1313/collections/deer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/deer/</guid>
+      <guid>http://localhost:1313/collections/deer/</guid>
       <description></description>
     </item>
     <item>
       <title>Dog</title>
-      <link>https://timboelart.com/collections/dog/</link>
+      <link>http://localhost:1313/collections/dog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/dog/</guid>
+      <guid>http://localhost:1313/collections/dog/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamic</title>
-      <link>https://timboelart.com/collections/dynamic/</link>
+      <link>http://localhost:1313/collections/dynamic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/dynamic/</guid>
+      <guid>http://localhost:1313/collections/dynamic/</guid>
       <description></description>
     </item>
     <item>
       <title>Eagle</title>
-      <link>https://timboelart.com/collections/eagle/</link>
+      <link>http://localhost:1313/collections/eagle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/eagle/</guid>
+      <guid>http://localhost:1313/collections/eagle/</guid>
       <description></description>
     </item>
     <item>
       <title>Elephant</title>
-      <link>https://timboelart.com/collections/elephant/</link>
+      <link>http://localhost:1313/collections/elephant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/elephant/</guid>
+      <guid>http://localhost:1313/collections/elephant/</guid>
       <description></description>
     </item>
     <item>
       <title>Glossy</title>
-      <link>https://timboelart.com/collections/glossy/</link>
+      <link>http://localhost:1313/collections/glossy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/glossy/</guid>
+      <guid>http://localhost:1313/collections/glossy/</guid>
       <description></description>
     </item>
     <item>
       <title>Gymnastic</title>
-      <link>https://timboelart.com/collections/gymnastic/</link>
+      <link>http://localhost:1313/collections/gymnastic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/gymnastic/</guid>
+      <guid>http://localhost:1313/collections/gymnastic/</guid>
       <description></description>
     </item>
     <item>
       <title>Hanging</title>
-      <link>https://timboelart.com/collections/hanging/</link>
+      <link>http://localhost:1313/collections/hanging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/hanging/</guid>
+      <guid>http://localhost:1313/collections/hanging/</guid>
       <description></description>
     </item>
     <item>
       <title>Horse</title>
-      <link>https://timboelart.com/collections/horse/</link>
+      <link>http://localhost:1313/collections/horse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/horse/</guid>
+      <guid>http://localhost:1313/collections/horse/</guid>
       <description></description>
     </item>
     <item>
       <title>Human Collection</title>
-      <link>https://timboelart.com/collections/human/</link>
+      <link>http://localhost:1313/collections/human/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/human/</guid>
+      <guid>http://localhost:1313/collections/human/</guid>
       <description>&lt;h4 id=&#34;human-collection&#34;&gt;Human Collection&lt;/h4&gt;&#xA;&lt;p&gt;Humans has always been some of the popular subject in art. Here we explore some of the collection in Timboel that explore this rich and yet intriguing subject.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kuda</title>
-      <link>https://timboelart.com/collections/kuda/</link>
+      <link>http://localhost:1313/collections/kuda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/kuda/</guid>
+      <guid>http://localhost:1313/collections/kuda/</guid>
       <description></description>
     </item>
     <item>
       <title>Lion</title>
-      <link>https://timboelart.com/collections/lion/</link>
+      <link>http://localhost:1313/collections/lion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/lion/</guid>
+      <guid>http://localhost:1313/collections/lion/</guid>
       <description></description>
     </item>
     <item>
       <title>Onlinestore</title>
-      <link>https://timboelart.com/collections/onlinestore/</link>
+      <link>http://localhost:1313/collections/onlinestore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/onlinestore/</guid>
+      <guid>http://localhost:1313/collections/onlinestore/</guid>
       <description></description>
     </item>
     <item>
       <title>Pool Side</title>
-      <link>https://timboelart.com/collections/pool-side/</link>
+      <link>http://localhost:1313/collections/pool-side/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/pool-side/</guid>
+      <guid>http://localhost:1313/collections/pool-side/</guid>
       <description></description>
     </item>
     <item>
       <title>Rhino</title>
-      <link>https://timboelart.com/collections/rhino/</link>
+      <link>http://localhost:1313/collections/rhino/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/rhino/</guid>
+      <guid>http://localhost:1313/collections/rhino/</guid>
       <description></description>
     </item>
     <item>
       <title>Swimming</title>
-      <link>https://timboelart.com/collections/swimming/</link>
+      <link>http://localhost:1313/collections/swimming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/swimming/</guid>
+      <guid>http://localhost:1313/collections/swimming/</guid>
       <description></description>
     </item>
     <item>
       <title>Wash</title>
-      <link>https://timboelart.com/collections/wash/</link>
+      <link>http://localhost:1313/collections/wash/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/wash/</guid>
+      <guid>http://localhost:1313/collections/wash/</guid>
       <description></description>
     </item>
     <item>
       <title>Yoga</title>
-      <link>https://timboelart.com/collections/yoga/</link>
+      <link>http://localhost:1313/collections/yoga/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/collections/yoga/</guid>
+      <guid>http://localhost:1313/collections/yoga/</guid>
       <description></description>
     </item>
   </channel>

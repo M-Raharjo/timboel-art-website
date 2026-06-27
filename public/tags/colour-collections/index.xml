@@ -2,107 +2,114 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Colour Collections on Timboel</title>
-    <link>https://timboelart.com/tags/colour-collections/</link>
+    <link>http://localhost:1313/tags/colour-collections/</link>
     <description>Recent content in Colour Collections on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/tags/colour-collections/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/colour-collections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alpine Ibex - XT - Brilliant Gold Black</title>
-      <link>https://timboelart.com/products/ai-7d3b09fe-bgb.md/</link>
+      <link>http://localhost:1313/products/ai-7d3b09fe-bgb.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ai-7d3b09fe-bgb.md/</guid>
+      <guid>http://localhost:1313/products/ai-7d3b09fe-bgb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Avocado - M - Sunset Line</title>
-      <link>https://timboelart.com/products/a-avocdo30-sl.md/</link>
+      <link>http://localhost:1313/products/a-avocdo30-sl.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/a-avocdo30-sl.md/</guid>
+      <guid>http://localhost:1313/products/a-avocdo30-sl.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Dudut - XS - Sunset Line</title>
-      <link>https://timboelart.com/products/pd-dudut16c-sl.md/</link>
+      <link>http://localhost:1313/products/pd-dudut16c-sl.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/pd-dudut16c-sl.md/</guid>
+      <guid>http://localhost:1313/products/pd-dudut16c-sl.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Gentong Pas Neck - M - Sunbaked Earth</title>
-      <link>https://timboelart.com/products/gg3-grcpas60-se.md/</link>
+      <link>http://localhost:1313/products/gg3-grcpas60-se.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gg3-grcpas60-se.md/</guid>
+      <guid>http://localhost:1313/products/gg3-grcpas60-se.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Happy Climbing Man - XS - Brilliant Gold Black - Rope</title>
+      <link>http://localhost:1313/products/hcm-5ca2ebaa-bgb.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/hcm-5ca2ebaa-bgb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Indian - M - Stone Mist</title>
-      <link>https://timboelart.com/products/gip-grcind60-sm.md/</link>
+      <link>http://localhost:1313/products/gip-grcind60-sm.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gip-grcind60-sm.md/</guid>
+      <guid>http://localhost:1313/products/gip-grcind60-sm.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Jumping Bull - S - Brilliant Gold Black</title>
-      <link>https://timboelart.com/products/jmb-782bcd0a-bgb.md/</link>
+      <link>http://localhost:1313/products/jmb-782bcd0a-bgb.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/jmb-782bcd0a-bgb.md/</guid>
+      <guid>http://localhost:1313/products/jmb-782bcd0a-bgb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Lion Monumental Sculpture - T - Gold Glossy</title>
-      <link>https://timboelart.com/products/lms-6a0198b8-gg.md/</link>
+      <link>http://localhost:1313/products/lms-6a0198b8-gg.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/lms-6a0198b8-gg.md/</guid>
+      <guid>http://localhost:1313/products/lms-6a0198b8-gg.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Mimi - L - Gold Wash Black</title>
-      <link>https://timboelart.com/products/m-e0352ca4-gwb.md/</link>
+      <link>http://localhost:1313/products/m-e0352ca4-gwb.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/m-e0352ca4-gwb.md/</guid>
+      <guid>http://localhost:1313/products/m-e0352ca4-gwb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Plain Pot - M - Volcanic Patina</title>
-      <link>https://timboelart.com/products/gpp-grcpla60-vp.md/</link>
+      <link>http://localhost:1313/products/gpp-grcpla60-vp.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gpp-grcpla60-vp.md/</guid>
+      <guid>http://localhost:1313/products/gpp-grcpla60-vp.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Pouncing Panther - M - Natural Gold Glossy - Wood Base</title>
-      <link>https://timboelart.com/products/pps-9f362f38-gg.md/</link>
+      <link>http://localhost:1313/products/pps-9f362f38-gg.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/pps-9f362f38-gg.md/</guid>
+      <guid>http://localhost:1313/products/pps-9f362f38-gg.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Ricardo on Wall - L - Gold Wash Black</title>
-      <link>https://timboelart.com/products/row-fa0b9966-ap.md/</link>
+      <link>http://localhost:1313/products/row-fa0b9966-ap.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/row-fa0b9966-ap.md/</guid>
+      <guid>http://localhost:1313/products/row-fa0b9966-ap.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Steed - S - Brilliant Gold Black</title>
-      <link>https://timboelart.com/products/sss-6c57fe8f-bgb.md/</link>
+      <link>http://localhost:1313/products/sss-6c57fe8f-bgb.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sss-6c57fe8f-bgb.md/</guid>
+      <guid>http://localhost:1313/products/sss-6c57fe8f-bgb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Viola - M - Weathered Sand</title>
-      <link>https://timboelart.com/products/gvp-grcvol60-ws.md/</link>
+      <link>http://localhost:1313/products/gvp-grcvol60-ws.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gvp-grcvol60-ws.md/</guid>
+      <guid>http://localhost:1313/products/gvp-grcvol60-ws.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Viona - M - Burnt Sand</title>
-      <link>https://timboelart.com/products/gvp-grcvio60-bs.md/</link>
+      <link>http://localhost:1313/products/gvp-grcvio60-bs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gvp-grcvio60-bs.md/</guid>
+      <guid>http://localhost:1313/products/gvp-grcvio60-bs.md/</guid>
       <description></description>
     </item>
   </channel>

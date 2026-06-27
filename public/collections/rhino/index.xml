@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rhino on Timboel</title>
-    <link>https://timboelart.com/collections/rhino/</link>
+    <link>http://localhost:1313/collections/rhino/</link>
     <description>Recent content in Rhino on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/collections/rhino/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/collections/rhino/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Horn Crest - S - Natural Silver</title>
-      <link>https://timboelart.com/products/hc-6e8aeaf7-ns.md/</link>
+      <link>http://localhost:1313/products/hc-6e8aeaf7-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/hc-6e8aeaf7-ns.md/</guid>
+      <guid>http://localhost:1313/products/hc-6e8aeaf7-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Rhino Combine - L - Natural Black Silver TP</title>
-      <link>https://timboelart.com/products/wmr-c1ee3f58-nbs.md/</link>
+      <link>http://localhost:1313/products/wmr-c1ee3f58-nbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/wmr-c1ee3f58-nbs.md/</guid>
+      <guid>http://localhost:1313/products/wmr-c1ee3f58-nbs.md/</guid>
       <description></description>
     </item>
   </channel>

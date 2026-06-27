@@ -2,205 +2,212 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kuda on Timboel</title>
-    <link>https://timboelart.com/tags/kuda/</link>
+    <link>http://localhost:1313/tags/kuda/</link>
     <description>Recent content in Kuda on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/tags/kuda/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/kuda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Black Forest Horse - J - Black Silver TP</title>
-      <link>https://timboelart.com/products/bfh-5dea7a92-bst.md/</link>
+      <link>http://localhost:1313/products/bfh-5dea7a92-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/bfh-5dea7a92-bst.md/</guid>
+      <guid>http://localhost:1313/products/bfh-5dea7a92-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Chess Knight Horse 1 - XT - Natural Silver</title>
-      <link>https://timboelart.com/products/ckh-6509891b-ns.md/</link>
+      <link>http://localhost:1313/products/ckh-6509891b-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ckh-6509891b-ns.md/</guid>
+      <guid>http://localhost:1313/products/ckh-6509891b-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Cobaltre - XJ - Natural Black Silver TP - Wood Base</title>
-      <link>https://timboelart.com/products/sc-a8ea83f4-nbs.md/</link>
+      <link>http://localhost:1313/products/sc-a8ea83f4-nbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sc-a8ea83f4-nbs.md/</guid>
+      <guid>http://localhost:1313/products/sc-a8ea83f4-nbs.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Full Horse - XT - Natural Black Silver TP</title>
-      <link>https://timboelart.com/products/wmf-e8e56679-nbs.md/</link>
+      <link>http://localhost:1313/products/wmf-e8e56679-nbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/wmf-e8e56679-nbs.md/</guid>
+      <guid>http://localhost:1313/products/wmf-e8e56679-nbs.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Kuda 70 - J - Natural Black Silver TP</title>
-      <link>https://timboelart.com/products/k7c-bba638c3-nbs.md/</link>
+      <link>http://localhost:1313/products/k7c-bba638c3-nbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/k7c-bba638c3-nbs.md/</guid>
+      <guid>http://localhost:1313/products/k7c-bba638c3-nbs.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Kuda Terbang - J - Natural Silver</title>
-      <link>https://timboelart.com/products/ktw-06fca243-ns.md/</link>
+      <link>http://localhost:1313/products/ktw-06fca243-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ktw-06fca243-ns.md/</guid>
+      <guid>http://localhost:1313/products/ktw-06fca243-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Model Mustang Horse Combine - M - Natural Black Silver TP</title>
-      <link>https://timboelart.com/products/mmh-07cf883b-nbs.md/</link>
+      <link>http://localhost:1313/products/mmh-07cf883b-nbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/mmh-07cf883b-nbs.md/</guid>
+      <guid>http://localhost:1313/products/mmh-07cf883b-nbs.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Model Mustang Horse Combine - M - Natural Silver</title>
-      <link>https://timboelart.com/products/mmh-452e09bd-ns.md/</link>
+      <link>http://localhost:1313/products/mmh-452e09bd-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/mmh-452e09bd-ns.md/</guid>
+      <guid>http://localhost:1313/products/mmh-452e09bd-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Mustang Horse - J - Natural Black Silver TP - Wood Combine</title>
-      <link>https://timboelart.com/products/mhc-4faa058d-nbs.md/</link>
+      <link>http://localhost:1313/products/mhc-4faa058d-nbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/mhc-4faa058d-nbs.md/</guid>
+      <guid>http://localhost:1313/products/mhc-4faa058d-nbs.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mustang Horse - SJ - Black Silver TP</title>
+      <link>http://localhost:1313/products/ami-db33aefd-bst.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/ami-db33aefd-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Mustang Horse - XJ - Natural Silver - Horn</title>
-      <link>https://timboelart.com/products/nmh-6bdd97dc-ns.md/</link>
+      <link>http://localhost:1313/products/nmh-6bdd97dc-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/nmh-6bdd97dc-ns.md/</guid>
+      <guid>http://localhost:1313/products/nmh-6bdd97dc-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Mustang Origin - SJ - Natural Silver Stainless - Wood Combine</title>
-      <link>https://timboelart.com/products/sml-f12a8d87-nss.md/</link>
+      <link>http://localhost:1313/products/sml-f12a8d87-nss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sml-f12a8d87-nss.md/</guid>
+      <guid>http://localhost:1313/products/sml-f12a8d87-nss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Mustang Origin - SJ - Silver ST</title>
-      <link>https://timboelart.com/products/spm-45de7a31-ss.md/</link>
+      <link>http://localhost:1313/products/spm-45de7a31-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/spm-45de7a31-ss.md/</guid>
+      <guid>http://localhost:1313/products/spm-45de7a31-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>New Mustang - XT - Silver ST</title>
-      <link>https://timboelart.com/products/nmh-b8c753df-ss.md/</link>
+      <link>http://localhost:1313/products/nmh-b8c753df-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/nmh-b8c753df-ss.md/</guid>
+      <guid>http://localhost:1313/products/nmh-b8c753df-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Running Horse - SJ - Black Silver TP</title>
-      <link>https://timboelart.com/products/arh-f260bbce-bst.md/</link>
+      <link>http://localhost:1313/products/arh-f260bbce-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/arh-f260bbce-bst.md/</guid>
+      <guid>http://localhost:1313/products/arh-f260bbce-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Small Scale Mare - Black Silver TP</title>
-      <link>https://timboelart.com/products/ssm-4d37a471-bst.md/</link>
+      <link>http://localhost:1313/products/ssm-4d37a471-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ssm-4d37a471-bst.md/</guid>
+      <guid>http://localhost:1313/products/ssm-4d37a471-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Small Scale Steed - Black Silver TP</title>
-      <link>https://timboelart.com/products/sss-01973879-bst.md/</link>
+      <link>http://localhost:1313/products/sss-01973879-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sss-01973879-bst.md/</guid>
+      <guid>http://localhost:1313/products/sss-01973879-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Splendor Horse - J - Black Silver TP</title>
-      <link>https://timboelart.com/products/ash-2db4a501-bst.md/</link>
+      <link>http://localhost:1313/products/ash-2db4a501-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ash-2db4a501-bst.md/</guid>
+      <guid>http://localhost:1313/products/ash-2db4a501-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Stallion Relief - XT - Black Silver TP</title>
-      <link>https://timboelart.com/products/sr-cd04ff14-bst.md/</link>
+      <link>http://localhost:1313/products/sr-cd04ff14-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sr-cd04ff14-bst.md/</guid>
+      <guid>http://localhost:1313/products/sr-cd04ff14-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Steed - S - Brilliant Gold Black</title>
-      <link>https://timboelart.com/products/sss-6c57fe8f-bgb.md/</link>
+      <link>http://localhost:1313/products/sss-6c57fe8f-bgb.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sss-6c57fe8f-bgb.md/</guid>
+      <guid>http://localhost:1313/products/sss-6c57fe8f-bgb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Surveyor Horse - J - Black Silver TP</title>
-      <link>https://timboelart.com/products/msh-7b8b8621-bst.md/</link>
+      <link>http://localhost:1313/products/msh-7b8b8621-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/msh-7b8b8621-bst.md/</guid>
+      <guid>http://localhost:1313/products/msh-7b8b8621-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Tail Up Horse - J - Silver ST</title>
-      <link>https://timboelart.com/products/stu-4f80af11-ss.md/</link>
+      <link>http://localhost:1313/products/stu-4f80af11-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/stu-4f80af11-ss.md/</guid>
+      <guid>http://localhost:1313/products/stu-4f80af11-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Troya Horse - T - Natural Silver</title>
-      <link>https://timboelart.com/products/mth-99f2dd83-ns.md/</link>
+      <link>http://localhost:1313/products/mth-99f2dd83-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/mth-99f2dd83-ns.md/</guid>
+      <guid>http://localhost:1313/products/mth-99f2dd83-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Turn Head Horse - XJ - Natural Silver</title>
-      <link>https://timboelart.com/products/wth-71841252-ns.md/</link>
+      <link>http://localhost:1313/products/wth-71841252-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/wth-71841252-ns.md/</guid>
+      <guid>http://localhost:1313/products/wth-71841252-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Walking Horse - J - Silver ST</title>
-      <link>https://timboelart.com/products/swp-e36462cc-ss.md/</link>
+      <link>http://localhost:1313/products/swp-e36462cc-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/swp-e36462cc-ss.md/</guid>
+      <guid>http://localhost:1313/products/swp-e36462cc-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Walking Horse - J - Verdigris</title>
-      <link>https://timboelart.com/products/wph-810b7063-c.md/</link>
+      <link>http://localhost:1313/products/wph-810b7063-c.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/wph-810b7063-c.md/</guid>
+      <guid>http://localhost:1313/products/wph-810b7063-c.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Walking Horse - XJ - Natural Black Silver TP</title>
-      <link>https://timboelart.com/products/nwh-a7ff7c9e-nbs.md/</link>
+      <link>http://localhost:1313/products/nwh-a7ff7c9e-nbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/nwh-a7ff7c9e-nbs.md/</guid>
+      <guid>http://localhost:1313/products/nwh-a7ff7c9e-nbs.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Walking Mini Horse - Black Silver TP</title>
-      <link>https://timboelart.com/products/awm-3f550612-bst.md/</link>
+      <link>http://localhost:1313/products/awm-3f550612-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/awm-3f550612-bst.md/</guid>
+      <guid>http://localhost:1313/products/awm-3f550612-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Windhoof - M - Natural Silver</title>
-      <link>https://timboelart.com/products/w-2c51428d-ns.md/</link>
+      <link>http://localhost:1313/products/w-2c51428d-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/w-2c51428d-ns.md/</guid>
+      <guid>http://localhost:1313/products/w-2c51428d-ns.md/</guid>
       <description></description>
     </item>
   </channel>

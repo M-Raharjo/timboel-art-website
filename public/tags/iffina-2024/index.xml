@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IFFINA 2024 on Timboel</title>
-    <link>https://timboelart.com/tags/iffina-2024/</link>
+    <link>http://localhost:1313/tags/iffina-2024/</link>
     <description>Recent content in IFFINA 2024 on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/tags/iffina-2024/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/iffina-2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Body Flipped Encircled - XT - Black Silver TP - Rope</title>
-      <link>https://timboelart.com/products/bfe-424b4736-bst.md/</link>
+      <link>http://localhost:1313/products/bfe-424b4736-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/bfe-424b4736-bst.md/</guid>
+      <guid>http://localhost:1313/products/bfe-424b4736-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Circling Enigma - XT - Black Silver TP</title>
-      <link>https://timboelart.com/products/ce-4e96b83f-bst.md/</link>
+      <link>http://localhost:1313/products/ce-4e96b83f-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ce-4e96b83f-bst.md/</guid>
+      <guid>http://localhost:1313/products/ce-4e96b83f-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Dreamer Angel - J - Black Silver TP</title>
-      <link>https://timboelart.com/products/da-a7573b49-bst.md/</link>
+      <link>http://localhost:1313/products/da-a7573b49-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/da-a7573b49-bst.md/</guid>
+      <guid>http://localhost:1313/products/da-a7573b49-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Pouncing Panther - M - Natural Black Silver TP</title>
-      <link>https://timboelart.com/products/ppw-877258ba-bst.md/</link>
+      <link>http://localhost:1313/products/ppw-877258ba-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ppw-877258ba-bst.md/</guid>
+      <guid>http://localhost:1313/products/ppw-877258ba-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Scorpion Line - XT - Black Silver TP</title>
-      <link>https://timboelart.com/products/ass-40ca7398-bst.md/</link>
+      <link>http://localhost:1313/products/ass-40ca7398-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ass-40ca7398-bst.md/</guid>
+      <guid>http://localhost:1313/products/ass-40ca7398-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Up Down Line - J - Black Silver TP</title>
-      <link>https://timboelart.com/products/aud-8071090a-bst.md/</link>
+      <link>http://localhost:1313/products/aud-8071090a-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/aud-8071090a-bst.md/</guid>
+      <guid>http://localhost:1313/products/aud-8071090a-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Walking Horse - J - Silver ST</title>
-      <link>https://timboelart.com/products/swp-e36462cc-ss.md/</link>
+      <link>http://localhost:1313/products/swp-e36462cc-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/swp-e36462cc-ss.md/</guid>
+      <guid>http://localhost:1313/products/swp-e36462cc-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Walking Horse - XJ - Natural Black Silver TP</title>
-      <link>https://timboelart.com/products/nwh-a7ff7c9e-nbs.md/</link>
+      <link>http://localhost:1313/products/nwh-a7ff7c9e-nbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/nwh-a7ff7c9e-nbs.md/</guid>
+      <guid>http://localhost:1313/products/nwh-a7ff7c9e-nbs.md/</guid>
       <description></description>
     </item>
   </channel>

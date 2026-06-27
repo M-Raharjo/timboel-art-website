@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kuda on Timboel</title>
-    <link>https://timboelart.com/collections/kuda/</link>
+    <link>http://localhost:1313/collections/kuda/</link>
     <description>Recent content in Kuda on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/collections/kuda/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/collections/kuda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Mustang - SJ - Silver ST</title>
-      <link>https://timboelart.com/products/nmh-12c746ed-ss.md/</link>
+      <link>http://localhost:1313/products/nmh-12c746ed-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/nmh-12c746ed-ss.md/</guid>
+      <guid>http://localhost:1313/products/nmh-12c746ed-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>New Mustang - XJ - Natural Silver - Plate</title>
-      <link>https://timboelart.com/products/nmh-cd1e0898-ns.md/</link>
+      <link>http://localhost:1313/products/nmh-cd1e0898-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/nmh-cd1e0898-ns.md/</guid>
+      <guid>http://localhost:1313/products/nmh-cd1e0898-ns.md/</guid>
       <description></description>
     </item>
   </channel>

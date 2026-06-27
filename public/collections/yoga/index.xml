@@ -2,30 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yoga on Timboel</title>
-    <link>https://timboelart.com/collections/yoga/</link>
+    <link>http://localhost:1313/collections/yoga/</link>
     <description>Recent content in Yoga on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/collections/yoga/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/collections/yoga/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fell Your Self - M - Black Silver TP - Line</title>
-      <link>https://timboelart.com/products/afy-ed088cae-bst.md/</link>
+      <link>http://localhost:1313/products/afy-ed088cae-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/afy-ed088cae-bst.md/</guid>
+      <guid>http://localhost:1313/products/afy-ed088cae-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Lifted Yoga - T - Black Silver TP</title>
-      <link>https://timboelart.com/products/aly-438b77b6-bst.md/</link>
+      <link>http://localhost:1313/products/aly-438b77b6-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/aly-438b77b6-bst.md/</guid>
+      <guid>http://localhost:1313/products/aly-438b77b6-bst.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meditation Woman - T - Black Silver TP</title>
+      <link>http://localhost:1313/products/amw-d290d30b-bst.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/amw-d290d30b-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Scorpion Line - XT - Black Silver TP</title>
-      <link>https://timboelart.com/products/ass-40ca7398-bst.md/</link>
+      <link>http://localhost:1313/products/ass-40ca7398-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ass-40ca7398-bst.md/</guid>
+      <guid>http://localhost:1313/products/ass-40ca7398-bst.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stonden Line - XT - Black Silver TP</title>
+      <link>http://localhost:1313/products/asl-6af74b2f-bst.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/asl-6af74b2f-bst.md/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dynamic on Timboel</title>
-    <link>https://timboelart.com/collections/dynamic/</link>
+    <link>http://localhost:1313/collections/dynamic/</link>
     <description>Recent content in Dynamic on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/collections/dynamic/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/collections/dynamic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ballerina Woman - T - Black Silver TP</title>
-      <link>https://timboelart.com/products/abw-24ad63b8-bst.md/</link>
+      <link>http://localhost:1313/products/abw-24ad63b8-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/abw-24ad63b8-bst.md/</guid>
+      <guid>http://localhost:1313/products/abw-24ad63b8-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Jumping Bull - T - Silver ST</title>
-      <link>https://timboelart.com/products/sjb-83f30e3d-ss.md/</link>
+      <link>http://localhost:1313/products/sjb-83f30e3d-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sjb-83f30e3d-ss.md/</guid>
+      <guid>http://localhost:1313/products/sjb-83f30e3d-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Scorpion Line - XT - Black Silver TP</title>
-      <link>https://timboelart.com/products/ass-40ca7398-bst.md/</link>
+      <link>http://localhost:1313/products/ass-40ca7398-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ass-40ca7398-bst.md/</guid>
+      <guid>http://localhost:1313/products/ass-40ca7398-bst.md/</guid>
       <description></description>
     </item>
   </channel>

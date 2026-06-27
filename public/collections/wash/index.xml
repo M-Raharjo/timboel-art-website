@@ -2,128 +2,170 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wash on Timboel</title>
-    <link>https://timboelart.com/collections/wash/</link>
+    <link>http://localhost:1313/collections/wash/</link>
     <description>Recent content in Wash on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/collections/wash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/collections/wash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dudut - XS - Sunset Line</title>
-      <link>https://timboelart.com/products/pd-dudut16c-sl.md/</link>
+      <link>http://localhost:1313/products/pd-dudut16c-sl.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/pd-dudut16c-sl.md/</guid>
+      <guid>http://localhost:1313/products/pd-dudut16c-sl.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Gentong Pas Neck - M - Sunbaked Earth</title>
-      <link>https://timboelart.com/products/gg3-grcpas60-se.md/</link>
+      <link>http://localhost:1313/products/gg3-grcpas60-se.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gg3-grcpas60-se.md/</guid>
+      <guid>http://localhost:1313/products/gg3-grcpas60-se.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hp Bottle - S - Chinese Red</title>
+      <link>http://localhost:1313/products/hb-3028e5df-cr.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/hb-3028e5df-cr.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Indian - M - Stone Mist</title>
-      <link>https://timboelart.com/products/gip-grcind60-sm.md/</link>
+      <link>http://localhost:1313/products/gip-grcind60-sm.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gip-grcind60-sm.md/</guid>
+      <guid>http://localhost:1313/products/gip-grcind60-sm.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kasuari - T - New Copper Blue</title>
+      <link>http://localhost:1313/products/gk-f5b17611-ncb.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gk-f5b17611-ncb.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lonjong - M - New Copper Blue</title>
+      <link>http://localhost:1313/products/vlm-3d521471-ncb.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/vlm-3d521471-ncb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Lonjong - S - New Copper Blue</title>
-      <link>https://timboelart.com/products/vls-928f9410-ncb.md/</link>
+      <link>http://localhost:1313/products/vls-928f9410-ncb.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/vls-928f9410-ncb.md/</guid>
+      <guid>http://localhost:1313/products/vls-928f9410-ncb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Mickey - M - Sunset Line</title>
-      <link>https://timboelart.com/products/mb-mickey20-sl.md/</link>
+      <link>http://localhost:1313/products/mb-mickey20-sl.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/mb-mickey20-sl.md/</guid>
+      <guid>http://localhost:1313/products/mb-mickey20-sl.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oval Polos - XS - New Copper Blue</title>
+      <link>http://localhost:1313/products/pop-51a52191-ncb.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/pop-51a52191-ncb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Phia - M - New Copper Blue</title>
-      <link>https://timboelart.com/products/pb-5be31965-ncb.md/</link>
+      <link>http://localhost:1313/products/pb-5be31965-ncb.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/pb-5be31965-ncb.md/</guid>
+      <guid>http://localhost:1313/products/pb-5be31965-ncb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Pion - M - Black Gold</title>
-      <link>https://timboelart.com/products/vpl-609eb09a-bg.md/</link>
+      <link>http://localhost:1313/products/vpl-609eb09a-bg.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/vpl-609eb09a-bg.md/</guid>
+      <guid>http://localhost:1313/products/vpl-609eb09a-bg.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Plain Pot - M - Volcanic Patina</title>
-      <link>https://timboelart.com/products/gpp-grcpla60-vp.md/</link>
+      <link>http://localhost:1313/products/gpp-grcpla60-vp.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gpp-grcpla60-vp.md/</guid>
+      <guid>http://localhost:1313/products/gpp-grcpla60-vp.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Roberto Bottle - S - Sunset Line</title>
-      <link>https://timboelart.com/products/rb-robert20-sl.md/</link>
+      <link>http://localhost:1313/products/rb-robert20-sl.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/rb-robert20-sl.md/</guid>
+      <guid>http://localhost:1313/products/rb-robert20-sl.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Round Vase Ulir - XT - White Wash Grey</title>
-      <link>https://timboelart.com/products/grv-827eaeed-wwg.md/</link>
+      <link>http://localhost:1313/products/grv-827eaeed-wwg.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/grv-827eaeed-wwg.md/</guid>
+      <guid>http://localhost:1313/products/grv-827eaeed-wwg.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Sexy Flower - XT - White Gold</title>
-      <link>https://timboelart.com/products/gsf-95fd4897-wg.md/</link>
+      <link>http://localhost:1313/products/gsf-95fd4897-wg.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gsf-95fd4897-wg.md/</guid>
+      <guid>http://localhost:1313/products/gsf-95fd4897-wg.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Swing Bottle - L - Sunset Line</title>
-      <link>https://timboelart.com/products/sb-swing50c-sl.md/</link>
+      <link>http://localhost:1313/products/sb-swing50c-sl.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sb-swing50c-sl.md/</guid>
+      <guid>http://localhost:1313/products/sb-swing50c-sl.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swing Bottle - M - New Copper Blue</title>
+      <link>http://localhost:1313/products/sb-c788b3df-ncb.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/sb-c788b3df-ncb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Swing Bottle - M - Sunset Line</title>
-      <link>https://timboelart.com/products/sb-swing40c-sl.md/</link>
+      <link>http://localhost:1313/products/sb-swing40c-sl.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sb-swing40c-sl.md/</guid>
+      <guid>http://localhost:1313/products/sb-swing40c-sl.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swing Bottle - S - New Copper Blue</title>
+      <link>http://localhost:1313/products/sb-ba01bdc4-ncb.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/sb-ba01bdc4-ncb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Swing Bottle - S - Sunset Line</title>
-      <link>https://timboelart.com/products/sb-swing30c-sl.md/</link>
+      <link>http://localhost:1313/products/sb-swing30c-sl.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sb-swing30c-sl.md/</guid>
+      <guid>http://localhost:1313/products/sb-swing30c-sl.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Tulip - S - Sunset Line</title>
-      <link>https://timboelart.com/products/tp-tulipp30-sl.md/</link>
+      <link>http://localhost:1313/products/tp-tulipp30-sl.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/tp-tulipp30-sl.md/</guid>
+      <guid>http://localhost:1313/products/tp-tulipp30-sl.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Viola - M - Weathered Sand</title>
-      <link>https://timboelart.com/products/gvp-grcvol60-ws.md/</link>
+      <link>http://localhost:1313/products/gvp-grcvol60-ws.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gvp-grcvol60-ws.md/</guid>
+      <guid>http://localhost:1313/products/gvp-grcvol60-ws.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Viona - M - Burnt Sand</title>
-      <link>https://timboelart.com/products/gvp-grcvio60-bs.md/</link>
+      <link>http://localhost:1313/products/gvp-grcvio60-bs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gvp-grcvio60-bs.md/</guid>
+      <guid>http://localhost:1313/products/gvp-grcvio60-bs.md/</guid>
       <description></description>
     </item>
   </channel>

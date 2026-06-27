@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Combine Wood on Timboel</title>
-    <link>https://timboelart.com/tags/combine-wood/</link>
+    <link>http://localhost:1313/tags/combine-wood/</link>
     <description>Recent content in Combine Wood on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/tags/combine-wood/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/combine-wood/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kuda 70 - J - Natural Black Silver TP</title>
-      <link>https://timboelart.com/products/k7c-bba638c3-nbs.md/</link>
+      <link>http://localhost:1313/products/k7c-bba638c3-nbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/k7c-bba638c3-nbs.md/</guid>
+      <guid>http://localhost:1313/products/k7c-bba638c3-nbs.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Mustang Origin - SJ - Natural Silver Stainless - Wood Combine</title>
-      <link>https://timboelart.com/products/sml-f12a8d87-nss.md/</link>
+      <link>http://localhost:1313/products/sml-f12a8d87-nss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sml-f12a8d87-nss.md/</guid>
+      <guid>http://localhost:1313/products/sml-f12a8d87-nss.md/</guid>
       <description></description>
     </item>
   </channel>

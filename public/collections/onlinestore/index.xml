@@ -2,93 +2,156 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Onlinestore on Timboel</title>
-    <link>https://timboelart.com/collections/onlinestore/</link>
+    <link>http://localhost:1313/collections/onlinestore/</link>
     <description>Recent content in Onlinestore on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/collections/onlinestore/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/collections/onlinestore/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abinaya - L - Red Abstract SR CR</title>
-      <link>https://timboelart.com/products/a-eb5e20a0-ras.md/</link>
+      <link>http://localhost:1313/products/a-eb5e20a0-ras.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/a-eb5e20a0-ras.md/</guid>
+      <guid>http://localhost:1313/products/a-eb5e20a0-ras.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Abinaya - S - Red Abstract SR CR</title>
-      <link>https://timboelart.com/products/a-e10e11c7-ras.md/</link>
+      <link>http://localhost:1313/products/a-e10e11c7-ras.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/a-e10e11c7-ras.md/</guid>
+      <guid>http://localhost:1313/products/a-e10e11c7-ras.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Cangklek Ani - M - White Abstract SR CR</title>
-      <link>https://timboelart.com/products/cam-5c12d778-was.md/</link>
+      <link>http://localhost:1313/products/cam-5c12d778-was.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/cam-5c12d778-was.md/</guid>
+      <guid>http://localhost:1313/products/cam-5c12d778-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Couple Bottle - L - White Melt Black</title>
+      <link>http://localhost:1313/products/gcb-b9a8bf0c-wmb.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gcb-b9a8bf0c-wmb.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Couple Bottle - M - White Abstract SR CR</title>
-      <link>https://timboelart.com/products/cb-fb03a089-was.md/</link>
+      <link>http://localhost:1313/products/cb-fb03a089-was.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/cb-fb03a089-was.md/</guid>
+      <guid>http://localhost:1313/products/cb-fb03a089-was.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Couple Bottle - S - White Abstract SR CR</title>
-      <link>https://timboelart.com/products/cb-f54ccef8-was.md/</link>
+      <link>http://localhost:1313/products/cb-f54ccef8-was.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/cb-f54ccef8-was.md/</guid>
+      <guid>http://localhost:1313/products/cb-f54ccef8-was.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Drago Pot - M - Purple Dance</title>
-      <link>https://timboelart.com/products/gdp-43347614-pd.md/</link>
+      <link>http://localhost:1313/products/gdp-43347614-pd.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/gdp-43347614-pd.md/</guid>
+      <guid>http://localhost:1313/products/gdp-43347614-pd.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Gentong - XS - Purple Dance</title>
-      <link>https://timboelart.com/products/vgs-015e80ed-pd.md/</link>
+      <link>http://localhost:1313/products/vgs-015e80ed-pd.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/vgs-015e80ed-pd.md/</guid>
+      <guid>http://localhost:1313/products/vgs-015e80ed-pd.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Hp Bottle - M - White Abstract SR CR</title>
-      <link>https://timboelart.com/products/hb-3406a921-was.md/</link>
+      <link>http://localhost:1313/products/hb-3406a921-was.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/hb-3406a921-was.md/</guid>
+      <guid>http://localhost:1313/products/hb-3406a921-was.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Hp Bottle - S - White Abstract SR CR</title>
-      <link>https://timboelart.com/products/hb-fb85ac85-was.md/</link>
+      <link>http://localhost:1313/products/hb-fb85ac85-was.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/hb-fb85ac85-was.md/</guid>
+      <guid>http://localhost:1313/products/hb-fb85ac85-was.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Lonjong - L - White Melt Black</title>
-      <link>https://timboelart.com/products/vl-0443f992-wmb.md/</link>
+      <link>http://localhost:1313/products/vl-0443f992-wmb.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/vl-0443f992-wmb.md/</guid>
+      <guid>http://localhost:1313/products/vl-0443f992-wmb.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lonjong - S - Golden Rustic</title>
+      <link>http://localhost:1313/products/vls-0ca935c0-gr.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/vls-0ca935c0-gr.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lonjong - S - White Melt Black</title>
+      <link>http://localhost:1313/products/vls-792b09d7-wmb.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/vls-792b09d7-wmb.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oval Gpg - M - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/og-f67f7df5-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/og-f67f7df5-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oval Gpg - S - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/og-08e86d60-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/og-08e86d60-was.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Oval Polos - XS - White Melt Black</title>
-      <link>https://timboelart.com/products/ops-1b81959a-wmb.md/</link>
+      <link>http://localhost:1313/products/ops-1b81959a-wmb.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ops-1b81959a-wmb.md/</guid>
+      <guid>http://localhost:1313/products/ops-1b81959a-wmb.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pion - M - White Melt Black</title>
+      <link>http://localhost:1313/products/vpl-9c92bb01-wmb.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/vpl-9c92bb01-wmb.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pot Genggam - S - Golden Rustic</title>
+      <link>http://localhost:1313/products/pg-70cbecc3-gr.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/pg-70cbecc3-gr.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Roda Bottle - T - White Abstract SR CR</title>
-      <link>https://timboelart.com/products/grw-233b58f5-was.md/</link>
+      <link>http://localhost:1313/products/grw-233b58f5-was.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/grw-233b58f5-was.md/</guid>
+      <guid>http://localhost:1313/products/grw-233b58f5-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teko - M - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/pt-04ce8210-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/pt-04ce8210-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tunas Bottle - S - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/tb-247c20a6-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/tb-247c20a6-was.md/</guid>
       <description></description>
     </item>
   </channel>

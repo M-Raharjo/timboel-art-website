@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IFEX 2025 on Timboel</title>
-    <link>https://timboelart.com/tags/ifex-2025/</link>
+    <link>http://localhost:1313/tags/ifex-2025/</link>
     <description>Recent content in IFEX 2025 on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/tags/ifex-2025/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ifex-2025/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alpine Ibex - XT - Black Silver TP</title>
-      <link>https://timboelart.com/products/ai-b341ec3d-bst.md/</link>
+      <link>http://localhost:1313/products/ai-b341ec3d-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ai-b341ec3d-bst.md/</guid>
+      <guid>http://localhost:1313/products/ai-b341ec3d-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Circling Enigma - XT - Black Silver TP</title>
-      <link>https://timboelart.com/products/ce-4e96b83f-bst.md/</link>
+      <link>http://localhost:1313/products/ce-4e96b83f-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ce-4e96b83f-bst.md/</guid>
+      <guid>http://localhost:1313/products/ce-4e96b83f-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamic Equilibrium - XJ - Black Silver TP</title>
-      <link>https://timboelart.com/products/de-7ccce140-bst.md/</link>
+      <link>http://localhost:1313/products/de-7ccce140-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/de-7ccce140-bst.md/</guid>
+      <guid>http://localhost:1313/products/de-7ccce140-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Majestic Sitting Lion - XJ - Silver ST</title>
-      <link>https://timboelart.com/products/msl-2c86a022-ss.md/</link>
+      <link>http://localhost:1313/products/msl-2c86a022-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/msl-2c86a022-ss.md/</guid>
+      <guid>http://localhost:1313/products/msl-2c86a022-ss.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Mustang Horse - XJ - Natural Silver - Horn</title>
-      <link>https://timboelart.com/products/nmh-6bdd97dc-ns.md/</link>
+      <link>http://localhost:1313/products/nmh-6bdd97dc-ns.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/nmh-6bdd97dc-ns.md/</guid>
+      <guid>http://localhost:1313/products/nmh-6bdd97dc-ns.md/</guid>
       <description></description>
     </item>
     <item>
       <title>New Mustang - SJ - Black Silver TP</title>
-      <link>https://timboelart.com/products/nmh-54297ed1-bst.md/</link>
+      <link>http://localhost:1313/products/nmh-54297ed1-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/nmh-54297ed1-bst.md/</guid>
+      <guid>http://localhost:1313/products/nmh-54297ed1-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Pony Tailed Woman - XT - Black Silver TP - Hanging</title>
-      <link>https://timboelart.com/products/mpt-94b9704a-bst.md/</link>
+      <link>http://localhost:1313/products/mpt-94b9704a-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/mpt-94b9704a-bst.md/</guid>
+      <guid>http://localhost:1313/products/mpt-94b9704a-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Sculptural Rhytm - XT - Black Silver TP</title>
-      <link>https://timboelart.com/products/sr-0028bf47-bst.md/</link>
+      <link>http://localhost:1313/products/sr-0028bf47-bst.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sr-0028bf47-bst.md/</guid>
+      <guid>http://localhost:1313/products/sr-0028bf47-bst.md/</guid>
       <description></description>
     </item>
     <item>
       <title>Silver Peak Stag - SJ - Silver ST - Alu Base</title>
-      <link>https://timboelart.com/products/sps-083ea7b7-ss.md/</link>
+      <link>http://localhost:1313/products/sps-083ea7b7-ss.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/sps-083ea7b7-ss.md/</guid>
+      <guid>http://localhost:1313/products/sps-083ea7b7-ss.md/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Goat on Timboel</title>
-    <link>https://timboelart.com/tags/goat/</link>
+    <link>http://localhost:1313/tags/goat/</link>
     <description>Recent content in Goat on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://timboelart.com/tags/goat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/goat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alpine Ibex - XT - Brilliant Gold Black</title>
-      <link>https://timboelart.com/products/ai-7d3b09fe-bgb.md/</link>
+      <link>http://localhost:1313/products/ai-7d3b09fe-bgb.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timboelart.com/products/ai-7d3b09fe-bgb.md/</guid>
+      <guid>http://localhost:1313/products/ai-7d3b09fe-bgb.md/</guid>
       <description></description>
     </item>
   </channel>
