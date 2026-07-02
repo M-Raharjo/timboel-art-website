@@ -15,9 +15,9 @@ content:
     type: collection
     path: content/articles
     format: yaml-frontmatter
-    filename:
-      template: "{slug}/index.md"
-      field: create
+    filename: "{slug}/index.md"
+    subfolders: true
+
     view:
       primary: title
       fields:
@@ -26,12 +26,12 @@ content:
         - main_image
       sort: date
       order: desc
+
     fields:
       - name: title
         label: Title
         type: string
         required: true
-        description: Article title. This will also create the article folder slug.
 
       - name: date
         label: Date
@@ -42,16 +42,27 @@ content:
         label: Main Image
         type: image
         required: false
-        description: Main image shown at the top of the article.
 
       - name: gallery
         label: Gallery
         type: image
-        list: true
         required: false
-        description: Optional gallery images.
+        options:
+          multiple: true
+          unique: true
+          extensions:
+            - jpg
+            - jpeg
+            - png
+            - webp
+            - gif
 
       - name: body
         label: Body
         type: rich-text
         required: true
+        options:
+          format: markdown
+          media: true
+          rename: safe
+          switcher: true
