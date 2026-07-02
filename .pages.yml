@@ -1,0 +1,57 @@
+media:
+  input: static/uploads/articles
+  output: /uploads/articles
+  rename: safe
+  extensions:
+    - jpg
+    - jpeg
+    - png
+    - webp
+    - gif
+
+content:
+  - name: articles
+    label: Articles
+    type: collection
+    path: content/articles
+    format: yaml-frontmatter
+    filename:
+      template: "{slug}/index.md"
+      field: create
+    view:
+      primary: title
+      fields:
+        - title
+        - date
+        - main_image
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+        description: Article title. This will also create the article folder slug.
+
+      - name: date
+        label: Date
+        type: date
+        required: true
+
+      - name: main_image
+        label: Main Image
+        type: image
+        required: false
+        description: Main image shown at the top of the article.
+
+      - name: gallery
+        label: Gallery
+        type: image
+        list: true
+        required: false
+        description: Optional gallery images.
+
+      - name: body
+        label: Body
+        type: rich-text
+        required: true
