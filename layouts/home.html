@@ -2,18 +2,13 @@
 {{ define "main" }}
 <main>
 
-{{/* HOOK: 3–4 featured products (uses bundle cover.* if present) */}}
-{{ $products := where site.RegularPages "Section" "products" }}
+
+{{ $products := partial "valid-products.html" . }}
 
 <section aria-label="Featured">
   <div class="grid">
     {{ range first 3 (shuffle $products) }}
-      <div>
-        <a href="{{ .RelPermalink }}">
-            <img src="{{ .Params.main_image }}" alt="{{ .LinkTitle }}" loading="lazy" onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';">
-          <h3>{{ .Title }}</h3>
-        </a>
-      </div>
+       {{partial "product-card.html" .}}
     {{ end }}
   </div>
 
@@ -26,17 +21,12 @@
 
   </section>
   <hr>
-  {{/* BEST SELLERS (placeholder: you can later filter by a param/weight/tag) */}}
+  {{/* BEST SELLERS (placeholder: you can later filter by a param/weight/tag)*/}}
 <section>
   <h2>Best sellers</h2>
   <div class="grid">
-    {{ range first 4 (shuffle $products) }}
-      <div>
-        <a href="{{ .RelPermalink }}">
-            <img src="{{ .Params.main_image }}" alt="{{ .LinkTitle }}" loading="lazy" onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';">
-          <h3>{{ .Title }}</h3>
-        </a>
-      </div>
+    {{ range first 4 ($products) }}
+      {{partial "product-card.html" .}}
     {{ end }}
   </div>
 <hr>
@@ -46,13 +36,8 @@
   <section>
     <a href="{{ "products/"   | relURL }}"><h2>New items</h2></a>
   <div class="grid">
-    {{ range first 4 (sort (where site.RegularPages "Section" "products") "Params.date_added" "desc") }}
-      <div>
-        <a href="{{ .RelPermalink }}">
-            <img src="{{ .Params.main_image }}" alt="{{ .LinkTitle }}" loading="lazy" onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';">
-          <h3>{{ .Title }}</h3>
-        </a>
-      </div>
+    {{ range first 4 (sort ($products) "Params.date_added" "desc") }}
+      {{partial "product-card.html" .}}
     {{ end }}
   </div>
     <hr>
@@ -63,14 +48,8 @@
       {{ $articles := where site.RegularPages "Section" "articles" }}
 
       {{ range first 3 $articles }}
-      <div>
-        <a href="{{ .RelPermalink }}">
-        <img src="{{ .Params.main_image }}" alt="{{ .LinkTitle }}" loading="lazy" onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';">
-        <h3>{{ .Title }}</h3></a>
-        <p>{{ .Summary }}</p>
-      </div>
+        {{partial "article-card.html" .}}
       {{ end }}
-      
     </div>
   </section>
 

@@ -1,0 +1,14 @@
+    <div>
+      <a href="{{ .RelPermalink }}">
+        <div class="product-image">
+          <img
+            src="{{ .Params.main_image }}"
+            alt="{{ .LinkTitle }}"
+            loading="lazy"
+            onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';"
+          >
+        </div>
+
+        <h3>{{ .Title }}</h3>
+      </a>
+    </div>

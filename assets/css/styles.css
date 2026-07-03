@@ -190,5 +190,24 @@ footer .logo img {
   display: block;
 }
 
+
+/* =========================
+   Product Card
+========================= */
+
+.product-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: var(--color-bg);
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  display: block;
+}
+
+
 /* debug border */
 /* div { border: 1px solid black;} */

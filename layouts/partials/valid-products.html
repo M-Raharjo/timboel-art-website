@@ -1,0 +1,2 @@
+{{ $products := where site.RegularPages "Section" "products" | shuffle }}
+{{ return $products }}
