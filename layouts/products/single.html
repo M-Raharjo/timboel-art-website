@@ -1,7 +1,5 @@
 {{ define "main" }}
 
-<main>
-
   {{ $hero := or .Params.featured_image .Params.main_image }}
   {{ $detail := .Params.detail }}
   {{ $gallery := .Params.gallery}}
@@ -115,6 +113,5 @@
     </div>
   </section>
 {{ end }}
-</main>
 
 {{ end }}
