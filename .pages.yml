@@ -1,6 +1,6 @@
 media:
-  input: static/uploads/articles
-  output: /uploads/articles
+  input: content/articles
+  output: /articles
   rename: safe
   extensions:
     - jpg
@@ -15,7 +15,9 @@ content:
     type: collection
     path: content/articles
     format: yaml-frontmatter
-    filename: "{slug}/index.md"
+    filename:
+      template: "{slug}/index.md"
+      field: create
     subfolders: true
 
     view:
@@ -39,30 +41,32 @@ content:
         required: true
 
       - name: main_image
-        label: Main Image
-        type: image
-        required: false
-
-      - name: gallery
-        label: Gallery
+        label: Hero Image
         type: image
         required: false
         options:
-          multiple: true
-          unique: true
+          rename: safe
           extensions:
             - jpg
             - jpeg
             - png
             - webp
-            - gif
+
+      - name: summary
+        label: Summary
+        type: text
+        required: false
+
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+        required: false
 
       - name: body
         label: Body
         type: rich-text
-        required: true
+        required: false
         options:
           format: markdown
-          media: true
           rename: safe
-          switcher: true
