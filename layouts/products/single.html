@@ -21,13 +21,24 @@
     <div>{{ .Content }}</div>
 
     {{ if $hero }}
-      <a href="{{ $hero }}">
+      <a href="{{ $hero }}" target="_blank">
       <img src="{{ $hero }}" alt="{{ .Title }}" loading="lazy" onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';">
       </a>
     {{ end }}
 
   </section>
-
+  {{ if $detail }}
+  <h2>Closer Look</h2>
+    <section class="grid">
+      {{ range $detail }}
+        <div>
+            <a href="{{ . }}" target="_blank">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+            </a>
+        </div>
+      {{ end }}
+    </section>
+  {{ end }}
   <hr>
   <section>
     <div data-pagefind-body><strong>Item ID:</strong> {{ .Params.item_id }}</div>
@@ -57,19 +68,7 @@
     {{ end }}
     </div>
   </section>
-  {{ if $detail }}
-  <hr>
-  <h2>Closer Look</h2>
-    <section class="grid">
-      {{ range $detail }}
-        <div>
-            <a href="{{ . }}">
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
-            </a>
-        </div>
-      {{ end }}
-    </section>
-  {{ end }}
+
   <hr>
 {{ $phone := "6285952710277" }}
 {{ $productName := .Title }}
