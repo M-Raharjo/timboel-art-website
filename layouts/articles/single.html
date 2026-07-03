@@ -1,0 +1,45 @@
+{{ define "main" }}
+  {{ $heroParam := or .Params.featured_image .Params.main_image }}
+
+  <article class="article-page">
+    {{ with $heroParam }}
+      {{ $heroOriginal := printf "%s" . }}
+      {{ $heroClean := strings.TrimPrefix "./" $heroOriginal }}
+
+      {{ with $.Resources.GetMatch $heroClean }}
+        <a href="{{ .RelPermalink }}">
+          <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy">
+        </a>
+      {{ else }}
+        <a href="{{ $heroOriginal }}">
+          <img src="{{ $heroOriginal }}" alt="{{ $.Title }}" loading="lazy">
+        </a>
+      {{ end }}
+    {{ end }}
+
+    <h1>{{ .Title }}</h1>
+
+    {{ with .Params.summary }}
+      <p class="article-summary">{{ . }}</p>
+    {{ end }}
+
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+  </article>
+
+  {{/*
+    Future related-products strategy:
+
+    Add this to article front matter:
+
+    mentioned_products:
+      - product-slug-1
+      - product-slug-2
+
+    Then resolve those product pages here and render product-card.html.
+
+    Do not use automatic text scanning first. Explicit front matter is cleaner,
+    faster, and easier to control.
+  */}}
+{{ end }}
