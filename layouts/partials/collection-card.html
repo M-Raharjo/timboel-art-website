@@ -1,0 +1,14 @@
+{{ $page := .page }}
+{{ $cover := .cover }}
+
+<a href="{{ $page.RelPermalink }}">
+  <div class="product-image">
+    <img
+      src="{{ $cover }}"
+      alt="{{ $page.LinkTitle }}"
+      loading="lazy"
+    >
+    <h3 style="text-align:center;">{{ $page.LinkTitle }}</h3>
+    <p>{{ $page.Summary }}</p>
+  </div>
+</a>
