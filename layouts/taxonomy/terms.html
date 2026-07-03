@@ -1,42 +1,43 @@
 {{ define "main" }}
 <main class="collections">
+
   <h1>{{ .Title }}</h1>
-  {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
-<!-- taxonomy/term -->
-<section class="grid">
-  {{ range .Data.Terms.Alphabetical }}
-    {{ $p := .Page }}
-    {{ $cover := "" }}
 
-    {{/* A: Manual override from term bundle */}}
-    {{ with $p.Params.featured_image }}
-      {{ $cover = . }}
-    {{ end }}
-
-    {{/* C: Fallback to first product in this collection */}}
-    {{ if not $cover }}
-      {{ $term := $p.Title }}
-      {{ $pages := where site.RegularPages "Params.collections" "intersect" (slice $term) }}
-      {{ $sorted := sort $pages "Weight" "Title" }}
-      {{ with index $sorted 0 }}
-        {{ $cover = or .Params.main_image .Params.featured_image }}
-      {{ end }}
-    {{ end }}
-
-    {{/* Final fallback */}}
-    {{ if not $cover }}
-      {{ $cover = printf "https://placehold.co/500x500?text=%s" (urlquery $p.LinkTitle) }}
-    {{ end }}
-
-    <a href="{{ $p.RelPermalink }}">
-      <div>
-        <img src="{{ $cover }}" alt="{{ $p.LinkTitle }}" loading="lazy" >
-        <h3>{{ $p.LinkTitle }}</h3>
-        <p>{{ $p.Summary }}</p>
-      </div>
-    </a>
+  {{ with .Content }}
+    <div class="content">{{ . }}</div>
   {{ end }}
-</section>
+
+  <section class="grid">
+    {{ range .Data.Terms.Alphabetical }}
+
+      {{ $p := .Page }}
+      {{ $cover := "" }}
+
+      {{/* Manual override from term bundle */}}
+      {{ with $p.Params.featured_image }}
+        {{ $cover = . }}
+      {{ end }}
+
+      {{/* Fallback to first product in this collection */}}
+      {{ if not $cover }}
+        {{ $term := $p.Title }}
+        {{ $pages := where site.RegularPages "Params.collections" "intersect" (slice $term) }}
+        {{ $sorted := sort $pages "Weight" "Title" }}
+
+        {{ with index $sorted 0 }}
+          {{ $cover = or .Params.main_image .Params.featured_image .Params.thumbnail }}
+        {{ end }}
+      {{ end }}
+
+      {{/* Final fallback */}}
+      {{ if not $cover }}
+        {{ $cover = printf "https://placehold.co/500x500?text=%s" (urlquery $p.LinkTitle) }}
+      {{ end }}
+
+      {{ partial "collection-card.html" (dict "page" $p "cover" $cover) }}
+
+    {{ end }}
+  </section>
 
 </main>
 {{ end }}

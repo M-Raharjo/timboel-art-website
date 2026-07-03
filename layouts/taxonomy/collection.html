@@ -2,31 +2,30 @@
 <main>
 
   <h1 style="text-align:center; padding:0 2rem;">{{ .Title }}</h1>
+
   {{ with .Content }}
     <div class="content">{{ . }}</div>
   {{ end }}
 
   {{ if .Pages }}
     <hr>
-    taxonomy
+
     <section class="grid">
       {{ range sort .Pages "Title" }}
 
-        {{/* Main image: params.main_image or params.featured_image */}}
-        {{ $img := or .Params.main_image .Params.featured_image }}
-
-        {{ if $img }}
-          <div>
-            <a href="{{ .RelPermalink }}">
-              <img src="{{ $img }}" alt="{{ .LinkTitle }}" loading="lazy" >
-            </a> 
-          </div>
+        {{ if eq .Section "products" }}
+          {{ partial "product-card.html" . }}
+        {{ else }}
+          {{ partial "article-card.html" . }}
         {{ end }}
 
       {{ end }}
     </section>
+
   {{ else }}
+
     <p>No content found. on taxonomy/collection page</p>
+
   {{ end }}
 
 </main>
