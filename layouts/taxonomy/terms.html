@@ -1,12 +1,12 @@
 {{ define "main" }}
 <main class="collections">
 
-  <h1>{{ .Title }}</h1>
+  <h1 style="text-align:center; padding:0 2rem;"> {{ .Title }}</h1>
 
   {{ with .Content }}
     <div class="content">{{ . }}</div>
   {{ end }}
-
+<hr>
   <section class="grid">
     {{ range .Data.Terms.Alphabetical }}
 
