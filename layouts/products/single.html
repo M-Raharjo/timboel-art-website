@@ -57,7 +57,19 @@
     {{ end }}
     </div>
   </section>
-
+  {{ if $detail }}
+  <hr>
+  <h2>Closer Look</h2>
+    <section class="grid">
+      {{ range $detail }}
+        <div>
+            <a href="{{ . }}">
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+            </a>
+        </div>
+      {{ end }}
+    </section>
+  {{ end }}
   <hr>
 {{ $phone := "6285952710277" }}
 {{ $productName := .Title }}
@@ -72,23 +84,10 @@
   Discuss This Piece on WhatsApp
 </a>
 
-  {{ if $detail }}
-  <hr>
-  <h2>Closer Look</h2>
-    <section class="grid">
-      {{ range $detail }}
-        <div>
-            <a href="{{ . }}">
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
-            </a>
-        </div>
-      {{ end }}
-    </section>
-  {{ end }}
 
   {{ if $gallery }}
   <hr>
-  <h2>Closer Look</h2>
+  <h2>CGallery</h2>
     <section class="grid">
       {{ range $gallery }}
         <div>
