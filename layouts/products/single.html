@@ -66,7 +66,7 @@
 {{ $productId := .Params.item_id }}
 {{ $productURL := .Permalink }}
 
-{{ $message := printf "Hello Timboel, I am interested in %s (%s).\n\nProduct link: %s\n\n Please send information about price, size, availability, finishing options, and shipping." $productName $productId $productURL}}
+{{ $message := printf "Hello Timboel, I am interested in %s (%s).\n\nProduct link: %s\n\n Please send information about price, availability, and shipping." $productName $productId $productURL}}
 
 {{ $waURL := printf "https://wa.me/%s?text=%s" $phone ($message | urlquery) }}
 

@@ -13,11 +13,24 @@
   </div>
 
 <div aria-label="Main Title">
-  <h1 style="text-align:center;">A Masterpiece for <br><span style="color: #CA141C;">Every Space</span></h1>
+  <h1 style="text-align:center;">Statement Art<br> for<br><span style="color: #CA141C;">Spaces That Matter</span></h1>
   <p style="text-align:center;">
-    Every space deserve a touch of exceptional beauty <br> We bring custom-crafted art that creates a unique atmosphere and elegance to every space.
+    Locally crafted scluptures from Indonesia for homes, hotels, retailers, and project spaces<br>that brings presence, character, and lasting impression.
   </p>
 </div>
+
+<section aria-label="call-to-action" style="text-align: center;">
+{{ $phone := "6285952710277" }}
+
+{{ $message := printf "Hello Timboel, I'm interested in your wholesale catalogue. Please send your available sculpture collection, lead time, and export options." }}
+
+{{ $waURL := printf "https://wa.me/%s?text=%s" $phone ($message | urlquery) }}
+
+<a href="{{ $waURL }}" class="button" target="_blank" rel="noopener noreferrer">
+  Request Wholesale Catalogue
+</a>
+<a class="button" href="/products/">View Collection</a>
+</section>
 
   </section>
   <hr>
