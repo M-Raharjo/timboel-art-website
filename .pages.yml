@@ -1,0 +1,68 @@
+media:
+  input: static/uploads/articles
+  output: /uploads/articles
+  rename: safe
+  extensions:
+    - jpg
+    - jpeg
+    - png
+    - webp
+    - gif
+
+content:
+  - name: articles
+    label: Articles
+    type: collection
+    path: content/articles
+    format: yaml-frontmatter
+    filename: "{slug}/index.md"
+    subfolders: true
+
+    view:
+      primary: title
+      fields:
+        - title
+        - date
+        - main_image
+      sort: date
+      order: desc
+
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: date
+        label: Date
+        type: date
+        required: true
+
+      - name: main_image
+        label: Main Image
+        type: image
+        required: false
+
+      - name: gallery
+        label: Gallery
+        type: image
+        required: false
+        options:
+          multiple: true
+          unique: true
+          extensions:
+            - jpg
+            - jpeg
+            - png
+            - webp
+            - gif
+
+      - name: body
+        label: Body
+        type: rich-text
+        required: true
+        options:
+          format: markdown
+          media: true
+          rename: safe
+          switcher: true
