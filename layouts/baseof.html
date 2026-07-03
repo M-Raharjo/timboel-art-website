@@ -7,7 +7,9 @@
   {{ partial "header.html" . }}
   
   <main  id="content">
-    {{ partial "breadcrumbs.html" . }}
+    {{ if not .IsHome }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
     <section>
     {{ block "main" . }}{{ end }}
     </section>
