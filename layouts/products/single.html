@@ -102,6 +102,19 @@
     </section>
   {{ end }}
 
+{{ $relatedProducts := partial "related-products.html" . }}
+
+{{ if gt (len $relatedProducts) 0 }}
+  <section aria-label="Related products">
+    <h2>Related Products</h2>
+
+    <div class="grid">
+      {{ range first 8 $relatedProducts }}
+        {{ partial "product-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
 </main>
 
 {{ end }}

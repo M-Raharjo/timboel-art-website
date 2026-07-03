@@ -1,0 +1,22 @@
+{{ $current := . }}
+
+{{ $currentTags := .Params.tags | default slice }}
+{{ $currentCollections := .Params.collections | default slice }}
+
+{{ $related := slice }}
+
+{{ range where site.RegularPages "Section" "products" }}
+  {{ if ne .RelPermalink $current.RelPermalink }}
+    {{ $productTags := .Params.tags | default slice }}
+    {{ $productCollections := .Params.collections | default slice }}
+
+    {{ $sharedTags := intersect $currentTags $productTags }}
+    {{ $sharedCollections := intersect $currentCollections $productCollections }}
+
+    {{ if or (gt (len $sharedTags) 0) (gt (len $sharedCollections) 0) }}
+      {{ $related = $related | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return ($related | shuffle) }}
