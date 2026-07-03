@@ -30,22 +30,79 @@
   </url><url>
     <loc>http://localhost:1313/tags/8s-checked/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/awb-16150c75-bb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-3a7cfb7b-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-1f406fcf-tt.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-443355b5-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-b9db8cec-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ap-456a206a-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-0effda37-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ab-f5b62ee5-bsm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-16e2e1f1-fb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/a-f749f910-gr.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/a-eb5e20a0-ras.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/ab-8a57e139-rfg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-9f8e2cd5-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/a-3314faea-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-d5d501fa-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-fb0ec84f-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-d599e3de-fb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/a-b1fb71c8-gr.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/a-9bcc6d37-ras.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-2a6f7683-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/a-dbc9e29e-wbs.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/a-6dad9aa8-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-02e3b120-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/a-b71410a6-bt.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-798572ed-fb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/a-a6455755-gr.md/</loc>
@@ -54,7 +111,13 @@
     <loc>http://localhost:1313/products/a-e10e11c7-ras.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/a-db0f4a1c-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/a-b8e59b93-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-a97d00f3-wwg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/collections/abstract/</loc>
@@ -83,6 +146,12 @@
   </url><url>
     <loc>http://localhost:1313/tags/alumunium-plate/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/ga2-1fa4c16b-ogr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ga2-e15b08b5-rv.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/collections/angel/</loc>
   </url><url>
     <loc>http://localhost:1313/products/as-e36e2bd1-ss.md/</loc>
@@ -106,10 +175,16 @@
     <loc>http://localhost:1313/products/gpa-cc6876bf-rfg.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gpa-fd33a0cc-yg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpa-74a3b52c-rfg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/aoa-c8a73708-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ga-26b528c6-bg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gap-b2e36584-wwa.md/</loc>
@@ -121,23 +196,86 @@
     <loc>http://localhost:1313/products/aec-26369ebb-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gap-b799b163-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/atf-4822dc46-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ads-9a50b732-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-e6bc08ab-bas.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-889ecd13-bwz.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ab-310dab1b-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ab-e44421f0-etg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-8dc0225a-sb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-a22f7185-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/a-f789cd1f-wc.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/a-9ff7fbc1-bgl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ab-8141d653-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ab-ff13447d-etg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ab-5ebc11af-sb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/a-avocdo30-sl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/a-ccbbe952-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/a-93c73428-wc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ab-7bc7ad85-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/babi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/bb-c156f02f-n.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/badak/</loc>
   </url><url>
     <loc>http://localhost:1313/products/bwa-d05bebd9-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/bkm-fb09293e-rsp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gbk-d5b75412-gp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gbk-105caa6c-gp.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/bpl-c32a14f9-awb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bp-a0ea8cdf-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bp-009eaafd-msm.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/bp-4c7cce9e-rbb.md/</loc>
@@ -146,7 +284,16 @@
     <loc>http://localhost:1313/products/bpl-680ab0b2-sbr.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/bpl-7e8301b6-sc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bp-b9de9549-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/bpl-e71c9fe8-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bp-fc6fb70e-wgs.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/bp-b0f963ba-wtc.md/</loc>
@@ -155,10 +302,22 @@
     <loc>http://localhost:1313/products/bpm-f3de0b4a-awb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/bp-0efa7999-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/bpm-e6de172a-rbb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/bpm-c554ccba-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bpm-bf918109-sbc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bpm-949671db-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bpm-d334f8ff-vl.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/bpm-fac41f95-wbd.md/</loc>
@@ -171,6 +330,15 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/bps-1592e2a8-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bps-a705a798-sc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bp-6902cb47-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bp-b1cb3ddd-wbs.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/bsp-ee5df85f-bst.md/</loc>
@@ -193,6 +361,15 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/sbs-2d531b2a-wc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vb-1af335d0-rsl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bh-94db257e-h.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bn-4599286b-n.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/banteng/</loc>
@@ -224,11 +401,19 @@
   </url><url>
     <loc>http://localhost:1313/collections/beauty/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/bebek/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/gbb-67e03e36-gp.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/beruang/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/best-seller/</loc>
   </url><url>
     <loc>http://localhost:1313/products/wbs-1e28f741-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gbv-5e65e102-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/sbw-1396bbb6-bsg.md/</loc>
@@ -250,10 +435,28 @@
   </url><url>
     <loc>http://localhost:1313/tags/bonus-pustek/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/vb-6595d8a3-rsl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bgx-56390ab3-bgr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bgl-7d46f2e1-bgr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gb-e5e914bd-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gbk-4dee6210-rbb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gbk-81271b6e-rbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gbk-ae6f22b0-rbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gbk-1710326f-ws.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/bow-horse/</loc>
@@ -264,7 +467,13 @@
     <loc>http://localhost:1313/products/ba-7776e0d9-bk.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vbm-ddc003dc-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vbs-31040687-vl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vbs-454dc1e1-wtc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/brass-plate/</loc>
@@ -286,16 +495,26 @@
     <loc>http://localhost:1313/products/brn-e9c3b717-n.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/br-3cd8f01f-wt.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/bs-429b284d-ns.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/bhw-1b6d39c7-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/abh-a59071bf-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/collections/bull/</loc>
   </url><url>
     <loc>http://localhost:1313/products/btu-c9752ba9-ns.md/</loc>
     <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/burung/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/camar/</loc>
   </url><url>
     <loc>http://localhost:1313/products/wcw-c8fb6bad-ns.md/</loc>
     <priority>0</priority>
@@ -307,6 +526,9 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/pcl-1cca1eb1-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pcl-444a336a-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/pcl-9e3263d9-wg.md/</loc>
@@ -324,7 +546,13 @@
     <loc>http://localhost:1313/products/pcm-127293c1-t.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pcm-b2b3d436-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/pcm-18afbe7e-vl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pcm-1c131b59-wbd.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/pcm-6d1e51a7-wg.md/</loc>
@@ -336,6 +564,15 @@
     <loc>http://localhost:1313/products/cam-68ccc04e-bsm.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/cam-3fbc3e78-ncb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cam-e10b4014-sbc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cam-f5ea4ebf-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/cam-f0d2c15b-vl.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -345,10 +582,25 @@
     <loc>http://localhost:1313/products/cam-34879681-wbd.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/cam-c70607bb-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/cam-b2441d52-pd.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/cb-c90cbbf1-fb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/cb-d5babd88-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cb-00c9c17d-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cb-bc31aa42-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cb-47f9de93-wcc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/cb-ea46fd37-si.md/</loc>
@@ -357,13 +609,31 @@
     <loc>http://localhost:1313/products/cb-1c725f6a-sbr.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/cb-c0181af3-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/cb-3a39e2a2-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cb-b9571805-wcc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/cr-78cac444-cb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/cr-a2ca9558-cb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gcl-5dc7bbe2-dv.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gc-cac8a090-rv.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gc-fd722acd-wmf.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cce-964663fa-bsw.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gcp-14fbf14e-bt.md/</loc>
@@ -378,7 +648,19 @@
     <loc>http://localhost:1313/products/gc-0e801a3f-sbr.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vcl-4a9ddab9-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vcs-a3c119d5-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/gc-e9adcace-wg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cp-a7cebcec-ras.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/collections/chess/</loc>
   </url><url>
@@ -427,10 +709,25 @@
     <loc>http://localhost:1313/products/ce-4e96b83f-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gc-662b110b-bb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gcp-b271657e-c.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gc-66757638-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gc-5484854f-ctb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gcp-24730f11-dgg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gcp-61612997-be.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wcf-e619a99c-ns.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/cfw-333e8d8a-bst.md/</loc>
@@ -465,13 +762,25 @@
     <loc>http://localhost:1313/products/gco-b4213b33-fb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gcb-ca757aab-bsm.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gcb-e4b3a78c-ncb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cb-8e828d34-ras.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/cb-4940ffbd-t.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gcb-61c7011e-t.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cb-5bf4d643-tt.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cb-f1b3b995-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gcb-249000d9-u.md/</loc>
@@ -486,10 +795,19 @@
     <loc>http://localhost:1313/products/gcb-bbf6063f-wl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gcb-b9a8bf0c-wmb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gcb-39e9c7b9-wwg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/cb-2fb24372-bt.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gcb-977eac70-bsm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cb-4d918d5f-ras.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/cb-999f5ffc-sbr.md/</loc>
@@ -504,6 +822,9 @@
     <loc>http://localhost:1313/products/cb-fb03a089-was.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/cb-b7503656-wcc.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/cb-de8b9702-wl.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -516,7 +837,13 @@
     <loc>http://localhost:1313/products/cb-6c350723-bt.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/cb-29e14a36-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/cb-062e4f8b-pd.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cb-59b4504c-ras.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/cb-2844650f-t.md/</loc>
@@ -526,6 +853,9 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/cb-f54ccef8-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cb-9e4f65e6-wcc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/cb-9f50e152-wl.md/</loc>
@@ -546,10 +876,22 @@
     <loc>http://localhost:1313/products/gc-4fe9b1a6-rv.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gc-cff9c71f-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gc-551453d2-vl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gc-582aa6b6-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gc-ac5365ac-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gc-7a41d055-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gc-36da743e-bb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gc-3cfe465d-bw.md/</loc>
@@ -601,13 +943,34 @@
     <loc>http://localhost:1313/products/gcl-8e45dd00-bsm.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gcl-c21491ac-cy.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gcl-a2f23923-ras.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gcl-1f73e181-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gcl-8493cbc5-t.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/cl-7941461b-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gcl-6b45ea25-u.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gcl-53e8b3fc-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/clw-3cc90628-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gcl-1adfe5ee-wl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gcm-d4e11d83-bg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/acm-558a0a2f-bst.md/</loc>
@@ -616,16 +979,25 @@
     <loc>http://localhost:1313/products/acm-bcc75ae2-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gct-472a36ad-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gcb-6de77045-bba.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/dd-bc0bbea1-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/d-603100b1-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/d-8071b152-ctb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/d-b711e00e-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/d-18ab044f-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/d-deddf259-u.md/</loc>
@@ -637,22 +1009,55 @@
     <loc>http://localhost:1313/products/d-aa6b4575-wbd.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/d-485f4178-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/dam-e16699d1-c.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/dk-a4b60afc-n.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/dks-6690b5f8-cs.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/dlc-4b8e68d5-cn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/dm-d0c8a256-g.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/dpc-dd7be4c1-cg.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/ds-d8cda057-k.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/dts-c185a6e3-h.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/dts-4bc43467-bk.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/dw-1d4034a8-g.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/dwn-c8b0ba10-g.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/da-abe80294-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/dbs-c30eb8de-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/dg-f3751fd5-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/dmi-c416c529-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/dmk-80626df6-a.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/wdl-4252603c-ns.md/</loc>
@@ -663,7 +1068,13 @@
     <loc>http://localhost:1313/products/db-f3e7a9d6-b.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/db-f36f9139-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/db-b259bb35-gr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/db-f85d9e74-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/db-c1c5ed9b-wcc.md/</loc>
@@ -675,13 +1086,28 @@
     <loc>http://localhost:1313/products/db-89d24d82-si.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/db-45173980-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/db-5385c911-wcc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gd-8109431f-ctb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gd-b87ab367-sg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gd-fd0f8223-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gd-a373bf99-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gd-c08f82d0-ytg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gd-77858230-bg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gd-dbb3bc69-sg.md/</loc>
@@ -690,7 +1116,19 @@
     <loc>http://localhost:1313/products/gd-3e6e5e5e-vl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gd-b0e5d8ce-bas.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gd-2374be46-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gd-aca5b562-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gd-a6a7fabd-yw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/dt-3441f8b3-ns.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/diving-wall/</loc>
@@ -700,12 +1138,39 @@
     <loc>http://localhost:1313/products/dp-d53cbd8a-bw.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gd-c0997d49-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-02c1ef12-yw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-2f27f6cc-yw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gd-61863622-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-a86ddb51-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-37540c52-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-121809cc-ytg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-be5c8315-yw.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/dots-motif/</loc>
   </url><url>
     <loc>http://localhost:1313/products/gdp-43347614-pd.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gdp-002345ca-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpd-120638ac-sbc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/da-a7573b49-bst.md/</loc>
@@ -717,10 +1182,31 @@
     <loc>http://localhost:1313/products/gdp-b1005cc3-sbr.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gdp-32272f4f-tgw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-f2b11f73-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-ba57cb0e-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-3c36e9e9-rw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-95305ba5-wcc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-b92f6cdf-wwa.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gdp-2bf003b3-bur.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gdp-78e96ce3-ctb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-9e90c080-dv.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gdp-99140573-fb.md/</loc>
@@ -729,13 +1215,28 @@
     <loc>http://localhost:1313/products/gdp-b7f1099b-vl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gdp-a524c8c6-wcf.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-a91447e9-yw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/dsp-6c3a5369-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/pd-dudut16c-sl.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gdp-d9d070dd-b.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gd-a19ff076-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gdc-4379efb8-bb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gdp-e76007aa-c.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gdp-3ddd61da-rv.md/</loc>
@@ -789,12 +1290,27 @@
     <loc>http://localhost:1313/products/em-db609841-ncb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/em-dabac921-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/collections/elephant/</loc>
   </url><url>
     <loc>http://localhost:1313/products/ael-c42227e0-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/ev-bbdc7d64-ap.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/w-87a1f87e-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/f-35c128c1-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/f-aaaf03c3-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/f-5405a958-ncb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/f-6b0a9b9f-rbb.md/</loc>
@@ -803,13 +1319,28 @@
     <loc>http://localhost:1313/products/f-a4e9e36c-t.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/f-711683f7-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/f-e13b266d-vl.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/f-22040665-wbd.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/f-60d82bed-wbp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/f-1e2af43e-wcc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/f-e589f695-bgr.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/f-578bc6ee-bt.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/f-852383b8-llb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/f-2b8c322e-ncb.md/</loc>
@@ -821,10 +1352,31 @@
     <loc>http://localhost:1313/products/f-538316f5-t.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/f-bdb9ae95-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/f-88643984-vl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/f-672da94f-wbp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/f-aaa30080-wcc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/f-d559b867-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gfi-1cd0beb2-bab.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/fig-85b7e393-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gfm-5e9c6a37-bwm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gfm-ce8b0976-bsb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/afy-ed088cae-bst.md/</loc>
@@ -833,13 +1385,58 @@
     <loc>http://localhost:1313/products/fbh-56224710-b.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/fw-28c119c0-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/fsw-bb52febf-sdb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fk-7c457480-p.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fk-f31283c2-p.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fk-1086c025-p.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/fp-58e73e05-p.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/fs-fd65f3c5-p.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fb-c460a1b1-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fb-2513fb30-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fb-8df3ac0d-bc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fb-0dcf7635-ok.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fb-bdb4f329-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fb-c738eb03-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fb-e9f03df2-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/fb-981ea142-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/fb-f4cb68e9-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ff-5b4ead6a-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gf-b6c7a99b-be.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/wfh-9d879603-ns.md/</loc>
@@ -862,6 +1459,21 @@
     <loc>http://localhost:1313/products/ggs-da94b090-ss.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vgm-0c1a1295-bsm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vgm-0442f1b9-rbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vgm-5bcf60f3-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vgm-cdf9f1ef-vl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vgs-a16c3e5b-vl.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vgs-2274876f-wg.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -877,19 +1489,76 @@
     <loc>http://localhost:1313/products/gf-f7a80c7b-wkw.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vs-52165862-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vsd-fc67dcc2-sb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vsg-66d25b28-si.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vsg-e3670530-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-5160435f-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-8c0ef5f3-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-3881494b-wc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-80da6bc7-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-d3e69386-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gk-ed725d73-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-cfa4888e-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-957d8710-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-66bac9a9-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-5512fea8-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gga-5942043e-bw.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gg2-c42b1a8a-rbb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/ggn-a371a23a-be.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gga-0399902d-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gg3-184785ce-rb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gg3-grcpas60-se.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gps-1fa2c0a7-wwt.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gps-c19a2b9a-wwt.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gps-ebe1fd56-wwt.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gc-45de72ae-n.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gcm-1ce7af1c-g.md/</loc>
@@ -898,7 +1567,28 @@
     <loc>http://localhost:1313/products/ggp-3c7b93dd-b.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/ggp-6017e78b-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ggp-fd7007f5-bas.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-1b3f8533-ygr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ggp-27a1ccee-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ggp-7a12adea-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ggp-70d5e576-sg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/ggp-b485d119-vl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ggp-0f43e575-wtc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gls-4e35e016-n.md/</loc>
@@ -911,6 +1601,9 @@
     <loc>http://localhost:1313/products/agh-5ab7cdea-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/agh-49a08de9-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/gorilla/</loc>
   </url><url>
     <loc>http://localhost:1313/products/ggs-3aefe9db-ss.md/</loc>
@@ -920,6 +1613,21 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/grc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/gsv-c0b2e415-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsv-413aafc2-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsv-4c75ee59-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsv-68ad1b4d-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsv-2f531fd6-u.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/ghd-7e1b0132-ns.md/</loc>
     <priority>0</priority>
@@ -955,6 +1663,12 @@
     <loc>http://localhost:1313/products/hbs-70370fc6-spt.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/hpm-b701c131-g.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hpm-29f3be9f-g.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/hdc-ac836793-bsg.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -967,9 +1681,33 @@
     <loc>http://localhost:1313/products/nwh-8db43aa4-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/hbh-eb99334f-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hmk-8281646f-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/collections/hanging/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/hpm-a15c53be-g.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hcm-65d37a2c-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hcm-5ca2ebaa-bgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-954f7fbd-bc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-89ff4345-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/head/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/hhl-e1496e85-n.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/hw-7c5d34bc-bst.md/</loc>
     <priority>0</priority>
@@ -980,6 +1718,39 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/horn/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-436adbc3-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-9c49ba5d-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-b084301e-wgs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-4ea6ae77-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-cd2edcd6-ok.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-04c6e138-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-85ad2048-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-96a452f2-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-74fe3109-bc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-2bf6292e-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-79d27149-u.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/hc-6e8aeaf7-ns.md/</loc>
     <priority>0</priority>
@@ -1013,13 +1784,55 @@
     <loc>http://localhost:1313/products/hb-9000d174-awb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/hb-614ccfda-bas.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-a19bdcd4-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-e61f2ee2-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-8530a608-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-04e1b75f-bas.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-d2de143a-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-c6e327a4-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/hb-01c52294-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/hb-3406a921-was.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/hb-32355682-wbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/hb-3f9d498c-wbp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-10497470-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-f2d10820-btg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-3028e5df-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-e9632200-etg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-b9fa2ca9-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-29db0704-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/hb-ae8497f9-u.md/</loc>
@@ -1029,6 +1842,9 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/hb-1e465b5c-wbp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/hb-fec10328-wwg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/human/</loc>
@@ -1054,6 +1870,12 @@
   </url><url>
     <loc>http://localhost:1313/tags/iffina-2024/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/ih-5ecbbda4-s.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ipp-a4b01506-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/ip-b26c6753-g.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -1066,6 +1888,18 @@
     <loc>http://localhost:1313/products/gip-f49fb6e4-vl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gip-54cf25bc-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gip-56955484-bb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gi-1b256935-bb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gi-eec7d80d-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gip-521844f4-ctb.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -1075,12 +1909,26 @@
     <loc>http://localhost:1313/products/gip-grcind60-sm.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gip-15319f93-wwa.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gip-19868a67-gw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gip-1fd6d239-wg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gip-bdac60a9-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gip-0cfd5e52-wwg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/indoor/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/jaitan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/jamur/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/jerapah/</loc>
   </url><url>
@@ -1088,6 +1936,9 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/jmw-5e81433a-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ark-3ff9c9a9-bst.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/ajb-d881a136-bst.md/</loc>
@@ -1111,9 +1962,15 @@
     <loc>http://localhost:1313/products/je-2c1ee770-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/skb-b48e4d6f-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/kalpataru/</loc>
   </url><url>
     <loc>http://localhost:1313/products/awd-f29914c2-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/kps-e08c47c2-bst.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/kambing/</loc>
@@ -1121,19 +1978,64 @@
     <loc>http://localhost:1313/products/akp-e1274394-wcf.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vkl-27f012e6-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vkm-5f048274-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vbk-b118e8c5-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vtl-8d517038-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vtl-f5789b01-rbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vtl-9c2b9a02-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vtl-b7f888db-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vtl-63630b01-wtc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vtm-271692fc-llb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vtm-8ded5a7a-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vtm-5ee16548-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vtm-203df22b-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-da65f8a6-wtc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gk-81a1fc80-awb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gk-bbba6c10-vl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-3a4142e1-bb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-fb311824-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-fa3739c7-fb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-f5b17611-ncb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gk-b62426d8-wbp.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gk-479d7f70-rv.md/</loc>
@@ -1155,16 +2057,49 @@
   </url><url>
     <loc>http://localhost:1313/tags/katalog-2025/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/vk-86d305ef-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/kg-f1e77757-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/kkw-815cbf97-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ks-d0987860-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vks-1ab48d30-rbb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/kls-095fedf9-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/akc-20507f95-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/wkc-7755ed0a-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vk-c6965739-rsl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpk-06a06e2e-gp.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/knockdown/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/kso-ec05e973-gr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/kso-2297d064-rr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/kso-04719fc2-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ks-723a1bbd-b.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/collections/kuda/</loc>
   </url><url>
@@ -1193,10 +2128,22 @@
     <loc>http://localhost:1313/products/ktw-06fca243-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/kkj-18d4d2df-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/kk-2a28bf43-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/l-e0049018-bst.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/large/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/alp-79203d47-wcf.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/glv-24af8f9d-cgl.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/lemu/</loc>
   </url><url>
@@ -1243,10 +2190,28 @@
     <loc>http://localhost:1313/products/lss-76afb978-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gln-d87c9a16-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gln-0f99dc4c-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/lz-f8185069-ggr.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vll-8af64ffe-awb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vll-b080a2e6-gr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vll-ecadac1e-rgn.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vll-54511d1d-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vll-3312bc16-was.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vl-0443f992-wmb.md/</loc>
@@ -1255,16 +2220,28 @@
     <loc>http://localhost:1313/products/vlm-29c2fa20-awb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vlm-2183134b-gr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vlm-3d521471-ncb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vlm-d74aa97c-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vlm-a9332aa0-vl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vlm-f1557ed1-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vls-4801fd03-awb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vls-5192bf53-bt.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vls-0ca935c0-gr.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vls-928f9410-ncb.md/</loc>
@@ -1282,7 +2259,15 @@
     <loc>http://localhost:1313/products/vls-75969fe7-was.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vls-792b09d7-wmb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/lotus/</loc>
+  </url><url>
     <loc>http://localhost:1313/products/lc-18a4923a-mgg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/dts-0aeaf139-bst.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/alp-e27f3d59-bst.md/</loc>
@@ -1306,7 +2291,16 @@
     <loc>http://localhost:1313/products/lb-3a3e1706-bsm.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/glb-51a8d3d1-ncb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/glb-0069af2c-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/lb-5d22bbfb-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/lb-f25f6186-was.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/lb-56ed68b3-wcc.md/</loc>
@@ -1328,13 +2322,64 @@
     <loc>http://localhost:1313/products/gm-2aff5458-vl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gm-861b049b-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gm-51b518ae-bas.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gmp-97bbef02-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gm-806d71bd-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gmp-c01c7215-wbp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gmp-d3031f72-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gm-d1b2410f-vl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gmp-6f7315a9-wg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gmp-b0658364-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gm-47134ac2-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gm-d529770a-fb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gmp-2b111543-ncb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/mp-0a386373-wgs.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/mammal/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/m-033a5e68-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/m-09e51ca9-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mn-f1c2747c-wr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pm-f00004a1-bsm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mpm-a2dc63e6-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mr-cba840be-n.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/bms-cd52393e-r.md/</loc>
     <priority>0</priority>
@@ -1342,17 +2387,38 @@
     <loc>http://localhost:1313/products/gmp-4f5cfd97-wwa.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/amw-d290d30b-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/medium/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/mp-8a98d5c6-mc.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/m-b3853107-br.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/merak/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/mhb-c6dbdf97-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mb-20188f92-cs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/m-90e5ed48-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mb-f8fae863-rfg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/mb-ce182106-rbb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/mb-mickey20-sl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mb-52d88bb7-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/mb-7b8f038a-bt.md/</loc>
@@ -1361,7 +2427,13 @@
     <loc>http://localhost:1313/products/mb-553d602c-llb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/m-c9779a1b-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/mb-fe0916dc-rbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mb-e6e3b416-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/m-77327c49-wmb.md/</loc>
@@ -1378,10 +2450,25 @@
     <loc>http://localhost:1313/products/mb-d3f7d7e5-t.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/mb-fc8d6095-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/mb-3e5f5651-wcc.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/ms-baa20ced-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/msm-dfbb15c8-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ms-7464daac-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/m-336bc682-ap.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mls-bc3788ec-g.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/mmh-07cf883b-nbs.md/</loc>
@@ -1390,7 +2477,40 @@
     <loc>http://localhost:1313/products/mmh-452e09bd-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gm-851af99f-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gm-896623cd-bb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mbv-ba4f74c1-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mls-5502d785-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/msv-3670c946-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/msv-d9c3c26b-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/msv-40c7cd99-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/msv-cd577eae-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/msv-aff64a78-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/mda-60fe0f58-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gsm-be0986b4-rbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gmp-e4280545-bb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gmp-f55dd47e-bw.md/</loc>
@@ -1399,7 +2519,16 @@
     <loc>http://localhost:1313/products/gmp-2235a504-rbb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gmp-24dded2f-vw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gmp-28c228c9-bb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gmp-b4d529df-rbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gmp-7a91e644-vw.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/am-b7df3aac-bst.md/</loc>
@@ -1414,6 +2543,9 @@
     <loc>http://localhost:1313/products/ams-bc61d7d1-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/mbs-24b818aa-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/mbl-58b6e3de-ap.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -1423,6 +2555,9 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/nmh-1a204134-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ami-db33aefd-bst.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/nmh-fec415e5-ns.md/</loc>
@@ -1463,13 +2598,28 @@
     <loc>http://localhost:1313/products/swb-6522fd11-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/n-b0e9bc91-mc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/nas-80b0a9c9-nb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/nas-95f77e29-ns.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/nmh-52f39625-nbf.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/nmh-747993da-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/nmh-a8bb08c5-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/nmh-f868b985-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/nmh-4dd6f6f5-bk.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/nmh-54297ed1-bst.md/</loc>
@@ -1478,13 +2628,28 @@
     <loc>http://localhost:1313/products/nmh-12c746ed-ss.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/nmh-41547d04-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/nmh-cd1e0898-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/nmh-a4e31a94-ss.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/nmh-b8c753df-ss.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/nn-6ee2fa15-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/nn-efda21fc-cr.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/nnp-f48ab432-sb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/nnp-aa7b7cc4-yw.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/lss-b2b50cb1-nss.md/</loc>
@@ -1500,6 +2665,9 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gmb-b83f4748-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gjb-c96842dc-rb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/sob-20dbd21e-ss.md/</loc>
@@ -1518,52 +2686,133 @@
   </url><url>
     <loc>http://localhost:1313/tags/outdor/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/og-4d4b8ab0-bgr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-8e511a68-btg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/og-8efe54ea-bsm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-95e49ca6-gr.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/og-7456448a-u.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/og-e4482689-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-c9158379-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/og-4905d634-wl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-da71caf0-wwg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/og-da4af0e1-bg.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/og-35f27588-btg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/og-516d65ff-bsm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-133c8ad2-gr.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/og-8584a8dc-u.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/og-f67f7df5-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-0e04a60f-wbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-68dcb3ac-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/og-c79dd11b-wl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-fd5dbf50-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-c29ce870-btg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/og-44d8787a-bsm.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/og-6eb7f5bc-gr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-55001b91-rfg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/og-ceee7212-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/og-08e86d60-was.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/og-5813fa0e-wl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/omm-6a99db5c-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/om-53e0b44f-ctb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/om-8b0d4196-sbr.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/om-7943d8b2-u.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/om-2739dca0-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/om-2fd94db5-wl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pop-0c579ab3-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pop-31c5d7e0-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pop-73a070f2-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pop-ac2a2b80-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/pop-effe194f-wbd.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pop-dbc224ab-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/pop-c66e8760-bt.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pop-51a52191-ncb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/ops-d3d4e1b5-si.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pop-f0c1f7c8-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pop-5c5836ba-wbd.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/ops-1b81959a-wmb.md/</loc>
@@ -1572,10 +2821,37 @@
     <loc>http://localhost:1313/products/aps-d30fdd79-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gp-2fe52557-wbp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpp-7828eb39-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpp-7268721f-ctb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gpp-eefc4fc2-dgg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-8fd19f95-wcf.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpp-be8335be-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-8642f2af-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpp-148af422-be.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpp-de222530-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpp-d5b4d23c-be.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-4c443d1f-was.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gp-5aff2c6d-wbp.md/</loc>
@@ -1587,8 +2863,22 @@
     <loc>http://localhost:1313/products/psp-498ad4ad-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pb-782f720a-bsn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-0dec5196-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-8d27da23-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/pb-8dfd793c-wbd.md/</loc>
     <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-1e9180ba-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/pari/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/patung/</loc>
   </url><url>
@@ -1598,7 +2888,16 @@
     <loc>http://localhost:1313/products/mps-819cfa2e-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gpb-ca2fcef6-bwm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-278509f0-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpb-a7f04a69-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-f94b1a7c-bw.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gpb-9fbc1ed0-rbs.md/</loc>
@@ -1607,22 +2906,97 @@
     <loc>http://localhost:1313/products/gpb-ac6c9599-bsm.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pb-50c3aab9-ok.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-5c6b6f50-sgw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-be2ca5e3-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-3e8d4aa3-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-ea5344b6-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpb-b37b8f83-bsm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-c297b4e6-sgc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-cfc4ac93-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-babfb27e-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-dc84c63b-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-0d117c16-bas.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gpb-b36f1691-yw.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gpb-7ff81932-bwb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-6dd2fe76-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-f73de572-ctb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpb-84442a6a-rbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-e7ea6b16-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-9cc8a005-fb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-e7ff8684-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-601f096f-wgb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gpb-00f6a4cd-bsm.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gpb-1a8f8063-sbw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-d94319da-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-968a9816-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-140d03dd-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-1599562b-wmb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpb-1a3304f3-yw.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gpb-b7130624-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpb-9b0ff6e1-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpb-3faf34d5-rbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gps-732bf357-gw.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/pp-448cf6d4-bg.md/</loc>
@@ -1631,13 +3005,34 @@
     <loc>http://localhost:1313/products/pp-7d37c288-wg.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pw-9b92bd76-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-e682e337-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-4d19f4c8-gr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-273ccecf-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/pb-a6614fe5-wbd.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/pb-3061f456-wbs.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pb-d30da1c3-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-e3493f91-bc.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/pb-7f29ee80-gr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-7ab1a157-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/pb-625a2ee5-wbd.md/</loc>
@@ -1646,13 +3041,31 @@
     <loc>http://localhost:1313/products/pb-6a996a44-wbs.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pb-8fe5bc8e-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-3a53f522-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/pbl-66fcbd57-bsm.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/pb-5be31965-ncb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pb-7d1203eb-ras.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/pb-3562a78f-rbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-79b53521-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-1dc0d6c8-wbm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pbm-a873731b-bd.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/pb-8ab7342a-bsm.md/</loc>
@@ -1670,7 +3083,16 @@
     <loc>http://localhost:1313/products/p-2bbb4e91-sbr.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pbm-1b28f90f-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/pm-e119a755-vl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pbm-c3c1c0f9-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pb-d55f7a0d-yw.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/photo-complete/</loc>
@@ -1678,7 +3100,49 @@
     <loc>http://localhost:1313/products/p-601c338d-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gps-78cc5589-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-c65d81db-lgg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-1481a899-wg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-f4f65607-yg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-89b005b3-yw.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gp-f981a237-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-89bd8314-wg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-1e64207e-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-02c3d927-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-3ce15f56-gw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpp-2e1d0516-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-f1889f31-rgn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-7f1a1cbf-rgn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-9e4435e9-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gp-379fe5a1-sg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vpl-593f5e88-awb.md/</loc>
@@ -1687,10 +3151,22 @@
     <loc>http://localhost:1313/products/vpl-609eb09a-bg.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vpl-8f80bd7c-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vpl-ed720c85-ctb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vpl-649b3c29-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vpl-0ee38ebb-ncb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vpl-f424263e-rbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vpl-1d0783dd-t.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vpl-22c02255-u.md/</loc>
@@ -1699,13 +3175,43 @@
     <loc>http://localhost:1313/products/vpl-5dedee39-vl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vpl-37b1a585-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vpl-69f6c111-wbp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vpl-9c92bb01-wmb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vpm-ef1d2ed5-awb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vpm-5dd638e4-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vpm-2921c32a-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vpm-c14bf33d-ncb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vpm-e985c045-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pm-b7fb7fc5-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vpm-a4fd0845-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/vps-25571876-awb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vps-c3b00d68-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vps-7d247dc8-ncb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/vps-2483fd90-pd.md/</loc>
@@ -1714,12 +3220,30 @@
     <loc>http://localhost:1313/products/vps-c0490f0d-rbb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/vps-8e116cc4-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ps-f1010e0c-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/pipe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/pc-ce31b839-wwa.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ps-b20925d8-n.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gpp-157123b5-c.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gpp-56509974-ctb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpp-fb08bf70-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpp-a607d6bc-vl.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gpp-grcpla60-vp.md/</loc>
@@ -1731,10 +3255,25 @@
     <loc>http://localhost:1313/products/gpp-405f8e04-bur.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gpp-1815c3a6-db.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpp-efd0120c-dgg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpp-7c9230eb-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpp-79230af1-ctb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gpp-2abd7cc0-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpp-02a94fe0-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpp-3d68931e-db.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gpp-fd330d61-wgb.md/</loc>
@@ -1759,6 +3298,9 @@
     <loc>http://localhost:1313/products/gpb-6bbc10c4-ncb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gpb-97bbd756-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpb-6f5d9352-t.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -1776,7 +3318,13 @@
   </url><url>
     <loc>http://localhost:1313/collections/pool-side/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/pg-70cbecc3-gr.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/pg-93054e6d-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pg-67ca1ba7-was.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/pg-c1df396a-wl.md/</loc>
@@ -1800,6 +3348,8 @@
     <loc>http://localhost:1313/products/mpp-3b359cdb-nbs.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/powder-coating/</loc>
+  </url><url>
     <loc>http://localhost:1313/products/sop-a0dd39f3-bst.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -1814,16 +3364,31 @@
     <loc>http://localhost:1313/products/apw-5baad692-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/hph-e43bdbcd-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpv-8da26327-c.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gpv-13714fbd-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gpv-f4678afc-rbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpv-3dbd89ab-wgb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gpv-d2dd0e5d-c.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gpv-e5e6629e-rgn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpv-b9d0bd82-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpv-865178fb-bg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gpv-e6aff53b-rbb.md/</loc>
@@ -1835,7 +3400,15 @@
     <loc>http://localhost:1313/products/rbv-c812c6cf-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/rec/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/ric-73d478fa-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/ric-be7fc358-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rea-0945e1bb-n.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/lmh-2abe9c09-ss.md/</loc>
@@ -1861,6 +3434,9 @@
     <loc>http://localhost:1313/products/aro-ef7a9d7f-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/row-b436807c-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/row-fa0b9966-ap.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -1873,13 +3449,52 @@
     <loc>http://localhost:1313/products/rrb-db71dd49-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/rb-cada93b6-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rb-7a71f5c0-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rb-5568bd14-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rwh-b62e6c4d-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rb-f58ba69f-ras.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rb-bfd1f8b5-si.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rb-a7d7035a-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rb-4f74c3ae-wgr.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/rb-robert20-sl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rb-e8ca393c-ras.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rb-ce509f1e-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/rb-a8585a15-wbd.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/rwh-aead24ce-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rwh-b6b68002-cb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/grb-9fd2d6b7-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/grw-2c192ef6-llb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/grw-e53d0efb-pd.md/</loc>
@@ -1889,6 +3504,9 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/grw-87558cd2-sbr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/grw-404faa57-t.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/grb-364af1d1-u.md/</loc>
@@ -1901,6 +3519,9 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/grw-a26c3400-bsm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/grb-f9c813a2-cw.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/grw-d6f369df-wmb.md/</loc>
@@ -1928,6 +3549,21 @@
   </url><url>
     <loc>http://localhost:1313/tags/rope/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/rls-ef12438b-nb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rm-cf681095-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rm-d54d82d7-t.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rm-451bc55f-ww.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/pc-6774ce0d-wwa.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/grv-827eaeed-wwg.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -1953,13 +3589,28 @@
     <loc>http://localhost:1313/products/rjk-4023e11d-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/rad-7df7b2ff-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/rnw-9aceba06-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/rad-24b5d88a-ns.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/rbw-f435d2d2-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/sks-d1f2d3a5-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sm-e802b1c3-bb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/shs-5ae081fd-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gs-2be15fe7-cb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/ass-40ca7398-bst.md/</loc>
@@ -1980,6 +3631,18 @@
     <loc>http://localhost:1313/products/shw-5c3a92af-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/sms-1652eb1b-ww.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sbs-5d2ebf42-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sbs-61d76e9b-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sbs-d5c1acad-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/sbs-a1e6ddb8-bst.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -1988,12 +3651,25 @@
     <loc>http://localhost:1313/products/asi-80f7c758-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/ss-0b1748cd-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/serigala/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/asp-a5012360-wcf.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/sets/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/sewing-motif/</loc>
   </url><url>
     <loc>http://localhost:1313/products/gsf-4305cce9-awb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gsf-4c12537a-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsf-5b2cab63-c.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gsf-d5c3992f-ncb.md/</loc>
@@ -2014,7 +3690,16 @@
     <loc>http://localhost:1313/products/gsf-90891841-b.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gsf-80448d1c-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsf-ddbda88c-awb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gsf-f0918c6a-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsf-be8364db-bb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gsf-418b5a63-gr.md/</loc>
@@ -2026,10 +3711,16 @@
     <loc>http://localhost:1313/products/gsf-95fd4897-wg.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/sb-79fa163b-bc.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gs-9427486e-bsm.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gs-e3dd0559-rbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gs-96c5f145-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gs-5d556347-bsm.md/</loc>
@@ -2038,13 +3729,31 @@
     <loc>http://localhost:1313/products/gs-5831a1c6-rbb.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gsb-528b47e1-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gs-b37e69b1-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gs-6068c822-wcc.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gs-605ace3a-rfg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/psp-577dacbc-bg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gss-c1245d2e-wwg.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gss-8683d44e-btt.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gss-649da6fe-awb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gss-c0797e0a-gw.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gas-b6a759fa-ns.md/</loc>
@@ -2053,10 +3762,22 @@
     <loc>http://localhost:1313/products/sps-083ea7b7-ss.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gs-34bda837-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gs-3ec9c4d9-ras.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsp-759ea3f0-tt.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gs-4167f5d7-wg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gs-1b03abc0-gw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gs-20f58d81-wbs.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/singa/</loc>
@@ -2070,6 +3791,9 @@
     <loc>http://localhost:1313/products/asf-36d82edc-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/bas-f811e9da-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/wsl-2698c7e5-ns.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -2077,6 +3801,42 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/slw-d86c85a4-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-2bf7fa41-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-7de30c38-ras.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-0e3e7080-wg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-629bba26-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-4f70f577-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-b6d1f094-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-459168e8-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-92ccc28a-dgg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-12cde831-ras.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-0817cc77-wbp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-55719013-yw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gsb-bb52fac3-dgg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gsb-9f481654-bb.md/</loc>
@@ -2089,6 +3849,21 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gsb-d57f8d6b-be.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sk-1a3355b5-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sk-346b3fdf-fb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sk-651453d4-rgn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sk-32638f95-bc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sk-d8cfd373-rsn.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gsp-bf84f172-rbb.md/</loc>
@@ -2105,13 +3880,25 @@
     <loc>http://localhost:1313/products/sss-01973879-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/sbm-2dc9f243-w.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/wsb-70b7b7cb-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sst-79037891-nbs.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/ash-8ad21532-bst.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/ash-2db4a501-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sm-35c31f54-r.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sm-86685a66-b.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gsp-32b78d27-rgn.md/</loc>
@@ -2138,6 +3925,15 @@
     <loc>http://localhost:1313/products/asf-0ab54373-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/stk-d28e70ff-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/stl-e9e795fe-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sbn-f643d4f3-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/sbc-8588574c-nss.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -2153,6 +3949,12 @@
     <loc>http://localhost:1313/tags/stainless-wire/</loc>
   </url><url>
     <loc>http://localhost:1313/products/sr-cd04ff14-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/bws-3fd9e224-bgg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ksk-e542d584-ns.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/wsb-4bbdcbf6-ns.md/</loc>
@@ -2173,6 +3975,9 @@
     <loc>http://localhost:1313/products/cw-chnwr190-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/asd-255643c9-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/ssf-b44e3709-ss.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -2182,6 +3987,9 @@
     <loc>http://localhost:1313/products/wsh-5276ac64-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/sm-46d80d45-sb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/ssf-8881dc21-ss.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -2189,6 +3997,9 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/sss-6c57fe8f-bgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gs-8c75aa03-c.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gs-15c584d5-rv.md/</loc>
@@ -2203,13 +4014,28 @@
     <loc>http://localhost:1313/products/ass-7e3ed477-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/asl-6af74b2f-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/soh-e83cf73b-bgr.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/s-debf3a8d-mc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/swd-d397a844-g.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/msh-7b8b8621-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/ass-1c87dadc-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/fsb-8392a109-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wfs-a538c644-ns.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/ase-511f5801-bst.md/</loc>
@@ -2221,10 +4047,16 @@
     <loc>http://localhost:1313/products/ass-81082aa3-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/ass-42acf482-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/ass-5d484378-sdb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/adw-ca6f3b85-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sic-b93637f6-ss.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/ssi-183f32cc-ss.md/</loc>
@@ -2238,22 +4070,58 @@
     <loc>http://localhost:1313/products/shw-c97e0ad4-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/shb-78aa475b-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/ssh-baf64544-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sbw-83300c9e-bd.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/sb-swing50c-sl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/sb-314181d3-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/sb-774cfb52-wcc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sb-b91cb47e-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sb-16a9f920-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sb-c788b3df-ncb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/sb-swing40c-sl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/sb-11232054-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/sb-a990e5db-wcc.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/sb-fb58e03e-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sb-93edadf4-etg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sb-9384d885-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sb-ba01bdc4-ncb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/sb-swing30c-sl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sb-2927fdb6-u.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/sb-f0f5803c-wcc.md/</loc>
@@ -2278,12 +4146,38 @@
     <loc>http://localhost:1313/products/pt-3a708b8d-wl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/pt-04ce8210-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vtl-b7920031-dgg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vtl-1ba44af1-wbd.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vtm-2e4ec8aa-dgg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vt-a82bb696-fb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vt-5c015d3a-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/tembaga/</loc>
   </url><url>
     <loc>http://localhost:1313/products/ttf-005106ff-bst.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/atm-e9d68adb-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/teratai/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/tm-6149eb5e-mc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/t-6143a222-mc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/tcn-ed6dc44a-mgg.md/</loc>
@@ -2297,12 +4191,20 @@
     <loc>http://localhost:1313/products/atf-5eac46bd-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/thumbnail/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/thumbnail-checked/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/tr-033b2ea2-ns.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/tsb-25e171b5-ns.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/ttm-9389bd0d-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-35e3fd8b-src.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/tf-1bf837d5-n.md/</loc>
@@ -2314,7 +4216,25 @@
     <loc>http://localhost:1313/products/ato-d9b6e4e7-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/tp-71e8586d-bg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-85054f0e-dv.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-3166123c-wwa.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-4a2f631e-dv.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gtp-4e4c42b2-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-ed2d58c1-dv.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-f4d516c2-ogr.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gtp-01e9bf97-wwa.md/</loc>
@@ -2323,6 +4243,8 @@
     <loc>http://localhost:1313/products/wst-b28ad27d-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/tags/trotol-motif/</loc>
+  </url><url>
     <loc>http://localhost:1313/products/mth-13a619d6-bst.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -2330,6 +4252,24 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gtp-699c698e-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-80d55e6c-rgn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-fd1539a6-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-437cc67c-wbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tp-13c5be0c-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tp-8a156a1b-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tp-4bc250ed-was.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/tp-58b01f9c-awb.md/</loc>
@@ -2341,7 +4281,25 @@
     <loc>http://localhost:1313/products/tp-fc82e726-gr.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gtp-875192ef-sgw.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/tp-tulipp30-sl.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tp-c331fce0-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tp-c337fab3-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tp-58b0c51c-wtc.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-0278b82d-ws.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gtp-f2df3715-bas.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gtp-0fd7c5c8-c.md/</loc>
@@ -2353,13 +4311,22 @@
     <loc>http://localhost:1313/products/gtp-069164c4-vl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gtp-5135ae5f-ws.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gtp-6b7278e1-wwa.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gtp-abf69b4a-wwg.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gtp-ee51c1fa-yw.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/t-86a00ba7-bsm.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tp-6f24be9a-was.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/tp-6ad39db6-wtc.md/</loc>
@@ -2374,10 +4341,31 @@
     <loc>http://localhost:1313/products/tb-4b6701af-gr.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/tb-16927205-llb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tb-27ed8677-ot.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tb-cbf206dd-t.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/tb-1090ea96-u.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/tb-247c20a6-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tb-21cf533b-wbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/tb-b9f21c83-wgs.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/tm-78dbfb44-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/sht-7479e5cc-ns.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/wth-71841252-ns.md/</loc>
@@ -2389,16 +4377,49 @@
     <loc>http://localhost:1313/products/tef-97fa2dc4-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gu-5ee192b3-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gu-2d9413d8-ngn.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gu-b054ea67-vl.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gu-4157ea6f-wbp.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gu-7d57f14a-wg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gup-ac080a4d-bwb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gu-d6cf74d5-was.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gu-19bc8b07-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gu-1c6daeb6-dv.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/aud-2fc27b42-bgr.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/aud-8071090a-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vdj-9fed23b3-u.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gvl-329ef789-bb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vrg-d90fc203-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gvu-5f6f57a1-c.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gvu-ba64f5f7-yg.md/</loc>
@@ -2410,10 +4431,67 @@
     <loc>http://localhost:1313/products/gvu-928a9ced-yg.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gvu-18e7e3c8-yw.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gvu-09caf30c-c.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gvu-44db7abb-nbb.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gvu-4c8888ed-yg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gvu-23d9808c-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gvu-a998ee7b-gw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gvu-3e45c7a0-ws.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gvu-bcd5ae46-wwg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gvu-d61f2f8e-yg.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vpl-c89a0001-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vpm-f4019873-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vps-09bb5aa3-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gv-13739c0a-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gvp-278127aa-rgn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gv-667859df-b.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gv-507b6046-ras.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gv-b753ddc6-rbs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gv-d677dc03-wgb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/vv-0d3d2e8c-ww.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/v-e9464dbe-ap.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gv-8d887a57-bwm.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gv-d2c0cf2f-wgb.md/</loc>
@@ -2422,7 +4500,16 @@
     <loc>http://localhost:1313/products/gvp-grcvol60-ws.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gv-86e3de02-bas.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gv-5ad37b56-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gv-18efea27-ctb.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gv-d3f1facd-wcc.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gv-82cc7463-wg.md/</loc>
@@ -2434,16 +4521,28 @@
     <loc>http://localhost:1313/products/gvp-grcvio60-bs.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gv-d3dfe8da-gw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gv-f05c3a48-sg.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gv-01923d88-wwa.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gv-4e978d5e-bur.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/gv-67f4f32e-be.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/gv-e6eae734-ctb.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gv-31c3b719-rgn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gpw-3032a024-ogr.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/awd-330573f2-bst.md/</loc>
@@ -2476,6 +4575,9 @@
     <loc>http://localhost:1313/products/nwh-a7ff7c9e-nbs.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/whc-6760dfb0-bsc.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/wwl-a91fbff4-ns.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -2488,6 +4590,9 @@
     <loc>http://localhost:1313/products/awm-3f550612-bst.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/swp-8424e0fc-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/awm-d97be6f0-bst.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -2496,13 +4601,61 @@
   </url><url>
     <loc>http://localhost:1313/tags/wall-deco/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/wda-2e92c7e4-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wda-ab7f7e22-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wda-c57c5742-bs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wda-ab7b90d1-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/wda-5d11f238-bg.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/wda-93b96a97-bs.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/wda-55b28dfe-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wdc-7f5f4652-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wdd-32075717-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wdh-1855f33f-bs.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wdh-6db51f01-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wdm-1c3b95d7-ap.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wdr-264cb91e-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wsw-b0246ca8-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wds-118e5ef2-bs.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/wds-48a5f934-c.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wch-2fe0b7df-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wcl-08ecbac8-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wnm-110914f8-sp.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/wbs-14e2f5b8-bst.md/</loc>
@@ -2510,16 +4663,55 @@
   </url><url>
     <loc>http://localhost:1313/collections/wash/</loc>
   </url><url>
+    <loc>http://localhost:1313/products/wff-04193abc-sbp.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wrl-711a0c45-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wrs-532d51dc-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wrm-d9b21c9c-ss.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/wi-07f124c7-c.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/wkd-a9001a39-b.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/wkb-145e6c15-he.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wkb-bbd0a7b5-hw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wkb-3da1c8d6-pw.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/wp-ae99eed0-bgw.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/wr-aef003b3-n.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wrf-93087712-ap.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/aws-83874c35-bst.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gwb-aef6b3a1-bas.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gwb-14d7e2c6-bas.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/gwb-a6d1a35b-rgn.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wso-dc2e3c30-ap.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/wws-3c16ad5d-bst.md/</loc>
@@ -2531,7 +4723,16 @@
     <loc>http://localhost:1313/products/w-2c51428d-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/wl-63dbd4fc-bw.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/ws3-777d5383-wwa.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/wwm-df34c5a2-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://localhost:1313/products/wc-d7dee950-bs.md/</loc>
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/fsb-4733043c-ss.md/</loc>
@@ -2559,6 +4760,9 @@
     <loc>http://localhost:1313/products/fmk-a39574d8-ns.md/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>http://localhost:1313/products/wmw-922255a0-ns.md/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>http://localhost:1313/products/wmh-66d8c597-ns.md/</loc>
     <priority>0</priority>
   </url><url>
@@ -2568,6 +4772,9 @@
     <loc>http://localhost:1313/tags/xl/</loc>
   </url><url>
     <loc>http://localhost:1313/collections/yoga/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/gz-a877e868-sy.md/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/products/gzp-9c8e098d-wwa.md/</loc>
     <priority>0</priority>
