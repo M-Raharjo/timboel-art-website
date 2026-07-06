@@ -1,6 +1,6 @@
 media:
-  input: content/articles
-  output: /articles
+  input: static/uploads
+  output: /uploads
   rename: safe
   extensions:
     - jpg
@@ -14,6 +14,55 @@ content:
     label: Collections
     type: collection
     path: content/collections
+    format: yaml-frontmatter
+    subfolders: true
+
+    filename:
+      template: "{fields.slug}/_index.md"
+      field: create
+    
+    view:
+      primary: slug
+      fields:
+        - slug
+        - date
+        - main_image
+      sort: date
+      order: desc
+    
+    fields:
+      - name: slug
+        label: Title Slug
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9-]+$"
+          message: "Use lowercase letters, numbers, and hyphens only."
+
+      - name: date
+        label: Date
+        type: date
+        required: true
+
+      - name: main_image
+        label: Hero Image
+        type: image
+        required: false
+        options:
+          rename: safe
+          extensions:
+            - jpg
+            - jpeg
+            - png
+            - webp
+
+      - name: body
+        label: Body
+        type: rich-text
+        required: false
+        options:
+          format: markdown
+          rename: safe
 
 
   - name: projects
