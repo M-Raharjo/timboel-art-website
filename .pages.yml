@@ -10,6 +10,67 @@ media:
     - gif
 
 content:
+  - name: collections
+    label: Collections
+    type: collection
+    path: content/collections
+
+
+  - name: projects
+    label: Projects
+    type: collection
+    path: content/projects
+    format: yaml-frontmatter
+    subfolders: true
+
+    filename:
+      template: "{fields.slug}/index.md"
+      field: create
+    
+    view:
+      primary: slug
+      fields:
+        - slug
+        - date
+        - main_image
+      sort: date
+      order: desc
+    
+    fields:
+      - name: slug
+        label: Title Slug
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9-]+$"
+          message: "Use lowercase letters, numbers, and hyphens only."
+
+      - name: date
+        label: Date
+        type: date
+        required: true
+
+      - name: main_image
+        label: Hero Image
+        type: image
+        required: false
+        options:
+          rename: safe
+          extensions:
+            - jpg
+            - jpeg
+            - png
+            - webp
+
+      - name: body
+        label: Body
+        type: rich-text
+        required: false
+        options:
+          format: markdown
+          rename: safe
+
+
   - name: articles
     label: Articles
     type: collection

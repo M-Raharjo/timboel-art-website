@@ -1,14 +1,27 @@
 {{ $page := .page }}
 {{ $cover := .cover }}
 
+{{ $cardTitle := $page.LinkTitle }}
+
+{{ with findRE `(?m)^#\s+.+$` $page.RawContent 1 }}
+  {{ $heading := index . 0 }}
+  {{ $heading = replaceRE `^#\s+` "" $heading }}
+  {{ $heading = replaceRE `\s+#*\s*$` "" $heading }}
+  {{ $cardTitle = $heading }}
+{{ end }}
+
 <a href="{{ $page.RelPermalink }}">
-  <div class="product-image">
+  <div style="text-align:center;" class="product-image">
     <img
       src="{{ $cover }}"
-      alt="{{ $page.LinkTitle }}"
+      alt="{{ $cardTitle }}"
       loading="lazy"
     >
-    <h3 style="text-align:center;">{{ $page.LinkTitle }}</h3>
-    <p>{{ $page.Summary }}</p>
+
+    {{ with $page.Summary }}
+      {{ . }}
+    {{ else }}
+      <h1>{{ $cardTitle }}</h1>
+    {{ end }}
   </div>
 </a>
