@@ -26,6 +26,7 @@ content:
         - title
         - date
         - main_image
+
       sort: date
       order: desc
 
@@ -52,13 +53,8 @@ content:
             - png
             - webp
 
-      - name: summary
-        label: Summary
-        type: text
-        required: false
-
-      - name: tags
-        label: Tags
+      - name: mentioned_product
+        label: Mentioned Product
         type: string
         list: true
         required: false
