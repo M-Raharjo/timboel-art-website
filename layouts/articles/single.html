@@ -1,5 +1,8 @@
 {{ define "main" }}
   {{ $heroParam := or .Params.featured_image .Params.main_image }}
+  {{ $mentioned_products := .Params.mentioned_product | default (slice) }}
+  {{ $all_products := where site.RegularPages "Section" "products" }}
+  
 
   <article class="article-page">
     {{ with $heroParam }}
@@ -17,13 +20,33 @@
       {{ end }}
     {{ end }}
 
-    {{/*  <h1>{{ .Title }}</h1>  */}}
-
     <div class="article-content">
       {{ .Content }}
     </div>
+
+{{ if $mentioned_products }}
+    <hr>
+  <section aria-label="Mentioned products">
+    <h2>Mentioned Products</h2>
+
+    <div class="grid">
+      {{ range $item_id := $mentioned_products }}
+        {{ $matches := where $all_products "Params.item_id" $item_id }}
+
+        {{ with index $matches 0 }}
+          {{ partial "product-card.html" . }}
+        {{ else }}
+          {{ warnf "Mentioned product not found: %s in %s" $item_id $.File.Path }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
+
   </article>
 
+
+  
   {{/*
     Future related-products strategy:
 

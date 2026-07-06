@@ -32,7 +32,7 @@ content:
 
     fields:
       - name: slug
-        label: Slug
+        label: Title Slug
         type: string
         required: true
         pattern:
