@@ -1,7 +1,9 @@
 <div>
+
+    
 <a href="{{ .RelPermalink }}">
     <img src="{{ .Params.main_image }}" alt="{{ .LinkTitle }}" loading="lazy" onerror="this.onerror=null;this.src='{{ .Params.thumbnail }}';">
-    <h3>{{ .Title }}</h3>
+    {{/*  <h1>{{ .Title }}</h1>  */}}
     <p>{{ .Summary }}</p>
 </a>
 </div>

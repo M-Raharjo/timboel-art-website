@@ -17,11 +17,7 @@
       {{ end }}
     {{ end }}
 
-    <h1>{{ .Title }}</h1>
-
-    {{ with .Params.summary }}
-      <p class="article-summary">{{ . }}</p>
-    {{ end }}
+    {{/*  <h1>{{ .Title }}</h1>  */}}
 
     <div class="article-content">
       {{ .Content }}

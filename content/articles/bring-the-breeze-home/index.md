@@ -1,5 +1,6 @@
 ---
 title: Bring the Breeze
+slug: bring-the-breeze
 date: 2025-06-23
 main_image: "https://placehold.co/300x300?text=bring the breeze"
 gallery:

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Camar on Timboel</title>
+    <link>http://localhost:1313/tags/camar/</link>
+    <description>Recent content in Camar on Timboel</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/camar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seagulls Bird - M - Black Silver TP</title>
+      <link>http://localhost:1313/products/sbs-5d2ebf42-bst.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/sbs-5d2ebf42-bst.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seagulls Bird - M - Black Silver TP</title>
+      <link>http://localhost:1313/products/sbs-61d76e9b-bst.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/sbs-61d76e9b-bst.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seagulls Bird - S - Black Silver TP</title>
+      <link>http://localhost:1313/products/sbs-d5c1acad-bst.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/sbs-d5c1acad-bst.md/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

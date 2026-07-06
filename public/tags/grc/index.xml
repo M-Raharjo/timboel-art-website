@@ -8,10 +8,66 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/grc/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cowrena - M - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/gc-582aa6b6-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gc-582aa6b6-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Cowrena - T - White Abstract SR CR</title>
       <link>http://localhost:1313/products/gc-0073f983-was.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/gc-0073f983-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cut Tambora - XT - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/gct-472a36ad-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gct-472a36ad-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deswita - M - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/gd-fd0f8223-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gd-fd0f8223-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deswita - XT - Black Abstract SR CR</title>
+      <link>http://localhost:1313/products/gd-b0e5d8ce-bas.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gd-b0e5d8ce-bas.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deswita - XT - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/gd-2374be46-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gd-2374be46-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drum - L - Tosca GL White Lightning</title>
+      <link>http://localhost:1313/products/gdp-32272f4f-tgw.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gdp-32272f4f-tgw.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drum - L - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/gdp-f2b11f73-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gdp-f2b11f73-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drum - M - White Cartoon CR</title>
+      <link>http://localhost:1313/products/gdp-95305ba5-wcc.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gdp-95305ba5-wcc.md/</guid>
       <description></description>
     </item>
     <item>
@@ -26,6 +82,13 @@
       <link>http://localhost:1313/products/gg3-grcpas60-se.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/gg3-grcpas60-se.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Glass Pot - M - Black Abstract SR CR</title>
+      <link>http://localhost:1313/products/ggp-fd7007f5-bas.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/ggp-fd7007f5-bas.md/</guid>
       <description></description>
     </item>
     <item>
@@ -50,10 +113,38 @@
       <description></description>
     </item>
     <item>
+      <title>Kasuari - T - New Copper Blue</title>
+      <link>http://localhost:1313/products/gk-f5b17611-ncb.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gk-f5b17611-ncb.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Malino - M - Black Abstract SR CR</title>
+      <link>http://localhost:1313/products/gm-51b518ae-bas.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gm-51b518ae-bas.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Panama - XT - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/gp-4c443d1f-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gp-4c443d1f-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Pear Bottle - J - White Black Strimin CR</title>
       <link>http://localhost:1313/products/gpb-a7f04a69-wbs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/gpb-a7f04a69-wbs.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pear Bottle - XJ - White Black Strimin CR</title>
+      <link>http://localhost:1313/products/gpb-e7ff8684-wbs.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gpb-e7ff8684-wbs.md/</guid>
       <description></description>
     </item>
     <item>
@@ -106,6 +197,20 @@
       <description></description>
     </item>
     <item>
+      <title>Tulip - XJ - Black Abstract SR CR</title>
+      <link>http://localhost:1313/products/gtp-f2df3715-bas.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gtp-f2df3715-bas.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ulfa - T - White Abstract SR CR</title>
+      <link>http://localhost:1313/products/gu-d6cf74d5-was.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gu-d6cf74d5-was.md/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Viola - M - Weathered Sand</title>
       <link>http://localhost:1313/products/gvp-grcvol60-ws.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -113,10 +218,31 @@
       <description></description>
     </item>
     <item>
+      <title>Viola - T - Black Abstract SR CR</title>
+      <link>http://localhost:1313/products/gv-86e3de02-bas.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gv-86e3de02-bas.md/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Viona - M - Burnt Sand</title>
       <link>http://localhost:1313/products/gvp-grcvio60-bs.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/products/gvp-grcvio60-bs.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WG Bottle - L - Black Abstract SR CR</title>
+      <link>http://localhost:1313/products/gwb-aef6b3a1-bas.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gwb-aef6b3a1-bas.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WG Bottle - T - Black Abstract SR CR</title>
+      <link>http://localhost:1313/products/gwb-14d7e2c6-bas.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/gwb-14d7e2c6-bas.md/</guid>
       <description></description>
     </item>
   </channel>
