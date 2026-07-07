@@ -16,7 +16,7 @@
       {{ $cover := "" }}
 
       {{/* Manual override from term bundle */}}
-      {{ with $p.Params.featured_image }}
+      {{ with $p.Params.main_image }}
         {{ $cover = . }}
       {{ end }}
 
@@ -30,12 +30,7 @@
           {{ $cover = or .Params.main_image .Params.featured_image .Params.thumbnail }}
         {{ end }}
       {{ end }}
-
-      {{/* Final fallback */}}
-      {{ if not $cover }}
-        {{ $cover = printf "https://placehold.co/500x500?text=%s" (urlquery $p.LinkTitle) }}
-      {{ end }}
-
+      
       {{ partial "collection-card.html" (dict "page" $p "cover" $cover) }}
 
     {{ end }}

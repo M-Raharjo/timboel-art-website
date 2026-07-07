@@ -1,6 +1,5 @@
 ---
 title: Human Collection
-main_image: "https://placehold.co/500x500?text=Human collection"
 ---
 
 
