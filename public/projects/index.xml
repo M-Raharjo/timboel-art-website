@@ -6,8 +6,15 @@
     <description>Recent content in Projects on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects/animal-angel-ballet/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/animal-angel-ballet/</guid>
+      <description>&lt;h3 id=&#34;the-animal-the-angel-and-the-balelr&#34;&gt;the animal the angel and the balelr&lt;/h3&gt;&#xA;&lt;p&gt;all 3 are equal none are the same&lt;/p&gt;</description>
+    </item>
     <item>
       <title>sample project</title>
       <link>http://localhost:1313/projects/sample-project/</link>

@@ -25,6 +25,7 @@ content:
       primary: slug
       fields:
         - slug
+        - draft
         - date
         - main_image
       sort: date
@@ -38,6 +39,12 @@ content:
         pattern:
           regex: "^[a-z0-9-]+$"
           message: "Use lowercase letters, numbers, and hyphens only."
+
+      - name: draft
+        label: Draft
+        type: boolean
+        required: false
+        default: true
 
       - name: date
         label: Date
@@ -83,6 +90,7 @@ content:
       primary: slug
       fields:
         - slug
+        - draft
         - date
         - main_image
       sort: date
@@ -96,6 +104,12 @@ content:
         pattern:
           regex: "^[a-z0-9-]+$"
           message: "Use lowercase letters, numbers, and hyphens only."
+
+      - name: draft
+        label: Draft
+        type: boolean
+        required: false
+        default: true
 
       - name: date
         label: Date
@@ -122,7 +136,6 @@ content:
           format: markdown
           rename: safe
 
-
   - name: articles
     label: Articles
     type: collection
@@ -138,6 +151,7 @@ content:
       primary: slug
       fields:
         - slug
+        - draft
         - date
         - main_image
       sort: date
@@ -151,6 +165,12 @@ content:
         pattern:
           regex: "^[a-z0-9-]+$"
           message: "Use lowercase letters, numbers, and hyphens only."
+
+      - name: draft
+        label: Draft
+        type: boolean
+        required: false
+        default: true
 
       - name: date
         label: Date
