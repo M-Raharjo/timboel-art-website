@@ -10,6 +10,13 @@
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>http://localhost:1313/projects/fefsfasfasd-asde/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/fefsfasfasd-asde/</guid>
+      <description>&lt;h1 id=&#34;dasdwf&#34;&gt;dasdwf&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/projects/test-project/</link>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/test-project/</guid>

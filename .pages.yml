@@ -17,20 +17,25 @@ content:
     format: yaml-frontmatter
     subfolders: true
 
-    filename:
-      template: "{fields.slug}/_index.md"
-      field: create
-    
+    filename: "{slug}/_index.md"
+
     view:
+      layout: tree
+      node:
+        filename: _index.md
+        hideDirs: others
       primary: slug
       fields:
         - slug
         - draft
         - date
         - main_image
-      sort: date
-      order: desc
-    
+      sort:
+        - date
+      default:
+        sort: date
+        order: desc
+
     fields:
       - name: slug
         label: Title Slug
@@ -78,7 +83,7 @@ content:
     format: yaml-frontmatter
     subfolders: true
 
-    filename: "TEST-FILENAME/index.md"
+    filename: "{slug}/index.md"
 
     view:
       layout: tree
@@ -91,9 +96,12 @@ content:
         - draft
         - date
         - main_image
-      sort: date
-      order: desc
-    
+      sort:
+        - date
+      default:
+        sort: date
+        order: desc
+
     fields:
       - name: slug
         label: Title Slug
@@ -141,19 +149,24 @@ content:
     format: yaml-frontmatter
     subfolders: true
 
-    filename:
-      template: "{fields.slug}/index.md"
-      field: create
+    filename: "{slug}/index.md"
 
     view:
+      layout: tree
+      node:
+        filename: index.md
+        hideDirs: others
       primary: slug
       fields:
         - slug
         - draft
         - date
         - main_image
-      sort: date
-      order: desc
+      sort:
+        - date
+      default:
+        sort: date
+        order: desc
 
     fields:
       - name: slug
