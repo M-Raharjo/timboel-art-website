@@ -1,6 +1,5 @@
 ---
-title: "Projects"
-description: "Explore all our product collections."
-weight: 3
+slug: project-list
+draft: true
+date: 2026-07-07
 ---
-
