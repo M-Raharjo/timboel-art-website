@@ -23,7 +23,7 @@ content:
       layout: tree
       node:
         filename: _index.md
-        hideDirs: others
+        hideDirs: all
       primary: slug
       fields:
         - slug
@@ -89,7 +89,7 @@ content:
       layout: tree
       node:
         filename: index.md
-        hideDirs: others
+        hideDirs: all
       primary: slug
       fields:
         - slug
@@ -155,7 +155,7 @@ content:
       layout: tree
       node:
         filename: index.md
-        hideDirs: others
+        hideDirs: all
       primary: slug
       fields:
         - slug
