@@ -64,7 +64,6 @@ content:
           format: markdown
           rename: safe
 
-
   - name: projects
     label: Projects
     type: collection
@@ -73,10 +72,14 @@ content:
     subfolders: true
 
     filename:
-      template: "{fields.slug}/index.md"
-      field: create
-    
+      template: "{slug}/index.md"
+      field: false
+
     view:
+      layout: tree
+      node:
+        filename: index.md
+        hideDirs: others
       primary: slug
       fields:
         - slug
