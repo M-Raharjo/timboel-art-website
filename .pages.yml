@@ -78,9 +78,7 @@ content:
     format: yaml-frontmatter
     subfolders: true
 
-    filename:
-      template: "{slug}/index.md"
-      field: false
+    filename: "TEST-FILENAME/index.md"
 
     view:
       layout: tree
