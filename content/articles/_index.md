@@ -1,5 +1,5 @@
 ---
-title: "Articles"
-description: "All of the article that we have"
-weight: 4
+slug: article-list
+draft: true
+date: 2026-07-08
 ---
