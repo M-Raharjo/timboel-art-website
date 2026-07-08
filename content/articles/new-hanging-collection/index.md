@@ -1,7 +1,7 @@
 ---
 slug: hanging-collection-2026
 draft: false
-date: 2026-07-06
+date: 2026-07-08
 mentioned_product:
   - HC-25313540-SS
   - ER-819A3FC5-N
