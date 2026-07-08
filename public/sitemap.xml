@@ -7,13 +7,22 @@
     <loc>http://localhost:1313/articles/</loc>
     <lastmod>2026-07-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/collections/human/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/fefsfasfasd-asde/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/test-number-4/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/test-project/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/collections/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -738,8 +747,6 @@
   </url><url>
     <loc>http://localhost:1313/products/acm-2dd7a9b1-bst.md/</loc>
     <priority>0</priority>
-  </url><url>
-    <loc>http://localhost:1313/collections/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/colour-2026/</loc>
   </url><url>
@@ -1845,8 +1852,6 @@
     <priority>0</priority>
   </url><url>
     <loc>http://localhost:1313/tags/human/</loc>
-  </url><url>
-    <loc>http://localhost:1313/collections/human/</loc>
   </url><url>
     <loc>http://localhost:1313/products/shp-3e78385c-ss.md/</loc>
     <priority>0</priority>

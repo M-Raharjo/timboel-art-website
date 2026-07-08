@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Human Collection on Timboel</title>
+    <title>Timboel</title>
     <link>http://localhost:1313/collections/human/</link>
-    <description>Recent content in Human Collection on Timboel</description>
+    <description>Recent content on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/collections/human/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Attitude Devant - J - Black Silver TP</title>
