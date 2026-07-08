@@ -1,5 +1,5 @@
 ---
 slug: article-list
-draft: true
+draft: false
 date: 2026-07-08
 ---
