@@ -1,7 +1,7 @@
 ---
-title: New Hanging Collection
 slug: hanging-collection-2026
-date: 2026-07-06
+draft: false
+date: 2026-07-08
 mentioned_product:
   - HC-25313540-SS
   - ER-819A3FC5-N
@@ -16,9 +16,13 @@ mentioned_product:
 
 Designed to explore new ways of experiencing sculpture, this collection features hanging, geometric, and figurative designs that bring movement, character and artistic presence into a space.
 
+![](/uploads/foto-1-kolom-blog-1.png)
+
 # Hanging Collection
 
 One of the highlights is the Hanging Collection, created to make use of vertical space and create a unique floating visual effect. By drawing the eye upward, these sculpture add depth, balance, and fresh perspective to modern interiors.
+
+![](/uploads/foto-1-kolom-blog.png)
 
 Instead of simply filling a space, these works activate it.
 
