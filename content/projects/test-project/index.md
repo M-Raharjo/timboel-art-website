@@ -1,6 +1,6 @@
 ---
 slug: manusia-purba-sragen-sangiran
-draft: true
+draft: false
 date: 2026-07-15
 ---
 # Patung Manusia Purba untuk Pemerintah Kabupaten Sragen
