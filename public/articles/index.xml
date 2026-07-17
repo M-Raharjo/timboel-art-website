@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on Timboel</title>
+    <title>Timboel</title>
     <link>http://localhost:1313/articles/</link>
-    <description>Recent content in Articles on Timboel</description>
+    <description>Recent content on Timboel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>New Hanging Collection</title>
+      <title></title>
       <link>http://localhost:1313/articles/hanging-collection-2026/</link>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/articles/hanging-collection-2026/</guid>
-      <description>&lt;h1 id=&#34;our-latest-collection-is-here&#34;&gt;Our Latest Collection is here.&lt;/h1&gt;&#xA;&lt;p&gt;Designed to explore new ways of experiencing sculpture, this collection features hanging, geometric, and figurative designs that bring movement, character and artistic presence into a space.&lt;/p&gt;&#xA;&lt;h1 id=&#34;hanging-collection&#34;&gt;Hanging Collection&lt;/h1&gt;&#xA;&lt;p&gt;One of the highlights is the Hanging Collection, created to make use of vertical space and create a unique floating visual effect. By drawing the eye upward, these sculpture add depth, balance, and fresh perspective to modern interiors.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;our-latest-collection-is-here&#34;&gt;Our Latest Collection is here.&lt;/h1&gt;&#xA;&lt;p&gt;Designed to explore new ways of experiencing sculpture, this collection features hanging, geometric, and figurative designs that bring movement, character and artistic presence into a space.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/foto-1-kolom-blog-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;hanging-collection&#34;&gt;Hanging Collection&lt;/h1&gt;&#xA;&lt;p&gt;One of the highlights is the Hanging Collection, created to make use of vertical space and create a unique floating visual effect. By drawing the eye upward, these sculpture add depth, balance, and fresh perspective to modern interiors.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

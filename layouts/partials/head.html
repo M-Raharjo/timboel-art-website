@@ -9,3 +9,5 @@
 </title>
 {{ $css := resources.Get "css/styles.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+<link rel="icon" type="image/png" sizes="512x512" href="{{ "favicon.png" | relURL }}">
