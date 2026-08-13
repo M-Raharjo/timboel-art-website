@@ -1,42 +1,94 @@
-name: Sync images Drive → S3
-# this script is here to ensure that other application can use the s3, it lives in github cause im too lazy to setup a local cronjob. github makes sure it always works.
+name: Sync Images Drive → S3
+
+# Google Drive is the source of truth.
+# idCloudHost S3 is the public mirror used by other applications.
+
 on:
+  # Run automatically every hour.
   schedule:
-    # run every hour
     - cron: "0 * * * *"
+
+  # Also allow manual execution from GitHub Actions.
+  workflow_dispatch:
+
+concurrency:
+  group: drive-to-s3-sync
+  cancel-in-progress: false
 
 jobs:
   sync-rclone:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      - name: Checkout (needed if you keep rclone.conf template or scripts in repo)
-        uses: actions/checkout@v4
+      # ------------------------------------------------------------
+      # Install rclone
+      # ------------------------------------------------------------
 
       - name: Install rclone
         run: |
           curl -fsSL https://rclone.org/install.sh | sudo bash
           rclone version
 
-      - name: Pull Rclone Config from secret
-        run: |
-          printf '%s' '${{ secrets.RCLONE_DRIVETOS3_CONFIG }}' > rclone.conf
+      # ------------------------------------------------------------
+      # Build rclone configuration
+      #
+      # Configuration is kept here where we can actually read it.
+      # Only credentials/tokens live in GitHub Secrets.
+      # ------------------------------------------------------------
 
-      - name: Test rclone remotes
+      - name: Create rclone config
+        env:
+          GOOGLE_TOKEN: ${{ secrets.RCLONE_GOOGLE_TOKEN }}
+          S3_ACCESS_KEY: ${{ secrets.IDCLOUDHOST_S3_ACCESS_KEY }}
+          S3_SECRET_KEY: ${{ secrets.IDCLOUDHOST_S3_SECRET_KEY }}
+        run: |
+          cat > rclone.conf <<EOF
+          [timboel-foto-gdrive]
+          type = drive
+          scope = drive
+          token = ${GOOGLE_TOKEN}
+          team_drive = 0AI6Y32u1RWRnUk9PVA
+          root_folder_id = 
+
+          [image-timboel]
+          type = s3
+          provider = Other
+          access_key_id = ${S3_ACCESS_KEY}
+          secret_access_key = ${S3_SECRET_KEY}
+          env_auth = false
+          endpoint = https://is3.cloudhost.id
+          EOF
+
+      # ------------------------------------------------------------
+      # Verify both remotes are reachable
+      # ------------------------------------------------------------
+
+      - name: Test Google Drive
         env:
           RCLONE_CONFIG: rclone.conf
         run: |
-          rclone listremotes
-          rclone lsd timboel-foto-drive: || true
-          rclone lsd timboel-foto-idcloudhost: || true
+          rclone lsd timboel-foto-gdrive:
 
-      - name: Sync Google Drive → idcloudhost S3
+      - name: Test idCloudHost S3
+        env:
+          RCLONE_CONFIG: rclone.conf
+        run: |
+          rclone lsd image-timboel:
+
+      # ------------------------------------------------------------
+      # Mirror Drive public_folder → S3 product-img
+      # ------------------------------------------------------------
+
+      - name: Sync Google Drive → idCloudHost S3
         env:
           RCLONE_CONFIG: rclone.conf
         run: |
           rclone sync \
-            timboel-foto-drive:public_folder \
-            timboel-foto-idcloudhost:image-timboel/product-img \
+            timboel-foto-gdrive:public_folder \
+            image-timboel:image-timboel/product-img \
             --s3-acl public-read \
-            --header-upload "Cache-Control: public, max-age=31536000, immutable" \
-            --fast-list -P
+            --header-upload "Cache-Control: public, max-age=3600" \
+            --fast-list \
+            --stats 30s \
+            --stats-one-line
