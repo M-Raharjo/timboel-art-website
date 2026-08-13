@@ -95,6 +95,6 @@ jobs:
             --s3-acl public-read \
             --header-upload "Cache-Control: public, max-age=3600" \
             --fast-list \
-            -- v \
+            -v \
             --stats 30s \
             --stats-one-line
