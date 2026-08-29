@@ -1,6 +1,6 @@
 ---
 slug: tabletop-treasure-collection
-draft: true
+draft: false
 date: 2026-08-25
 mentioned_product:
   - LKS-C1E5EDF5-DS
