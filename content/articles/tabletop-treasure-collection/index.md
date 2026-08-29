@@ -15,7 +15,7 @@ mentioned_product:
 ---
 ## Artful Accents, Crafted for Curated Interiors
 
-![](/uploads/foto-1-kolom-blog-1-1.png)
+![](/uploads/whatsapp-image-2026-08-29-at-081716.jpeg)
 
 Great art does not always need to be large.
 
