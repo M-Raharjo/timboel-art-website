@@ -3,11 +3,11 @@ slug: wild-majesty
 draft: true
 date: 2026-09-26
 ---
-# Wild Majesty: Inspired by the Wild
+# Sculptures Inspired by the Wild
 
-*(Hero Photo)*
+![](/uploads/wild-majesty-hero.jpeg)
 
-We present **Wild Majesty**, a collection inspired by the beauty of wildlife—free, captivating, yet full of challenges. Beyond the wilderness lies a unique beauty in the strength, tranquility, and character of every creature that inhabits it. It is this contrast that we bring to life through our sculptural works.
+We present **Wild Majesty**, a collection inspired by the beauty of wildlife free, captivating, yet full of challenges. Beyond the wilderness lies a unique beauty in the strength, tranquility, and character of every creature that inhabits it. It is this contrast that we bring to life through our sculptural works.
 
 ## From Wildlife to Sculpture
 
