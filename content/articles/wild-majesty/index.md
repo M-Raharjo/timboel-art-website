@@ -2,6 +2,11 @@
 slug: wild-majesty
 draft: true
 date: 2026-09-26
+mentioned_product:
+  - SC-A8EA83F4-NBS
+  - LMH-2ABE9C09-SS
+  - PSB-WDBNSTAG-NBS
+  - WW-C17B1821-BST
 ---
 # Sculptures Inspired by the Wild
 
