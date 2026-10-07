@@ -1,6 +1,6 @@
 ---
 slug: wild-majesty
-draft: false
+draft: true
 date: 2026-09-26
 mentioned_product:
   - SC-A8EA83F4-NBS
